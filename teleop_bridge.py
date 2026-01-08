@@ -112,6 +112,10 @@ def main():
     parser.add_argument("--loop_hz", type=int, default=50, help="主循环频率")
     parser.add_argument("--sim", action="store_true", help="软件仿真从臂，不需硬件")
     parser.add_argument("--serial", action="store_true", help="使用 dummy_usb_lib 串口协议，而非 fibre")
+    parser.add_argument("--filter_alpha", type=float, default=0.5,
+                        help="低通滤波系数 α(0~1)。值越小，反应越慢；1 表示不滤波")
+    parser.add_argument("--deadband_deg", type=float, default=0.35,
+                        help="防抖死区阈值（°）。角度变化小于该值则忽略")
     args = parser.parse_args()
 
     use_serial = args.serial and not args.sim
@@ -178,18 +182,36 @@ def main():
         while True:
             t0 = time.time()
             # 读取主臂角度
-            leader_angles = pulse_to_angle(read_positions(leader, LEADER_JOINT_IDS), LEADER_JOINT_IDS)
+            raw_angles = pulse_to_angle(read_positions(leader, LEADER_JOINT_IDS), LEADER_JOINT_IDS)
+            # --- 一阶低通滤波 -----------------------------
+            if not hasattr(main, "_filt_buf"):
+                main._filt_buf = raw_angles  # type: ignore
+            leader_angles = []
+            for prev, curr in zip(main._filt_buf, raw_angles):  # type: ignore
+                flt = prev * (1 - args.filter_alpha) + curr * args.filter_alpha
+                leader_angles.append(flt)
+            main._filt_buf = leader_angles
 
             # 映射到从臂
             follower_target_angles: Dict[int, float] = {}
             follower_target_counts: Dict[int, int] = {}
+            # 初始化上一帧指令缓存
+            if not hasattr(main, "_prev_cmd"):
+                main._prev_cmd = {}
+
             for lid, angle_deg in enumerate(leader_angles, start=1):
                 if lid not in LEADER_TO_FOLLOWER_MAP:
                     continue
                 fid = LEADER_TO_FOLLOWER_MAP[lid]
                 a, b = LINEAR_MAP.get(fid, (1.0, 0.0))
                 mapped_angle = a * angle_deg + b
+                # 死区抑制：若与上一帧差异小于 deadband 则复用上一帧
+                prev_ang = main._prev_cmd.get(fid, None)
+                if prev_ang is not None and abs(mapped_angle - prev_ang) < args.deadband_deg:
+                    mapped_angle = prev_ang
+
                 follower_target_angles[fid] = mapped_angle
+                main._prev_cmd[fid] = mapped_angle
                 follower_target_counts[fid] = angle_to_counts(mapped_angle, fid)
 
             # --- 发送到从臂 --------------------------------------------
