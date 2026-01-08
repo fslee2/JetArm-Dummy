@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from large_models_msgs/srv/SetModel.srv
+// generated code does not contain a copyright notice
+
+
+module large_models_msgs {
+  module srv {
+    struct SetModel_Request {
+      string platform;
+
+      string model;
+
+      string model_type;
+
+      string api_key;
+
+      string base_url;
+
+      string app_id;
+
+      string conversation_id;
+
+      string token;
+
+      string app_key;
+
+      string secret_key;
+    };
+    struct SetModel_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

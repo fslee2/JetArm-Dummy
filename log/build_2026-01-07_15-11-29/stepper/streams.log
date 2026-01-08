@@ -1,0 +1,52 @@
+[3.528s] Invoking command in '/home/liyq/hi_ws/ROS2/src/stepper': PYTHONPATH=/home/liyq/hi_ws/build/stepper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liyq/hi_ws/install/stepper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/stepper build --build-base /home/liyq/hi_ws/build/stepper/build install --record /home/liyq/hi_ws/build/stepper/install.log --single-version-externally-managed install_data
+[4.239s] running egg_info
+[4.240s] creating ../../../build/stepper/stepper.egg-info
+[4.241s] writing ../../../build/stepper/stepper.egg-info/PKG-INFO
+[4.241s] writing dependency_links to ../../../build/stepper/stepper.egg-info/dependency_links.txt
+[4.241s] writing entry points to ../../../build/stepper/stepper.egg-info/entry_points.txt
+[4.241s] writing requirements to ../../../build/stepper/stepper.egg-info/requires.txt
+[4.241s] writing top-level names to ../../../build/stepper/stepper.egg-info/top_level.txt
+[4.242s] writing manifest file '../../../build/stepper/stepper.egg-info/SOURCES.txt'
+[4.248s] reading manifest file '../../../build/stepper/stepper.egg-info/SOURCES.txt'
+[4.254s] writing manifest file '../../../build/stepper/stepper.egg-info/SOURCES.txt'
+[4.254s] running build
+[4.254s] running build_py
+[4.254s] creating /home/liyq/hi_ws/build/stepper/build
+[4.254s] creating /home/liyq/hi_ws/build/stepper/build/lib
+[4.254s] creating /home/liyq/hi_ws/build/stepper/build/lib/stepper
+[4.254s] copying stepper/stepper.py -> /home/liyq/hi_ws/build/stepper/build/lib/stepper
+[4.255s] copying stepper/waste_classification.py -> /home/liyq/hi_ws/build/stepper/build/lib/stepper
+[4.255s] copying stepper/__init__.py -> /home/liyq/hi_ws/build/stepper/build/lib/stepper
+[4.255s] copying stepper/tag_sorting.py -> /home/liyq/hi_ws/build/stepper/build/lib/stepper
+[4.255s] copying stepper/color_sorting.py -> /home/liyq/hi_ws/build/stepper/build/lib/stepper
+[4.256s] running install
+[4.256s] running install_lib
+[4.263s] creating /home/liyq/hi_ws/install/stepper/lib/python3.10/site-packages/stepper
+[4.263s] copying /home/liyq/hi_ws/build/stepper/build/lib/stepper/stepper.py -> /home/liyq/hi_ws/install/stepper/lib/python3.10/site-packages/stepper
+[4.263s] copying /home/liyq/hi_ws/build/stepper/build/lib/stepper/waste_classification.py -> /home/liyq/hi_ws/install/stepper/lib/python3.10/site-packages/stepper
+[4.263s] copying /home/liyq/hi_ws/build/stepper/build/lib/stepper/__init__.py -> /home/liyq/hi_ws/install/stepper/lib/python3.10/site-packages/stepper
+[4.263s] copying /home/liyq/hi_ws/build/stepper/build/lib/stepper/tag_sorting.py -> /home/liyq/hi_ws/install/stepper/lib/python3.10/site-packages/stepper
+[4.263s] copying /home/liyq/hi_ws/build/stepper/build/lib/stepper/color_sorting.py -> /home/liyq/hi_ws/install/stepper/lib/python3.10/site-packages/stepper
+[4.264s] byte-compiling /home/liyq/hi_ws/install/stepper/lib/python3.10/site-packages/stepper/stepper.py to stepper.cpython-310.pyc
+[4.272s] byte-compiling /home/liyq/hi_ws/install/stepper/lib/python3.10/site-packages/stepper/waste_classification.py to waste_classification.cpython-310.pyc
+[4.280s] byte-compiling /home/liyq/hi_ws/install/stepper/lib/python3.10/site-packages/stepper/__init__.py to __init__.cpython-310.pyc
+[4.280s] byte-compiling /home/liyq/hi_ws/install/stepper/lib/python3.10/site-packages/stepper/tag_sorting.py to tag_sorting.cpython-310.pyc
+[4.289s] byte-compiling /home/liyq/hi_ws/install/stepper/lib/python3.10/site-packages/stepper/color_sorting.py to color_sorting.cpython-310.pyc
+[4.305s] running install_data
+[4.305s] creating /home/liyq/hi_ws/install/stepper/share/ament_index
+[4.305s] creating /home/liyq/hi_ws/install/stepper/share/ament_index/resource_index
+[4.306s] creating /home/liyq/hi_ws/install/stepper/share/ament_index/resource_index/packages
+[4.306s] copying resource/stepper -> /home/liyq/hi_ws/install/stepper/share/ament_index/resource_index/packages
+[4.306s] copying package.xml -> /home/liyq/hi_ws/install/stepper/share/stepper
+[4.306s] creating /home/liyq/hi_ws/install/stepper/share/stepper/launch
+[4.306s] copying launch/waste_classification.launch.py -> /home/liyq/hi_ws/install/stepper/share/stepper/launch
+[4.306s] copying launch/tag_sorting.launch.py -> /home/liyq/hi_ws/install/stepper/share/stepper/launch
+[4.306s] copying launch/color_sorting.launch.py -> /home/liyq/hi_ws/install/stepper/share/stepper/launch
+[4.306s] running install_egg_info
+[4.308s] Copying ../../../build/stepper/stepper.egg-info to /home/liyq/hi_ws/install/stepper/lib/python3.10/site-packages/stepper-0.0.0-py3.10.egg-info
+[4.311s] running install_scripts
+[4.367s] Installing color_sorting script to /home/liyq/hi_ws/install/stepper/lib/stepper
+[4.368s] Installing tag_sorting script to /home/liyq/hi_ws/install/stepper/lib/stepper
+[4.368s] Installing waste_classification script to /home/liyq/hi_ws/install/stepper/lib/stepper
+[4.370s] writing list of installed files to '/home/liyq/hi_ws/build/stepper/install.log'
+[4.437s] Invoked command in '/home/liyq/hi_ws/ROS2/src/stepper' returned '0': PYTHONPATH=/home/liyq/hi_ws/build/stepper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liyq/hi_ws/install/stepper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/stepper build --build-base /home/liyq/hi_ws/build/stepper/build install --record /home/liyq/hi_ws/build/stepper/install.log --single-version-externally-managed install_data

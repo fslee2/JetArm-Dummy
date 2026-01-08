@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from kinematics_msgs/msg/JointsRange.msg
+// generated code does not contain a copyright notice
+
+#include "kinematics_msgs/msg/JointRange.idl"
+
+module kinematics_msgs {
+  module msg {
+    struct JointsRange {
+      kinematics_msgs::msg::JointRange joint1;
+
+      kinematics_msgs::msg::JointRange joint2;
+
+      kinematics_msgs::msg::JointRange joint3;
+
+      kinematics_msgs::msg::JointRange joint4;
+
+      kinematics_msgs::msg::JointRange joint5;
+    };
+  };
+};

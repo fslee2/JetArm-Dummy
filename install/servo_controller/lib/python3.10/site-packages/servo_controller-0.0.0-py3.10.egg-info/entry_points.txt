@@ -1,0 +1,4 @@
+[console_scripts]
+grasp = servo_controller.grasp:main
+servo_controller = servo_controller.controller_manager:main
+

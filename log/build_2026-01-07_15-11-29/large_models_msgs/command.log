@@ -1,0 +1,6 @@
+Invoking command in '/home/liyq/hi_ws/build/large_models_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/liyq/hi_ws/ROS2/src/large_models/large_models_msgs -DCMAKE_INSTALL_PREFIX=/home/liyq/hi_ws/install/large_models_msgs
+Invoked command in '/home/liyq/hi_ws/build/large_models_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/liyq/hi_ws/ROS2/src/large_models/large_models_msgs -DCMAKE_INSTALL_PREFIX=/home/liyq/hi_ws/install/large_models_msgs
+Invoking command in '/home/liyq/hi_ws/build/large_models_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/liyq/hi_ws/build/large_models_msgs -- -j8 -l8
+Invoked command in '/home/liyq/hi_ws/build/large_models_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/liyq/hi_ws/build/large_models_msgs -- -j8 -l8
+Invoking command in '/home/liyq/hi_ws/build/large_models_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/liyq/hi_ws/build/large_models_msgs
+Invoked command in '/home/liyq/hi_ws/build/large_models_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/liyq/hi_ws/build/large_models_msgs

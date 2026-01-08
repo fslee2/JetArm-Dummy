@@ -1,0 +1,3 @@
+[console_scripts]
+color_sorting = motor.color_sorting:main
+

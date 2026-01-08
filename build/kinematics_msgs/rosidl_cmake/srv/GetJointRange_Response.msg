@@ -1,0 +1,3 @@
+
+bool success
+kinematics_msgs/JointsRange data

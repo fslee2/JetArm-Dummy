@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from servo_controller_msgs/msg/ServosPosition.msg
+// generated code does not contain a copyright notice
+
+#include "servo_controller_msgs/msg/ServoPosition.idl"
+
+module servo_controller_msgs {
+  module msg {
+    struct ServosPosition {
+      double duration;
+
+      string position_unit;
+
+      sequence<servo_controller_msgs::msg::ServoPosition> position;
+    };
+  };
+};

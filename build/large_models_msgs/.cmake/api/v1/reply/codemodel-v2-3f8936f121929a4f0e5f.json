@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-d899dfe553bcb6c22f86.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "large_models_msgs__py",
+					"jsonFile" : "directory-large_models_msgs__py-46a45245e666308a3022.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/liyq/hi_ws/build/large_models_msgs/large_models_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "large_models_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_large_models_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_large_models_msgs_egg-2525e97eb56ff1faabf9.json",
+					"name" : "ament_cmake_python_build_large_models_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_large_models_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_large_models_msgs-0653c3dfcf38e51e1931.json",
+					"name" : "ament_cmake_python_copy_large_models_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "large_models_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-large_models_msgs-13bf91ae9580aed23d53.json",
+					"name" : "large_models_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "large_models_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-large_models_msgs__cpp-e903d91fcd2fbcfcfe7f.json",
+					"name" : "large_models_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "large_models_msgs__py::@b0eef0902b5a819fbbcb",
+					"jsonFile" : "target-large_models_msgs__py-5aa6de6c16dd8dd4aa43.json",
+					"name" : "large_models_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "large_models_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-large_models_msgs__rosidl_generator_c-1e55104801311b6c64b5.json",
+					"name" : "large_models_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "large_models_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-large_models_msgs__rosidl_generator_py-ae6b30ec07813ba9ee66.json",
+					"name" : "large_models_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "large_models_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-large_models_msgs__rosidl_typesupport_c-2e4ed39865868230f986.json",
+					"name" : "large_models_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "large_models_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-large_models_msgs__rosidl_typesupport_c__pyext-23ffd6ebf2fad3f50724.json",
+					"name" : "large_models_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "large_models_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-large_models_msgs__rosidl_typesupport_cpp-745d49e1bddce3d1320a.json",
+					"name" : "large_models_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "large_models_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-large_models_msgs__rosidl_typesupport_fastrtps_c-3ca993c22f1960c9943a.json",
+					"name" : "large_models_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "large_models_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-large_models_msgs__rosidl_typesupport_fastrtps_c__pyext-abb7e25ee65c5f90d760.json",
+					"name" : "large_models_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "large_models_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-large_models_msgs__rosidl_typesupport_fastrtps_cpp-ac68b717f882d62735c9.json",
+					"name" : "large_models_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "large_models_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-large_models_msgs__rosidl_typesupport_introspection_c-8efdbaee421b16d70199.json",
+					"name" : "large_models_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "large_models_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-large_models_msgs__rosidl_typesupport_introspection_c__pyext-dd4a017bd3e4211c481d.json",
+					"name" : "large_models_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "large_models_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-large_models_msgs__rosidl_typesupport_introspection_cpp-d93a385fa8de740b95bb.json",
+					"name" : "large_models_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "large_models_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-large_models_msgs_uninstall-338bfa9ce9f6fe9b13f0.json",
+					"name" : "large_models_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-13fef846603376446379.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/liyq/hi_ws/build/large_models_msgs",
+		"source" : "/home/liyq/hi_ws/ROS2/src/large_models/large_models_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

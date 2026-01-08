@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interfaces/srv/SetStringBool.srv
+// generated code does not contain a copyright notice
+
+
+module interfaces {
+  module srv {
+    struct SetStringBool_Request {
+      string data_str;
+
+      boolean data_bool;
+    };
+    struct SetStringBool_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

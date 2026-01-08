@@ -1,0 +1,4 @@
+# generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
+
+set(kinematics_msgs_IDL_FILES "msg/JointRange.idl;msg/JointsRange.idl;msg/Link.idl;srv/GetJointRange.idl;srv/GetLink.idl;srv/GetRobotPose.idl;srv/SetJointRange.idl;srv/SetJointValue.idl;srv/SetLink.idl;srv/SetRobotPose.idl")
+set(kinematics_msgs_INTERFACE_FILES "msg/JointRange.msg;msg/JointsRange.msg;msg/Link.msg;srv/GetJointRange.srv;srv/GetJointRange_Request.msg;srv/GetJointRange_Response.msg;srv/GetLink.srv;srv/GetLink_Request.msg;srv/GetLink_Response.msg;srv/GetRobotPose.srv;srv/GetRobotPose_Request.msg;srv/GetRobotPose_Response.msg;srv/SetJointRange.srv;srv/SetJointRange_Request.msg;srv/SetJointRange_Response.msg;srv/SetJointValue.srv;srv/SetJointValue_Request.msg;srv/SetJointValue_Response.msg;srv/SetLink.srv;srv/SetLink_Request.msg;srv/SetLink_Response.msg;srv/SetRobotPose.srv;srv/SetRobotPose_Request.msg;srv/SetRobotPose_Response.msg")

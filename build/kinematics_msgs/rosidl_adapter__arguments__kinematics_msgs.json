@@ -1,0 +1,15 @@
+{
+  "package_name": "kinematics_msgs",
+  "non_idl_tuples": [
+    "/home/liyq/hi_ws/ROS2/src/driver/kinematics_msgs:msg/JointRange.msg",
+    "/home/liyq/hi_ws/ROS2/src/driver/kinematics_msgs:msg/JointsRange.msg",
+    "/home/liyq/hi_ws/ROS2/src/driver/kinematics_msgs:msg/Link.msg",
+    "/home/liyq/hi_ws/ROS2/src/driver/kinematics_msgs:srv/GetJointRange.srv",
+    "/home/liyq/hi_ws/ROS2/src/driver/kinematics_msgs:srv/GetLink.srv",
+    "/home/liyq/hi_ws/ROS2/src/driver/kinematics_msgs:srv/GetRobotPose.srv",
+    "/home/liyq/hi_ws/ROS2/src/driver/kinematics_msgs:srv/SetJointRange.srv",
+    "/home/liyq/hi_ws/ROS2/src/driver/kinematics_msgs:srv/SetJointValue.srv",
+    "/home/liyq/hi_ws/ROS2/src/driver/kinematics_msgs:srv/SetLink.srv",
+    "/home/liyq/hi_ws/ROS2/src/driver/kinematics_msgs:srv/SetRobotPose.srv"
+  ]
+}

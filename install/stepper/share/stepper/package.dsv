@@ -1,0 +1,6 @@
+source;share/stepper/hook/pythonpath.ps1
+source;share/stepper/hook/pythonpath.dsv
+source;share/stepper/hook/pythonpath.sh
+source;share/stepper/hook/ament_prefix_path.ps1
+source;share/stepper/hook/ament_prefix_path.dsv
+source;share/stepper/hook/ament_prefix_path.sh

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "chassis_msgs__py",
+		"source" : "/home/liyq/hi_ws/build/chassis_msgs/chassis_msgs__py"
+	}
+}

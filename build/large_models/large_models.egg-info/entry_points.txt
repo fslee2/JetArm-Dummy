@@ -1,0 +1,5 @@
+[console_scripts]
+agent_process = large_models.agent_process:main
+tts_node = large_models.tts_node:main
+vocal_detect = large_models.vocal_detect:main
+

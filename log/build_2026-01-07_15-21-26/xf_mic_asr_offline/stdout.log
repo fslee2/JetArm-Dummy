@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target voice_control[0m
+[ 50%] Built target ament_cmake_python_copy_xf_mic_asr_offline
+[ 50%] [32m[1mLinking CXX executable voice_control[0m
+running egg_info
+creating xf_mic_asr_offline.egg-info
+writing xf_mic_asr_offline.egg-info/PKG-INFO
+writing dependency_links to xf_mic_asr_offline.egg-info/dependency_links.txt
+writing top-level names to xf_mic_asr_offline.egg-info/top_level.txt
+writing manifest file 'xf_mic_asr_offline.egg-info/SOURCES.txt'
+reading manifest file 'xf_mic_asr_offline.egg-info/SOURCES.txt'
+writing manifest file 'xf_mic_asr_offline.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_xf_mic_asr_offline_egg

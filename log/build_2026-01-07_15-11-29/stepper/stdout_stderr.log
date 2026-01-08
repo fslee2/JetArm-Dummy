@@ -1,0 +1,50 @@
+running egg_info
+creating ../../../build/stepper/stepper.egg-info
+writing ../../../build/stepper/stepper.egg-info/PKG-INFO
+writing dependency_links to ../../../build/stepper/stepper.egg-info/dependency_links.txt
+writing entry points to ../../../build/stepper/stepper.egg-info/entry_points.txt
+writing requirements to ../../../build/stepper/stepper.egg-info/requires.txt
+writing top-level names to ../../../build/stepper/stepper.egg-info/top_level.txt
+writing manifest file '../../../build/stepper/stepper.egg-info/SOURCES.txt'
+reading manifest file '../../../build/stepper/stepper.egg-info/SOURCES.txt'
+writing manifest file '../../../build/stepper/stepper.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/liyq/hi_ws/build/stepper/build
+creating /home/liyq/hi_ws/build/stepper/build/lib
+creating /home/liyq/hi_ws/build/stepper/build/lib/stepper
+copying stepper/stepper.py -> /home/liyq/hi_ws/build/stepper/build/lib/stepper
+copying stepper/waste_classification.py -> /home/liyq/hi_ws/build/stepper/build/lib/stepper
+copying stepper/__init__.py -> /home/liyq/hi_ws/build/stepper/build/lib/stepper
+copying stepper/tag_sorting.py -> /home/liyq/hi_ws/build/stepper/build/lib/stepper
+copying stepper/color_sorting.py -> /home/liyq/hi_ws/build/stepper/build/lib/stepper
+running install
+running install_lib
+creating /home/liyq/hi_ws/install/stepper/lib/python3.10/site-packages/stepper
+copying /home/liyq/hi_ws/build/stepper/build/lib/stepper/stepper.py -> /home/liyq/hi_ws/install/stepper/lib/python3.10/site-packages/stepper
+copying /home/liyq/hi_ws/build/stepper/build/lib/stepper/waste_classification.py -> /home/liyq/hi_ws/install/stepper/lib/python3.10/site-packages/stepper
+copying /home/liyq/hi_ws/build/stepper/build/lib/stepper/__init__.py -> /home/liyq/hi_ws/install/stepper/lib/python3.10/site-packages/stepper
+copying /home/liyq/hi_ws/build/stepper/build/lib/stepper/tag_sorting.py -> /home/liyq/hi_ws/install/stepper/lib/python3.10/site-packages/stepper
+copying /home/liyq/hi_ws/build/stepper/build/lib/stepper/color_sorting.py -> /home/liyq/hi_ws/install/stepper/lib/python3.10/site-packages/stepper
+byte-compiling /home/liyq/hi_ws/install/stepper/lib/python3.10/site-packages/stepper/stepper.py to stepper.cpython-310.pyc
+byte-compiling /home/liyq/hi_ws/install/stepper/lib/python3.10/site-packages/stepper/waste_classification.py to waste_classification.cpython-310.pyc
+byte-compiling /home/liyq/hi_ws/install/stepper/lib/python3.10/site-packages/stepper/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/liyq/hi_ws/install/stepper/lib/python3.10/site-packages/stepper/tag_sorting.py to tag_sorting.cpython-310.pyc
+byte-compiling /home/liyq/hi_ws/install/stepper/lib/python3.10/site-packages/stepper/color_sorting.py to color_sorting.cpython-310.pyc
+running install_data
+creating /home/liyq/hi_ws/install/stepper/share/ament_index
+creating /home/liyq/hi_ws/install/stepper/share/ament_index/resource_index
+creating /home/liyq/hi_ws/install/stepper/share/ament_index/resource_index/packages
+copying resource/stepper -> /home/liyq/hi_ws/install/stepper/share/ament_index/resource_index/packages
+copying package.xml -> /home/liyq/hi_ws/install/stepper/share/stepper
+creating /home/liyq/hi_ws/install/stepper/share/stepper/launch
+copying launch/waste_classification.launch.py -> /home/liyq/hi_ws/install/stepper/share/stepper/launch
+copying launch/tag_sorting.launch.py -> /home/liyq/hi_ws/install/stepper/share/stepper/launch
+copying launch/color_sorting.launch.py -> /home/liyq/hi_ws/install/stepper/share/stepper/launch
+running install_egg_info
+Copying ../../../build/stepper/stepper.egg-info to /home/liyq/hi_ws/install/stepper/lib/python3.10/site-packages/stepper-0.0.0-py3.10.egg-info
+running install_scripts
+Installing color_sorting script to /home/liyq/hi_ws/install/stepper/lib/stepper
+Installing tag_sorting script to /home/liyq/hi_ws/install/stepper/lib/stepper
+Installing waste_classification script to /home/liyq/hi_ws/install/stepper/lib/stepper
+writing list of installed files to '/home/liyq/hi_ws/build/stepper/install.log'

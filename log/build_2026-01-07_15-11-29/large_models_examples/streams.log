@@ -1,0 +1,139 @@
+[1.342s] Invoking command in '/home/liyq/hi_ws/ROS2/src/large_models_examples': PYTHONPATH=/home/liyq/hi_ws/build/large_models_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/large_models_examples build --build-base /home/liyq/hi_ws/build/large_models_examples/build install --record /home/liyq/hi_ws/build/large_models_examples/install.log --single-version-externally-managed install_data
+[1.713s] running egg_info
+[1.713s] creating ../../../build/large_models_examples/large_models_examples.egg-info
+[1.713s] writing ../../../build/large_models_examples/large_models_examples.egg-info/PKG-INFO
+[1.713s] writing dependency_links to ../../../build/large_models_examples/large_models_examples.egg-info/dependency_links.txt
+[1.714s] writing entry points to ../../../build/large_models_examples/large_models_examples.egg-info/entry_points.txt
+[1.714s] writing requirements to ../../../build/large_models_examples/large_models_examples.egg-info/requires.txt
+[1.714s] writing top-level names to ../../../build/large_models_examples/large_models_examples.egg-info/top_level.txt
+[1.715s] writing manifest file '../../../build/large_models_examples/large_models_examples.egg-info/SOURCES.txt'
+[1.715s] reading manifest file '../../../build/large_models_examples/large_models_examples.egg-info/SOURCES.txt'
+[1.715s] adding license file 'LICENSE'
+[1.715s] writing manifest file '../../../build/large_models_examples/large_models_examples.egg-info/SOURCES.txt'
+[1.715s] running build
+[1.715s] running build_py
+[1.715s] creating /home/liyq/hi_ws/build/large_models_examples/build
+[1.715s] creating /home/liyq/hi_ws/build/large_models_examples/build/lib
+[1.715s] creating /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples
+[1.716s] copying large_models_examples/llm_control_servo.py -> /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples
+[1.716s] copying large_models_examples/llm_3d_object_sorting.launch.py -> /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples
+[1.716s] copying large_models_examples/object_sorting_node.launch.py -> /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples
+[1.716s] copying large_models_examples/vllm_object_transport.launch.py -> /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples
+[1.717s] copying large_models_examples/waste_classification.launch.py -> /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples
+[1.717s] copying large_models_examples/llm_control_servo.launch.py -> /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples
+[1.717s] copying large_models_examples/intelligent_grasp.py -> /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples
+[1.717s] copying large_models_examples/llm_waste_classification.py -> /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples
+[1.717s] copying large_models_examples/tracker.py -> /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples
+[1.717s] copying large_models_examples/track_anything.py -> /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples
+[1.717s] copying large_models_examples/vllm_dietitianl.launch.py -> /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples
+[1.717s] copying large_models_examples/__init__.py -> /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples
+[1.717s] copying large_models_examples/vllm_track.launch.py -> /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples
+[1.717s] copying large_models_examples/llm_3d_object_sorting.py -> /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples
+[1.718s] copying large_models_examples/llm_waste_classification.launch.py -> /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples
+[1.718s] copying large_models_examples/vllm_object_transport.py -> /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples
+[1.718s] copying large_models_examples/vllm_with_camera.launch.py -> /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples
+[1.718s] copying large_models_examples/vllm_track.py -> /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples
+[1.718s] copying large_models_examples/vllm_dietitianl.py -> /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples
+[1.718s] copying large_models_examples/llm_object_sorting.py -> /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples
+[1.718s] copying large_models_examples/llm_object_sorting.launch.py -> /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples
+[1.718s] copying large_models_examples/3d_object_sorting.launch.py -> /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples
+[1.718s] copying large_models_examples/vllm_with_camera.py -> /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples
+[1.719s] copying large_models_examples/object_transport.py -> /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples
+[1.719s] running install
+[1.719s] running install_lib
+[1.719s] creating /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples
+[1.719s] copying /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples/llm_control_servo.py -> /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples
+[1.719s] copying /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples/llm_3d_object_sorting.launch.py -> /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples
+[1.719s] copying /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples/object_sorting_node.launch.py -> /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples
+[1.719s] copying /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples/vllm_object_transport.launch.py -> /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples
+[1.719s] copying /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples/waste_classification.launch.py -> /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples
+[1.719s] copying /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples/llm_control_servo.launch.py -> /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples
+[1.720s] copying /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples/intelligent_grasp.py -> /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples
+[1.720s] copying /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples/llm_waste_classification.py -> /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples
+[1.720s] copying /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples/tracker.py -> /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples
+[1.720s] copying /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples/track_anything.py -> /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples
+[1.720s] copying /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples/vllm_dietitianl.launch.py -> /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples
+[1.720s] copying /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples/__init__.py -> /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples
+[1.720s] copying /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples/vllm_track.launch.py -> /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples
+[1.720s] copying /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples/llm_3d_object_sorting.py -> /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples
+[1.720s] copying /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples/llm_waste_classification.launch.py -> /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples
+[1.720s] copying /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples/vllm_object_transport.py -> /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples
+[1.720s] copying /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples/vllm_with_camera.launch.py -> /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples
+[1.721s] copying /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples/vllm_track.py -> /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples
+[1.721s] copying /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples/vllm_dietitianl.py -> /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples
+[1.721s] copying /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples/llm_object_sorting.py -> /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples
+[1.721s] copying /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples/llm_object_sorting.launch.py -> /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples
+[1.721s] copying /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples/3d_object_sorting.launch.py -> /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples
+[1.721s] copying /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples/vllm_with_camera.py -> /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples
+[1.721s] copying /home/liyq/hi_ws/build/large_models_examples/build/lib/large_models_examples/object_transport.py -> /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples
+[1.721s] byte-compiling /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples/llm_control_servo.py to llm_control_servo.cpython-310.pyc
+[1.721s] byte-compiling /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples/llm_3d_object_sorting.launch.py to llm_3d_object_sorting.launch.cpython-310.pyc
+[1.721s] byte-compiling /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples/object_sorting_node.launch.py to object_sorting_node.launch.cpython-310.pyc
+[1.721s] byte-compiling /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples/vllm_object_transport.launch.py to vllm_object_transport.launch.cpython-310.pyc
+[1.722s] byte-compiling /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples/waste_classification.launch.py to waste_classification.launch.cpython-310.pyc
+[1.722s] byte-compiling /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples/llm_control_servo.launch.py to llm_control_servo.launch.cpython-310.pyc
+[1.722s] byte-compiling /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples/intelligent_grasp.py to intelligent_grasp.cpython-310.pyc
+[1.722s] byte-compiling /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples/llm_waste_classification.py to llm_waste_classification.cpython-310.pyc
+[1.722s] byte-compiling /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples/tracker.py to tracker.cpython-310.pyc
+[1.722s] byte-compiling /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples/track_anything.py to track_anything.cpython-310.pyc
+[1.722s] byte-compiling /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples/vllm_dietitianl.launch.py to vllm_dietitianl.launch.cpython-310.pyc
+[1.722s] byte-compiling /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples/__init__.py to __init__.cpython-310.pyc
+[1.722s] byte-compiling /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples/vllm_track.launch.py to vllm_track.launch.cpython-310.pyc
+[1.723s] byte-compiling /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples/llm_3d_object_sorting.py to llm_3d_object_sorting.cpython-310.pyc
+[1.723s] byte-compiling /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples/llm_waste_classification.launch.py to llm_waste_classification.launch.cpython-310.pyc
+[1.723s] byte-compiling /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples/vllm_object_transport.py to vllm_object_transport.cpython-310.pyc
+[1.723s] byte-compiling /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples/vllm_with_camera.launch.py to vllm_with_camera.launch.cpython-310.pyc
+[1.723s] byte-compiling /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples/vllm_track.py to vllm_track.cpython-310.pyc
+[1.723s] byte-compiling /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples/vllm_dietitianl.py to vllm_dietitianl.cpython-310.pyc
+[1.723s] byte-compiling /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples/llm_object_sorting.py to llm_object_sorting.cpython-310.pyc
+[1.723s] byte-compiling /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples/llm_object_sorting.launch.py to llm_object_sorting.launch.cpython-310.pyc
+[1.723s] byte-compiling /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples/3d_object_sorting.launch.py to 3d_object_sorting.launch.cpython-310.pyc
+[1.723s] byte-compiling /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples/vllm_with_camera.py to vllm_with_camera.cpython-310.pyc
+[1.723s] byte-compiling /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples/object_transport.py to object_transport.cpython-310.pyc
+[1.724s] running install_data
+[1.724s] creating /home/liyq/hi_ws/install/large_models_examples/share/ament_index
+[1.724s] creating /home/liyq/hi_ws/install/large_models_examples/share/ament_index/resource_index
+[1.724s] creating /home/liyq/hi_ws/install/large_models_examples/share/ament_index/resource_index/packages
+[1.724s] copying resource/large_models_examples -> /home/liyq/hi_ws/install/large_models_examples/share/ament_index/resource_index/packages
+[1.724s] copying package.xml -> /home/liyq/hi_ws/install/large_models_examples/share/large_models_examples
+[1.724s] creating /home/liyq/hi_ws/install/large_models_examples/share/large_models_examples/config
+[1.724s] creating /home/liyq/hi_ws/install/large_models_examples/share/large_models_examples/large_models_examples
+[1.724s] copying large_models_examples/llm_control_servo.py -> /home/liyq/hi_ws/install/large_models_examples/share/large_models_examples/large_models_examples
+[1.724s] copying large_models_examples/llm_3d_object_sorting.launch.py -> /home/liyq/hi_ws/install/large_models_examples/share/large_models_examples/large_models_examples
+[1.724s] copying large_models_examples/object_sorting_node.launch.py -> /home/liyq/hi_ws/install/large_models_examples/share/large_models_examples/large_models_examples
+[1.724s] copying large_models_examples/vllm_object_transport.launch.py -> /home/liyq/hi_ws/install/large_models_examples/share/large_models_examples/large_models_examples
+[1.724s] copying large_models_examples/waste_classification.launch.py -> /home/liyq/hi_ws/install/large_models_examples/share/large_models_examples/large_models_examples
+[1.725s] copying large_models_examples/llm_control_servo.launch.py -> /home/liyq/hi_ws/install/large_models_examples/share/large_models_examples/large_models_examples
+[1.725s] copying large_models_examples/intelligent_grasp.py -> /home/liyq/hi_ws/install/large_models_examples/share/large_models_examples/large_models_examples
+[1.725s] copying large_models_examples/llm_waste_classification.py -> /home/liyq/hi_ws/install/large_models_examples/share/large_models_examples/large_models_examples
+[1.725s] copying large_models_examples/tracker.py -> /home/liyq/hi_ws/install/large_models_examples/share/large_models_examples/large_models_examples
+[1.725s] copying large_models_examples/track_anything.py -> /home/liyq/hi_ws/install/large_models_examples/share/large_models_examples/large_models_examples
+[1.725s] copying large_models_examples/vllm_dietitianl.launch.py -> /home/liyq/hi_ws/install/large_models_examples/share/large_models_examples/large_models_examples
+[1.725s] copying large_models_examples/__init__.py -> /home/liyq/hi_ws/install/large_models_examples/share/large_models_examples/large_models_examples
+[1.725s] copying large_models_examples/vllm_track.launch.py -> /home/liyq/hi_ws/install/large_models_examples/share/large_models_examples/large_models_examples
+[1.725s] copying large_models_examples/llm_3d_object_sorting.py -> /home/liyq/hi_ws/install/large_models_examples/share/large_models_examples/large_models_examples
+[1.725s] copying large_models_examples/llm_waste_classification.launch.py -> /home/liyq/hi_ws/install/large_models_examples/share/large_models_examples/large_models_examples
+[1.725s] copying large_models_examples/vllm_object_transport.py -> /home/liyq/hi_ws/install/large_models_examples/share/large_models_examples/large_models_examples
+[1.725s] copying large_models_examples/vllm_with_camera.launch.py -> /home/liyq/hi_ws/install/large_models_examples/share/large_models_examples/large_models_examples
+[1.725s] copying large_models_examples/vllm_track.py -> /home/liyq/hi_ws/install/large_models_examples/share/large_models_examples/large_models_examples
+[1.725s] copying large_models_examples/vllm_dietitianl.py -> /home/liyq/hi_ws/install/large_models_examples/share/large_models_examples/large_models_examples
+[1.726s] copying large_models_examples/llm_object_sorting.py -> /home/liyq/hi_ws/install/large_models_examples/share/large_models_examples/large_models_examples
+[1.726s] copying large_models_examples/llm_object_sorting.launch.py -> /home/liyq/hi_ws/install/large_models_examples/share/large_models_examples/large_models_examples
+[1.726s] copying large_models_examples/3d_object_sorting.launch.py -> /home/liyq/hi_ws/install/large_models_examples/share/large_models_examples/large_models_examples
+[1.726s] copying large_models_examples/vllm_with_camera.py -> /home/liyq/hi_ws/install/large_models_examples/share/large_models_examples/large_models_examples
+[1.726s] copying large_models_examples/object_transport.py -> /home/liyq/hi_ws/install/large_models_examples/share/large_models_examples/large_models_examples
+[1.726s] running install_egg_info
+[1.726s] Copying ../../../build/large_models_examples/large_models_examples.egg-info to /home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages/large_models_examples-0.0.0-py3.10.egg-info
+[1.726s] running install_scripts
+[1.740s] Installing intelligent_grasp script to /home/liyq/hi_ws/install/large_models_examples/lib/large_models_examples
+[1.740s] Installing llm_3d_object_sorting script to /home/liyq/hi_ws/install/large_models_examples/lib/large_models_examples
+[1.740s] Installing llm_control_servo script to /home/liyq/hi_ws/install/large_models_examples/lib/large_models_examples
+[1.741s] Installing llm_object_sorting script to /home/liyq/hi_ws/install/large_models_examples/lib/large_models_examples
+[1.741s] Installing llm_waste_classification script to /home/liyq/hi_ws/install/large_models_examples/lib/large_models_examples
+[1.741s] Installing object_transport script to /home/liyq/hi_ws/install/large_models_examples/lib/large_models_examples
+[1.741s] Installing vllm_dietitianl script to /home/liyq/hi_ws/install/large_models_examples/lib/large_models_examples
+[1.742s] Installing vllm_object_transport script to /home/liyq/hi_ws/install/large_models_examples/lib/large_models_examples
+[1.744s] Installing vllm_track script to /home/liyq/hi_ws/install/large_models_examples/lib/large_models_examples
+[1.744s] Installing vllm_with_camera script to /home/liyq/hi_ws/install/large_models_examples/lib/large_models_examples
+[1.744s] writing list of installed files to '/home/liyq/hi_ws/build/large_models_examples/install.log'
+[2.061s] Invoked command in '/home/liyq/hi_ws/ROS2/src/large_models_examples' returned '0': PYTHONPATH=/home/liyq/hi_ws/build/large_models_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liyq/hi_ws/install/large_models_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/large_models_examples build --build-base /home/liyq/hi_ws/build/large_models_examples/build install --record /home/liyq/hi_ws/build/large_models_examples/install.log --single-version-externally-managed install_data

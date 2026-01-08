@@ -1,0 +1,39 @@
+[0.742s] Invoking command in '/home/liyq/hi_ws/ROS2/src/motor': PYTHONPATH=/home/liyq/hi_ws/build/motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liyq/hi_ws/install/motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/motor build --build-base /home/liyq/hi_ws/build/motor/build install --record /home/liyq/hi_ws/build/motor/install.log --single-version-externally-managed install_data
+[1.067s] running egg_info
+[1.067s] creating ../../../build/motor/motor.egg-info
+[1.067s] writing ../../../build/motor/motor.egg-info/PKG-INFO
+[1.068s] writing dependency_links to ../../../build/motor/motor.egg-info/dependency_links.txt
+[1.068s] writing entry points to ../../../build/motor/motor.egg-info/entry_points.txt
+[1.069s] writing requirements to ../../../build/motor/motor.egg-info/requires.txt
+[1.069s] writing top-level names to ../../../build/motor/motor.egg-info/top_level.txt
+[1.069s] writing manifest file '../../../build/motor/motor.egg-info/SOURCES.txt'
+[1.069s] reading manifest file '../../../build/motor/motor.egg-info/SOURCES.txt'
+[1.069s] writing manifest file '../../../build/motor/motor.egg-info/SOURCES.txt'
+[1.069s] running build
+[1.069s] running build_py
+[1.069s] creating /home/liyq/hi_ws/build/motor/build
+[1.069s] creating /home/liyq/hi_ws/build/motor/build/lib
+[1.069s] creating /home/liyq/hi_ws/build/motor/build/lib/motor
+[1.069s] copying motor/__init__.py -> /home/liyq/hi_ws/build/motor/build/lib/motor
+[1.069s] copying motor/color_sorting.py -> /home/liyq/hi_ws/build/motor/build/lib/motor
+[1.070s] running install
+[1.070s] running install_lib
+[1.071s] creating /home/liyq/hi_ws/install/motor/lib/python3.10/site-packages/motor
+[1.071s] copying /home/liyq/hi_ws/build/motor/build/lib/motor/__init__.py -> /home/liyq/hi_ws/install/motor/lib/python3.10/site-packages/motor
+[1.071s] copying /home/liyq/hi_ws/build/motor/build/lib/motor/color_sorting.py -> /home/liyq/hi_ws/install/motor/lib/python3.10/site-packages/motor
+[1.075s] byte-compiling /home/liyq/hi_ws/install/motor/lib/python3.10/site-packages/motor/__init__.py to __init__.cpython-310.pyc
+[1.075s] byte-compiling /home/liyq/hi_ws/install/motor/lib/python3.10/site-packages/motor/color_sorting.py to color_sorting.cpython-310.pyc
+[1.079s] running install_data
+[1.079s] creating /home/liyq/hi_ws/install/motor/share/ament_index
+[1.079s] creating /home/liyq/hi_ws/install/motor/share/ament_index/resource_index
+[1.079s] creating /home/liyq/hi_ws/install/motor/share/ament_index/resource_index/packages
+[1.083s] copying resource/motor -> /home/liyq/hi_ws/install/motor/share/ament_index/resource_index/packages
+[1.083s] copying package.xml -> /home/liyq/hi_ws/install/motor/share/motor
+[1.083s] creating /home/liyq/hi_ws/install/motor/share/motor/launch
+[1.083s] copying launch/color_sorting.launch.py -> /home/liyq/hi_ws/install/motor/share/motor/launch
+[1.083s] running install_egg_info
+[1.084s] Copying ../../../build/motor/motor.egg-info to /home/liyq/hi_ws/install/motor/lib/python3.10/site-packages/motor-0.0.0-py3.10.egg-info
+[1.084s] running install_scripts
+[1.110s] Installing color_sorting script to /home/liyq/hi_ws/install/motor/lib/motor
+[1.111s] writing list of installed files to '/home/liyq/hi_ws/build/motor/install.log'
+[1.189s] Invoked command in '/home/liyq/hi_ws/ROS2/src/motor' returned '0': PYTHONPATH=/home/liyq/hi_ws/build/motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liyq/hi_ws/install/motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/motor build --build-base /home/liyq/hi_ws/build/motor/build install --record /home/liyq/hi_ws/build/motor/install.log --single-version-externally-managed install_data

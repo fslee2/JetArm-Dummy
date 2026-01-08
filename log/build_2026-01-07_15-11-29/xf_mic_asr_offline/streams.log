@@ -1,0 +1,69 @@
+[0.018s] Invoking command in '/home/liyq/hi_ws/build/xf_mic_asr_offline': AMENT_PREFIX_PATH=/home/liyq/hi_ws/install/xf_mic_asr_offline_msgs:/home/liyq/hi_ws/install/ros_robot_controller_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liyq/hi_ws/install/xf_mic_asr_offline_msgs:/home/liyq/hi_ws/install/ros_robot_controller_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/lib:/home/liyq/hi_ws/install/ros_robot_controller_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/local/lib/python3.10/dist-packages:/home/liyq/hi_ws/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/liyq/hi_ws/ROS2/src/xf_mic_asr_offline -DCMAKE_INSTALL_PREFIX=/home/liyq/hi_ws/install/xf_mic_asr_offline
+[0.118s] -- The C compiler identification is GNU 11.4.0
+[0.194s] -- The CXX compiler identification is GNU 11.4.0
+[0.205s] -- Detecting C compiler ABI info
+[0.310s] -- Detecting C compiler ABI info - done
+[0.319s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.319s] -- Detecting C compile features
+[0.319s] -- Detecting C compile features - done
+[0.324s] -- Detecting CXX compiler ABI info
+[0.464s] -- Detecting CXX compiler ABI info - done
+[0.475s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.475s] -- Detecting CXX compile features
+[0.479s] -- Detecting CXX compile features - done
+[0.479s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.682s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.823s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.884s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.892s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.906s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.922s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.945s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.006s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.010s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.139s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.177s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.233s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.245s] -- Looking for pthread.h
+[1.354s] -- Looking for pthread.h - found
+[1.354s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.452s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.453s] -- Found Threads: TRUE  
+[1.521s] -- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)
+[1.522s] -- Found xf_mic_asr_offline_msgs: 0.0.0 (/home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/cmake)
+[1.532s] -- Found ros_robot_controller_msgs: 0.0.0 (/home/liyq/hi_ws/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/cmake)
+[1.658s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.762s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.785s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.785s] -- Configured cppcheck include dirs: /home/liyq/hi_ws/ROS2/src/xf_mic_asr_offline/include
+[1.785s] -- Configured cppcheck exclude dirs and/or files: 
+[1.805s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.805s] -- Configured cpplint exclude dirs and/or files: 
+[1.808s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.815s] -- Added test 'lint_cmake' to check CMake code style
+[1.818s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.839s] -- Added test 'uncrustify' to check C / C++ code style
+[1.840s] -- Configured uncrustify additional arguments: 
+[1.843s] -- Added test 'xmllint' to check XML markup files
+[1.845s] -- Configuring done
+[1.861s] -- Generating done
+[1.866s] -- Build files have been written to: /home/liyq/hi_ws/build/xf_mic_asr_offline
+[1.878s] Invoked command in '/home/liyq/hi_ws/build/xf_mic_asr_offline' returned '0': AMENT_PREFIX_PATH=/home/liyq/hi_ws/install/xf_mic_asr_offline_msgs:/home/liyq/hi_ws/install/ros_robot_controller_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liyq/hi_ws/install/xf_mic_asr_offline_msgs:/home/liyq/hi_ws/install/ros_robot_controller_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/lib:/home/liyq/hi_ws/install/ros_robot_controller_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/local/lib/python3.10/dist-packages:/home/liyq/hi_ws/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/liyq/hi_ws/ROS2/src/xf_mic_asr_offline -DCMAKE_INSTALL_PREFIX=/home/liyq/hi_ws/install/xf_mic_asr_offline
+[1.879s] Invoking command in '/home/liyq/hi_ws/build/xf_mic_asr_offline': AMENT_PREFIX_PATH=/home/liyq/hi_ws/install/xf_mic_asr_offline_msgs:/home/liyq/hi_ws/install/ros_robot_controller_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liyq/hi_ws/install/xf_mic_asr_offline_msgs:/home/liyq/hi_ws/install/ros_robot_controller_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/lib:/home/liyq/hi_ws/install/ros_robot_controller_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/local/lib/python3.10/dist-packages:/home/liyq/hi_ws/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/liyq/hi_ws/build/xf_mic_asr_offline -- -j8 -l8
+[1.950s] [ 50%] [32mBuilding CXX object CMakeFiles/voice_control.dir/src/voice_control.cpp.o[0m
+[5.343s] [01m[K/home/liyq/hi_ws/ROS2/src/xf_mic_asr_offline/src/voice_control.cpp:[m[K In member function ‘[01m[Kbool SpeechProcess::Get_Offline_Recognise_Result(const std::shared_ptr<xf_mic_asr_offline_msgs::srv::GetOfflineResult_Request_<std::allocator<void> > >&, std::shared_ptr<xf_mic_asr_offline_msgs::srv::GetOfflineResult_Response_<std::allocator<void> > >&)[m[K’:
+[5.343s] [01m[K/home/liyq/hi_ws/ROS2/src/xf_mic_asr_offline/src/voice_control.cpp:373:25:[m[K [01;35m[Kwarning: [m[Kcomparison with string literal results in unspecified behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+[5.343s]   373 |         if([01;35m[Kwhole_result != ""[m[K)
+[5.343s]       |            [01;35m[K~~~~~~~~~~~~~^~~~~[m[K
+[5.349s] [01m[K/home/liyq/hi_ws/ROS2/src/xf_mic_asr_offline/src/voice_control.cpp:410:24:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[5.349s]   410 |         whole_result = [01;35m[K""[m[K;
+[5.349s]       |                        [01;35m[K^~[m[K
+[8.861s] [100%] [32m[1mLinking CXX executable voice_control[0m
+[8.935s] /usr/bin/ld: skipping incompatible /home/liyq/hi_ws/ROS2/src/xf_mic_asr_offline/lib/arm64/liboffline_record_lib.so when searching for -loffline_record_lib
+[8.936s] /usr/bin/ld: cannot find -loffline_record_lib: No such file or directory
+[8.936s] /usr/bin/ld: skipping incompatible /home/liyq/hi_ws/ROS2/src/xf_mic_asr_offline/lib/arm64/liboffline_record_lib.so when searching for -loffline_record_lib
+[9.366s] collect2: error: ld returned 1 exit status
+[9.368s] gmake[2]: *** [CMakeFiles/voice_control.dir/build.make:175: voice_control] Error 1
+[9.369s] gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/voice_control.dir/all] Error 2
+[9.369s] gmake: *** [Makefile:146: all] Error 2
+[9.372s] Invoked command in '/home/liyq/hi_ws/build/xf_mic_asr_offline' returned '2': AMENT_PREFIX_PATH=/home/liyq/hi_ws/install/xf_mic_asr_offline_msgs:/home/liyq/hi_ws/install/ros_robot_controller_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liyq/hi_ws/install/xf_mic_asr_offline_msgs:/home/liyq/hi_ws/install/ros_robot_controller_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/lib:/home/liyq/hi_ws/install/ros_robot_controller_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/local/lib/python3.10/dist-packages:/home/liyq/hi_ws/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/liyq/hi_ws/build/xf_mic_asr_offline -- -j8 -l8

@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from servo_controller_msgs/msg/ServoState.msg
+// generated code does not contain a copyright notice
+
+
+module servo_controller_msgs {
+  module msg {
+    struct ServoState {
+      @verbatim (language="comment", text=
+        "motor id")
+      int32 id;
+
+      @verbatim (language="comment", text=
+        "commanded position (in encoder units)")
+      int32 goal;
+
+      @verbatim (language="comment", text=
+        "current position (in encoder units)")
+      int32 position;
+
+      @verbatim (language="comment", text=
+        "difference between current and goal positions")
+      int32 error;
+
+      @verbatim (language="comment", text=
+        "current voltage (mv)")
+      int32 voltage;
+    };
+  };
+};

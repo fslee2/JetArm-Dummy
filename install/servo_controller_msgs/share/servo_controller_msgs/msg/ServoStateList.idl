@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from servo_controller_msgs/msg/ServoStateList.msg
+// generated code does not contain a copyright notice
+
+#include "servo_controller_msgs/msg/ServoState.idl"
+#include "std_msgs/msg/Header.idl"
+
+module servo_controller_msgs {
+  module msg {
+    struct ServoStateList {
+      std_msgs::msg::Header header;
+
+      sequence<servo_controller_msgs::msg::ServoState> servo_state;
+    };
+  };
+};

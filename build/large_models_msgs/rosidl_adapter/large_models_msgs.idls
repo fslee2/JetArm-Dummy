@@ -1,0 +1,8 @@
+/home/liyq/hi_ws/build/large_models_msgs/rosidl_adapter/large_models_msgs:msg/AgentResult.idl
+/home/liyq/hi_ws/build/large_models_msgs/rosidl_adapter/large_models_msgs:msg/Transport.idl
+/home/liyq/hi_ws/build/large_models_msgs/rosidl_adapter/large_models_msgs:srv/SetString.idl
+/home/liyq/hi_ws/build/large_models_msgs/rosidl_adapter/large_models_msgs:srv/SetModel.idl
+/home/liyq/hi_ws/build/large_models_msgs/rosidl_adapter/large_models_msgs:srv/SetContent.idl
+/home/liyq/hi_ws/build/large_models_msgs/rosidl_adapter/large_models_msgs:srv/SetInt32.idl
+/home/liyq/hi_ws/build/large_models_msgs/rosidl_adapter/large_models_msgs:srv/SetBox.idl
+/home/liyq/hi_ws/build/large_models_msgs/rosidl_adapter/large_models_msgs:srv/SetTransportObject.idl

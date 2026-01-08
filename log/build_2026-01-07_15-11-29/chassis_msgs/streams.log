@@ -1,0 +1,241 @@
+[0.922s] Invoking command in '/home/liyq/hi_ws/build/chassis_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/liyq/hi_ws/ROS2/src/chassis_msgs -DCMAKE_INSTALL_PREFIX=/home/liyq/hi_ws/install/chassis_msgs
+[1.206s] -- The C compiler identification is GNU 11.4.0
+[1.206s] -- The CXX compiler identification is GNU 11.4.0
+[1.207s] -- Detecting C compiler ABI info
+[1.207s] -- Detecting C compiler ABI info - done
+[1.207s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.207s] -- Detecting C compile features
+[1.207s] -- Detecting C compile features - done
+[1.207s] -- Detecting CXX compiler ABI info
+[1.251s] -- Detecting CXX compiler ABI info - done
+[1.262s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.262s] -- Detecting CXX compile features
+[1.263s] -- Detecting CXX compile features - done
+[1.313s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.652s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.094s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[2.335s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.363s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.393s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.511s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.573s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.821s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.842s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.336s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.387s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.450s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.563s] -- Looking for pthread.h
+[3.964s] -- Looking for pthread.h - found
+[3.964s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.232s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.234s] -- Found Threads: TRUE  
+[4.448s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.753s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.129s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.287s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.311s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[5.313s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.352s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[5.354s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.354s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.354s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[5.381s] -- Found PythonExtra: .so  
+[5.439s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.506s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.519s] -- Added test 'lint_cmake' to check CMake code style
+[5.519s] -- Added test 'xmllint' to check XML markup files
+[5.519s] -- Configuring done
+[5.618s] -- Generating done
+[5.664s] -- Build files have been written to: /home/liyq/hi_ws/build/chassis_msgs
+[6.098s] Invoked command in '/home/liyq/hi_ws/build/chassis_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/liyq/hi_ws/ROS2/src/chassis_msgs -DCMAKE_INSTALL_PREFIX=/home/liyq/hi_ws/install/chassis_msgs
+[6.099s] Invoking command in '/home/liyq/hi_ws/build/chassis_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/liyq/hi_ws/build/chassis_msgs -- -j8 -l8
+[6.198s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.229s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.268s] [  6%] Built target ament_cmake_python_copy_chassis_msgs
+[6.880s] [  6%] Built target chassis_msgs__cpp
+[6.909s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.917s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.919s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.977s] running egg_info
+[6.977s] creating chassis_msgs.egg-info
+[6.977s] writing chassis_msgs.egg-info/PKG-INFO
+[6.978s] writing dependency_links to chassis_msgs.egg-info/dependency_links.txt
+[6.978s] writing top-level names to chassis_msgs.egg-info/top_level.txt
+[6.978s] writing manifest file 'chassis_msgs.egg-info/SOURCES.txt'
+[6.980s] reading manifest file 'chassis_msgs.egg-info/SOURCES.txt'
+[6.981s] writing manifest file 'chassis_msgs.egg-info/SOURCES.txt'
+[7.056s] [ 16%] Built target ament_cmake_python_build_chassis_msgs_egg
+[7.124s] [ 19%] [32mBuilding C object CMakeFiles/chassis_msgs__rosidl_generator_c.dir/rosidl_generator_c/chassis_msgs/msg/detail/mecanum__functions.c.o[0m
+[7.450s] [ 22%] [32m[1mLinking C shared library libchassis_msgs__rosidl_generator_c.so[0m
+[7.616s] [ 25%] [32mBuilding CXX object CMakeFiles/chassis_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chassis_msgs/msg/detail/mecanum__type_support.cpp.o[0m
+[7.647s] [ 25%] Built target chassis_msgs__rosidl_generator_c
+[7.658s] [ 29%] [32mBuilding CXX object CMakeFiles/chassis_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chassis_msgs/msg/mecanum__type_support.cpp.o[0m
+[7.703s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.708s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.717s] [ 38%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.829s] [ 41%] [32mBuilding CXX object CMakeFiles/chassis_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chassis_msgs/msg/detail/dds_fastrtps/mecanum__type_support.cpp.o[0m
+[8.999s] [ 45%] [32mBuilding CXX object CMakeFiles/chassis_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chassis_msgs/msg/detail/mecanum__type_support_c.cpp.o[0m
+[9.001s] [ 48%] [32mBuilding CXX object CMakeFiles/chassis_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/chassis_msgs/msg/mecanum__type_support.cpp.o[0m
+[9.139s] [ 51%] [32mBuilding C object CMakeFiles/chassis_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chassis_msgs/msg/detail/mecanum__type_support.c.o[0m
+[9.152s] [ 54%] [32m[1mLinking CXX shared library libchassis_msgs__rosidl_typesupport_c.so[0m
+[9.377s] [ 58%] [32m[1mLinking C shared library libchassis_msgs__rosidl_typesupport_introspection_c.so[0m
+[9.486s] [ 58%] Built target chassis_msgs__rosidl_typesupport_c
+[9.627s] [ 58%] Built target chassis_msgs__rosidl_typesupport_introspection_c
+[9.675s] [ 61%] [32m[1mLinking CXX shared library libchassis_msgs__rosidl_typesupport_cpp.so[0m
+[9.914s] [ 61%] Built target chassis_msgs__rosidl_typesupport_cpp
+[10.280s] [ 64%] [32m[1mLinking CXX shared library libchassis_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[10.493s] [ 64%] Built target chassis_msgs__rosidl_typesupport_introspection_cpp
+[10.805s] [ 67%] [32m[1mLinking CXX shared library libchassis_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[10.831s] [ 70%] [32m[1mLinking CXX shared library libchassis_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.337s] [ 70%] Built target chassis_msgs__rosidl_typesupport_fastrtps_c
+[11.338s] [ 70%] Built target chassis_msgs__rosidl_typesupport_fastrtps_cpp
+[11.466s] [ 70%] Built target chassis_msgs
+[11.537s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[12.914s] [ 74%] Built target chassis_msgs__py
+[12.997s] [ 77%] [32mBuilding C object CMakeFiles/chassis_msgs__rosidl_generator_py.dir/rosidl_generator_py/chassis_msgs/msg/_mecanum_s.c.o[0m
+[13.858s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/chassis_msgs/libchassis_msgs__rosidl_generator_py.so[0m
+[14.118s] [ 80%] Built target chassis_msgs__rosidl_generator_py
+[14.334s] [ 83%] [32mBuilding C object CMakeFiles/chassis_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/chassis_msgs/_chassis_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[14.355s] [ 87%] [32mBuilding C object CMakeFiles/chassis_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/chassis_msgs/_chassis_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[14.358s] [ 90%] [32mBuilding C object CMakeFiles/chassis_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/chassis_msgs/_chassis_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[14.929s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/chassis_msgs/chassis_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.931s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/chassis_msgs/chassis_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.042s] [100%] [32m[1mLinking C shared library rosidl_generator_py/chassis_msgs/chassis_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.091s] [100%] Built target chassis_msgs__rosidl_typesupport_introspection_c__pyext
+[15.126s] [100%] Built target chassis_msgs__rosidl_typesupport_fastrtps_c__pyext
+[15.225s] [100%] Built target chassis_msgs__rosidl_typesupport_c__pyext
+[15.320s] Invoked command in '/home/liyq/hi_ws/build/chassis_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/liyq/hi_ws/build/chassis_msgs -- -j8 -l8
+[15.379s] Invoking command in '/home/liyq/hi_ws/build/chassis_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/liyq/hi_ws/build/chassis_msgs
+[18.221s] -- Install configuration: ""
+[18.221s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/ament_index/resource_index/rosidl_interfaces/chassis_msgs
+[18.221s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs
+[18.221s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs/msg
+[18.221s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs/msg/mecanum.h
+[18.221s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs/msg/detail
+[18.221s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs/msg/detail/mecanum__struct.h
+[18.221s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs/msg/detail/mecanum__functions.c
+[18.221s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs/msg/detail/mecanum__type_support.h
+[18.221s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs/msg/detail/mecanum__functions.h
+[18.222s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs/msg/rosidl_generator_c__visibility_control.h
+[18.222s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/environment/library_path.sh
+[18.222s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/environment/library_path.dsv
+[18.222s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/lib/libchassis_msgs__rosidl_generator_c.so
+[18.222s] -- Set runtime path of "/home/liyq/hi_ws/install/chassis_msgs/lib/libchassis_msgs__rosidl_generator_c.so" to ""
+[18.222s] -- Up-to-date: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs
+[18.222s] -- Up-to-date: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs/msg
+[18.222s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[18.222s] -- Up-to-date: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs/msg/detail
+[18.222s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs/msg/detail/mecanum__rosidl_typesupport_fastrtps_c.h
+[18.222s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/lib/libchassis_msgs__rosidl_typesupport_fastrtps_c.so
+[18.222s] -- Set runtime path of "/home/liyq/hi_ws/install/chassis_msgs/lib/libchassis_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[18.222s] -- Up-to-date: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs
+[18.223s] -- Up-to-date: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs/msg
+[18.223s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs/msg/mecanum.hpp
+[18.223s] -- Up-to-date: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs/msg/detail
+[18.223s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs/msg/detail/mecanum__type_support.hpp
+[18.223s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs/msg/detail/mecanum__builder.hpp
+[18.232s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs/msg/detail/mecanum__traits.hpp
+[18.233s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs/msg/detail/mecanum__struct.hpp
+[18.233s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[18.233s] -- Up-to-date: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs
+[18.233s] -- Up-to-date: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs/msg
+[18.233s] -- Up-to-date: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs/msg/detail
+[18.233s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs/msg/detail/mecanum__rosidl_typesupport_fastrtps_cpp.hpp
+[18.233s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs/msg/detail/dds_fastrtps
+[18.233s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[18.233s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/lib/libchassis_msgs__rosidl_typesupport_fastrtps_cpp.so
+[18.233s] -- Set runtime path of "/home/liyq/hi_ws/install/chassis_msgs/lib/libchassis_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[18.233s] -- Up-to-date: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs
+[18.233s] -- Up-to-date: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs/msg
+[18.234s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[18.234s] -- Up-to-date: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs/msg/detail
+[18.234s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs/msg/detail/mecanum__type_support.c
+[18.234s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs/msg/detail/mecanum__rosidl_typesupport_introspection_c.h
+[18.234s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/lib/libchassis_msgs__rosidl_typesupport_introspection_c.so
+[18.234s] -- Set runtime path of "/home/liyq/hi_ws/install/chassis_msgs/lib/libchassis_msgs__rosidl_typesupport_introspection_c.so" to ""
+[18.234s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/lib/libchassis_msgs__rosidl_typesupport_c.so
+[18.234s] -- Set runtime path of "/home/liyq/hi_ws/install/chassis_msgs/lib/libchassis_msgs__rosidl_typesupport_c.so" to ""
+[18.234s] -- Up-to-date: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs
+[18.234s] -- Up-to-date: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs/msg
+[18.234s] -- Up-to-date: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs/msg/detail
+[18.234s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs/msg/detail/mecanum__type_support.cpp
+[18.234s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/include/chassis_msgs/chassis_msgs/msg/detail/mecanum__rosidl_typesupport_introspection_cpp.hpp
+[18.235s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/lib/libchassis_msgs__rosidl_typesupport_introspection_cpp.so
+[18.235s] -- Set runtime path of "/home/liyq/hi_ws/install/chassis_msgs/lib/libchassis_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[18.235s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/lib/libchassis_msgs__rosidl_typesupport_cpp.so
+[18.235s] -- Set runtime path of "/home/liyq/hi_ws/install/chassis_msgs/lib/libchassis_msgs__rosidl_typesupport_cpp.so" to ""
+[18.235s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/environment/pythonpath.sh
+[18.235s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/environment/pythonpath.dsv
+[18.235s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/local/lib/python3.10/dist-packages/chassis_msgs-0.0.0-py3.10.egg-info
+[18.235s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/local/lib/python3.10/dist-packages/chassis_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[18.235s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/local/lib/python3.10/dist-packages/chassis_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[18.235s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/local/lib/python3.10/dist-packages/chassis_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[18.235s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/local/lib/python3.10/dist-packages/chassis_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[18.235s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/local/lib/python3.10/dist-packages/chassis_msgs
+[18.235s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/local/lib/python3.10/dist-packages/chassis_msgs/chassis_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[18.236s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/local/lib/python3.10/dist-packages/chassis_msgs/msg
+[18.236s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/local/lib/python3.10/dist-packages/chassis_msgs/msg/_mecanum_s.c
+[18.236s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/local/lib/python3.10/dist-packages/chassis_msgs/msg/__init__.py
+[18.250s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/local/lib/python3.10/dist-packages/chassis_msgs/msg/_mecanum.py
+[18.251s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/local/lib/python3.10/dist-packages/chassis_msgs/libchassis_msgs__rosidl_generator_py.so
+[18.251s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/local/lib/python3.10/dist-packages/chassis_msgs/_chassis_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[18.251s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/local/lib/python3.10/dist-packages/chassis_msgs/_chassis_msgs_s.ep.rosidl_typesupport_c.c
+[18.251s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/local/lib/python3.10/dist-packages/chassis_msgs/__init__.py
+[18.251s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/local/lib/python3.10/dist-packages/chassis_msgs/_chassis_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[18.251s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/local/lib/python3.10/dist-packages/chassis_msgs/chassis_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[18.251s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/local/lib/python3.10/dist-packages/chassis_msgs/chassis_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[18.251s] Listing '/home/liyq/hi_ws/install/chassis_msgs/local/lib/python3.10/dist-packages/chassis_msgs'...
+[18.251s] Compiling '/home/liyq/hi_ws/install/chassis_msgs/local/lib/python3.10/dist-packages/chassis_msgs/__init__.py'...
+[18.251s] Listing '/home/liyq/hi_ws/install/chassis_msgs/local/lib/python3.10/dist-packages/chassis_msgs/msg'...
+[18.251s] Compiling '/home/liyq/hi_ws/install/chassis_msgs/local/lib/python3.10/dist-packages/chassis_msgs/msg/__init__.py'...
+[18.251s] Compiling '/home/liyq/hi_ws/install/chassis_msgs/local/lib/python3.10/dist-packages/chassis_msgs/msg/_mecanum.py'...
+[18.251s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/local/lib/python3.10/dist-packages/chassis_msgs/chassis_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[18.252s] -- Set runtime path of "/home/liyq/hi_ws/install/chassis_msgs/local/lib/python3.10/dist-packages/chassis_msgs/chassis_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[18.252s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/local/lib/python3.10/dist-packages/chassis_msgs/chassis_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[18.252s] -- Set runtime path of "/home/liyq/hi_ws/install/chassis_msgs/local/lib/python3.10/dist-packages/chassis_msgs/chassis_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[18.252s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/local/lib/python3.10/dist-packages/chassis_msgs/chassis_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[18.252s] -- Set runtime path of "/home/liyq/hi_ws/install/chassis_msgs/local/lib/python3.10/dist-packages/chassis_msgs/chassis_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[18.252s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/lib/libchassis_msgs__rosidl_generator_py.so
+[18.252s] -- Set runtime path of "/home/liyq/hi_ws/install/chassis_msgs/lib/libchassis_msgs__rosidl_generator_py.so" to ""
+[18.252s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/msg/Mecanum.idl
+[18.252s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/msg/Mecanum.msg
+[18.252s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/ament_index/resource_index/package_run_dependencies/chassis_msgs
+[18.252s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/ament_index/resource_index/parent_prefix_path/chassis_msgs
+[18.252s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/environment/ament_prefix_path.sh
+[18.252s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/environment/ament_prefix_path.dsv
+[18.252s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/environment/path.sh
+[18.253s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/environment/path.dsv
+[18.253s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/local_setup.bash
+[18.253s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/local_setup.sh
+[18.253s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/local_setup.zsh
+[18.253s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/local_setup.dsv
+[18.253s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/package.dsv
+[18.253s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/ament_index/resource_index/packages/chassis_msgs
+[18.253s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/cmake/export_chassis_msgs__rosidl_generator_cExport.cmake
+[18.253s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/cmake/export_chassis_msgs__rosidl_generator_cExport-noconfig.cmake
+[18.253s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/cmake/export_chassis_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[18.265s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/cmake/export_chassis_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[18.265s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/cmake/export_chassis_msgs__rosidl_generator_cppExport.cmake
+[18.265s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/cmake/export_chassis_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[18.265s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/cmake/export_chassis_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[18.265s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/cmake/chassis_msgs__rosidl_typesupport_introspection_cExport.cmake
+[18.266s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/cmake/chassis_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[18.266s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/cmake/chassis_msgs__rosidl_typesupport_cExport.cmake
+[18.266s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/cmake/chassis_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[18.266s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/cmake/chassis_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[18.266s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/cmake/chassis_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[18.266s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/cmake/chassis_msgs__rosidl_typesupport_cppExport.cmake
+[18.266s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/cmake/chassis_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[18.266s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/cmake/export_chassis_msgs__rosidl_generator_pyExport.cmake
+[18.266s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/cmake/export_chassis_msgs__rosidl_generator_pyExport-noconfig.cmake
+[18.266s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/cmake/rosidl_cmake-extras.cmake
+[18.266s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.266s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[18.266s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[18.266s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[18.267s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.270s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[18.270s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/cmake/chassis_msgsConfig.cmake
+[18.270s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/cmake/chassis_msgsConfig-version.cmake
+[18.270s] -- Installing: /home/liyq/hi_ws/install/chassis_msgs/share/chassis_msgs/package.xml
+[18.294s] Invoked command in '/home/liyq/hi_ws/build/chassis_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/liyq/hi_ws/build/chassis_msgs

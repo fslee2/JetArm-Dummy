@@ -1,0 +1,12 @@
+[console_scripts]
+intelligent_grasp = large_models_examples.intelligent_grasp:main
+llm_3d_object_sorting = large_models_examples.llm_3d_object_sorting:main
+llm_control_servo = large_models_examples.llm_control_servo:main
+llm_object_sorting = large_models_examples.llm_object_sorting:main
+llm_waste_classification = large_models_examples.llm_waste_classification:main
+object_transport = large_models_examples.object_transport:main
+vllm_dietitianl = large_models_examples.vllm_dietitianl:main
+vllm_object_transport = large_models_examples.vllm_object_transport:main
+vllm_track = large_models_examples.vllm_track:main
+vllm_with_camera = large_models_examples.vllm_with_camera:main
+

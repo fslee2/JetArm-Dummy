@@ -1,0 +1,58 @@
+running egg_info
+creating ../../../../build/sdk/sdk.egg-info
+writing ../../../../build/sdk/sdk.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/sdk/sdk.egg-info/dependency_links.txt
+writing entry points to ../../../../build/sdk/sdk.egg-info/entry_points.txt
+writing requirements to ../../../../build/sdk/sdk.egg-info/requires.txt
+writing top-level names to ../../../../build/sdk/sdk.egg-info/top_level.txt
+writing manifest file '../../../../build/sdk/sdk.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/sdk/sdk.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/sdk/sdk.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/liyq/hi_ws/build/sdk/build
+creating /home/liyq/hi_ws/build/sdk/build/lib
+creating /home/liyq/hi_ws/build/sdk/build/lib/sdk
+copying sdk/hw_interfaces.py -> /home/liyq/hi_ws/build/sdk/build/lib/sdk
+copying sdk/common.py -> /home/liyq/hi_ws/build/sdk/build/lib/sdk
+copying sdk/tone.py -> /home/liyq/hi_ws/build/sdk/build/lib/sdk
+copying sdk/__init__.py -> /home/liyq/hi_ws/build/sdk/build/lib/sdk
+copying sdk/check_servo_connection.py -> /home/liyq/hi_ws/build/sdk/build/lib/sdk
+copying sdk/pid.py -> /home/liyq/hi_ws/build/sdk/build/lib/sdk
+copying sdk/buzzer.py -> /home/liyq/hi_ws/build/sdk/build/lib/sdk
+copying sdk/misc.py -> /home/liyq/hi_ws/build/sdk/build/lib/sdk
+copying sdk/fps.py -> /home/liyq/hi_ws/build/sdk/build/lib/sdk
+running install
+running install_lib
+creating /home/liyq/hi_ws/install/sdk/lib/python3.10/site-packages/sdk
+copying /home/liyq/hi_ws/build/sdk/build/lib/sdk/hw_interfaces.py -> /home/liyq/hi_ws/install/sdk/lib/python3.10/site-packages/sdk
+copying /home/liyq/hi_ws/build/sdk/build/lib/sdk/common.py -> /home/liyq/hi_ws/install/sdk/lib/python3.10/site-packages/sdk
+copying /home/liyq/hi_ws/build/sdk/build/lib/sdk/tone.py -> /home/liyq/hi_ws/install/sdk/lib/python3.10/site-packages/sdk
+copying /home/liyq/hi_ws/build/sdk/build/lib/sdk/__init__.py -> /home/liyq/hi_ws/install/sdk/lib/python3.10/site-packages/sdk
+copying /home/liyq/hi_ws/build/sdk/build/lib/sdk/check_servo_connection.py -> /home/liyq/hi_ws/install/sdk/lib/python3.10/site-packages/sdk
+copying /home/liyq/hi_ws/build/sdk/build/lib/sdk/pid.py -> /home/liyq/hi_ws/install/sdk/lib/python3.10/site-packages/sdk
+copying /home/liyq/hi_ws/build/sdk/build/lib/sdk/buzzer.py -> /home/liyq/hi_ws/install/sdk/lib/python3.10/site-packages/sdk
+copying /home/liyq/hi_ws/build/sdk/build/lib/sdk/misc.py -> /home/liyq/hi_ws/install/sdk/lib/python3.10/site-packages/sdk
+copying /home/liyq/hi_ws/build/sdk/build/lib/sdk/fps.py -> /home/liyq/hi_ws/install/sdk/lib/python3.10/site-packages/sdk
+byte-compiling /home/liyq/hi_ws/install/sdk/lib/python3.10/site-packages/sdk/hw_interfaces.py to hw_interfaces.cpython-310.pyc
+byte-compiling /home/liyq/hi_ws/install/sdk/lib/python3.10/site-packages/sdk/common.py to common.cpython-310.pyc
+byte-compiling /home/liyq/hi_ws/install/sdk/lib/python3.10/site-packages/sdk/tone.py to tone.cpython-310.pyc
+byte-compiling /home/liyq/hi_ws/install/sdk/lib/python3.10/site-packages/sdk/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/liyq/hi_ws/install/sdk/lib/python3.10/site-packages/sdk/check_servo_connection.py to check_servo_connection.cpython-310.pyc
+byte-compiling /home/liyq/hi_ws/install/sdk/lib/python3.10/site-packages/sdk/pid.py to pid.cpython-310.pyc
+byte-compiling /home/liyq/hi_ws/install/sdk/lib/python3.10/site-packages/sdk/buzzer.py to buzzer.cpython-310.pyc
+byte-compiling /home/liyq/hi_ws/install/sdk/lib/python3.10/site-packages/sdk/misc.py to misc.cpython-310.pyc
+byte-compiling /home/liyq/hi_ws/install/sdk/lib/python3.10/site-packages/sdk/fps.py to fps.cpython-310.pyc
+running install_data
+creating /home/liyq/hi_ws/install/sdk/share/ament_index
+creating /home/liyq/hi_ws/install/sdk/share/ament_index/resource_index
+creating /home/liyq/hi_ws/install/sdk/share/ament_index/resource_index/packages
+copying resource/sdk -> /home/liyq/hi_ws/install/sdk/share/ament_index/resource_index/packages
+copying package.xml -> /home/liyq/hi_ws/install/sdk/share/sdk
+creating /home/liyq/hi_ws/install/sdk/share/sdk/launch
+copying launch/jetarm_sdk.launch.py -> /home/liyq/hi_ws/install/sdk/share/sdk/launch
+running install_egg_info
+Copying ../../../../build/sdk/sdk.egg-info to /home/liyq/hi_ws/install/sdk/lib/python3.10/site-packages/sdk-0.0.0-py3.10.egg-info
+running install_scripts
+Installing check_servo_connection script to /home/liyq/hi_ws/install/sdk/lib/sdk
+writing list of installed files to '/home/liyq/hi_ws/build/sdk/install.log'

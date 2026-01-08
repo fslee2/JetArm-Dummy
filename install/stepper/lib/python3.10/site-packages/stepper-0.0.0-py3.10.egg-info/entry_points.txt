@@ -1,0 +1,5 @@
+[console_scripts]
+color_sorting = stepper.color_sorting:main
+tag_sorting = stepper.tag_sorting:main
+waste_classification = stepper.waste_classification:main
+

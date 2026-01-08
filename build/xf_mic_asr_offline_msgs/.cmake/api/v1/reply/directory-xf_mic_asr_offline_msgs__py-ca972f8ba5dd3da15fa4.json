@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "xf_mic_asr_offline_msgs__py",
+		"source" : "/home/liyq/hi_ws/build/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs__py"
+	}
+}

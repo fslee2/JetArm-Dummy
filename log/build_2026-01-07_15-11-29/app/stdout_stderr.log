@@ -1,0 +1,94 @@
+running egg_info
+creating ../../../build/app/app.egg-info
+writing ../../../build/app/app.egg-info/PKG-INFO
+writing dependency_links to ../../../build/app/app.egg-info/dependency_links.txt
+writing entry points to ../../../build/app/app.egg-info/entry_points.txt
+writing requirements to ../../../build/app/app.egg-info/requires.txt
+writing top-level names to ../../../build/app/app.egg-info/top_level.txt
+writing manifest file '../../../build/app/app.egg-info/SOURCES.txt'
+reading manifest file '../../../build/app/app.egg-info/SOURCES.txt'
+writing manifest file '../../../build/app/app.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/liyq/hi_ws/build/app/build
+creating /home/liyq/hi_ws/build/app/build/lib
+creating /home/liyq/hi_ws/build/app/build/lib/app
+copying app/calibration.py -> /home/liyq/hi_ws/build/app/build/lib/app
+copying app/object_sorting.py -> /home/liyq/hi_ws/build/app/build/lib/app
+copying app/shape_recognition.py -> /home/liyq/hi_ws/build/app/build/lib/app
+copying app/object_tracking.py -> /home/liyq/hi_ws/build/app/build/lib/app
+copying app/color_tracker.py -> /home/liyq/hi_ws/build/app/build/lib/app
+copying app/common.py -> /home/liyq/hi_ws/build/app/build/lib/app
+copying app/waste_classification.py -> /home/liyq/hi_ws/build/app/build/lib/app
+copying app/face_tracker.py -> /home/liyq/hi_ws/build/app/build/lib/app
+copying app/tag_stackup.py -> /home/liyq/hi_ws/build/app/build/lib/app
+copying app/__init__.py -> /home/liyq/hi_ws/build/app/build/lib/app
+copying app/grasp.py -> /home/liyq/hi_ws/build/app/build/lib/app
+copying app/lab_manager.py -> /home/liyq/hi_ws/build/app/build/lib/app
+copying app/finger_trace.py -> /home/liyq/hi_ws/build/app/build/lib/app
+running install
+running install_lib
+creating /home/liyq/hi_ws/install/app/lib/python3.10/site-packages/app
+copying /home/liyq/hi_ws/build/app/build/lib/app/calibration.py -> /home/liyq/hi_ws/install/app/lib/python3.10/site-packages/app
+copying /home/liyq/hi_ws/build/app/build/lib/app/object_sorting.py -> /home/liyq/hi_ws/install/app/lib/python3.10/site-packages/app
+copying /home/liyq/hi_ws/build/app/build/lib/app/shape_recognition.py -> /home/liyq/hi_ws/install/app/lib/python3.10/site-packages/app
+copying /home/liyq/hi_ws/build/app/build/lib/app/object_tracking.py -> /home/liyq/hi_ws/install/app/lib/python3.10/site-packages/app
+copying /home/liyq/hi_ws/build/app/build/lib/app/color_tracker.py -> /home/liyq/hi_ws/install/app/lib/python3.10/site-packages/app
+copying /home/liyq/hi_ws/build/app/build/lib/app/common.py -> /home/liyq/hi_ws/install/app/lib/python3.10/site-packages/app
+copying /home/liyq/hi_ws/build/app/build/lib/app/waste_classification.py -> /home/liyq/hi_ws/install/app/lib/python3.10/site-packages/app
+copying /home/liyq/hi_ws/build/app/build/lib/app/face_tracker.py -> /home/liyq/hi_ws/install/app/lib/python3.10/site-packages/app
+copying /home/liyq/hi_ws/build/app/build/lib/app/tag_stackup.py -> /home/liyq/hi_ws/install/app/lib/python3.10/site-packages/app
+copying /home/liyq/hi_ws/build/app/build/lib/app/__init__.py -> /home/liyq/hi_ws/install/app/lib/python3.10/site-packages/app
+copying /home/liyq/hi_ws/build/app/build/lib/app/grasp.py -> /home/liyq/hi_ws/install/app/lib/python3.10/site-packages/app
+copying /home/liyq/hi_ws/build/app/build/lib/app/lab_manager.py -> /home/liyq/hi_ws/install/app/lib/python3.10/site-packages/app
+copying /home/liyq/hi_ws/build/app/build/lib/app/finger_trace.py -> /home/liyq/hi_ws/install/app/lib/python3.10/site-packages/app
+byte-compiling /home/liyq/hi_ws/install/app/lib/python3.10/site-packages/app/calibration.py to calibration.cpython-310.pyc
+byte-compiling /home/liyq/hi_ws/install/app/lib/python3.10/site-packages/app/object_sorting.py to object_sorting.cpython-310.pyc
+byte-compiling /home/liyq/hi_ws/install/app/lib/python3.10/site-packages/app/shape_recognition.py to shape_recognition.cpython-310.pyc
+byte-compiling /home/liyq/hi_ws/install/app/lib/python3.10/site-packages/app/object_tracking.py to object_tracking.cpython-310.pyc
+byte-compiling /home/liyq/hi_ws/install/app/lib/python3.10/site-packages/app/color_tracker.py to color_tracker.cpython-310.pyc
+byte-compiling /home/liyq/hi_ws/install/app/lib/python3.10/site-packages/app/common.py to common.cpython-310.pyc
+byte-compiling /home/liyq/hi_ws/install/app/lib/python3.10/site-packages/app/waste_classification.py to waste_classification.cpython-310.pyc
+byte-compiling /home/liyq/hi_ws/install/app/lib/python3.10/site-packages/app/face_tracker.py to face_tracker.cpython-310.pyc
+byte-compiling /home/liyq/hi_ws/install/app/lib/python3.10/site-packages/app/tag_stackup.py to tag_stackup.cpython-310.pyc
+byte-compiling /home/liyq/hi_ws/install/app/lib/python3.10/site-packages/app/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/liyq/hi_ws/install/app/lib/python3.10/site-packages/app/grasp.py to grasp.cpython-310.pyc
+byte-compiling /home/liyq/hi_ws/install/app/lib/python3.10/site-packages/app/lab_manager.py to lab_manager.cpython-310.pyc
+byte-compiling /home/liyq/hi_ws/install/app/lib/python3.10/site-packages/app/finger_trace.py to finger_trace.cpython-310.pyc
+running install_data
+creating /home/liyq/hi_ws/install/app/share/ament_index
+creating /home/liyq/hi_ws/install/app/share/ament_index/resource_index
+creating /home/liyq/hi_ws/install/app/share/ament_index/resource_index/packages
+copying resource/app -> /home/liyq/hi_ws/install/app/share/ament_index/resource_index/packages
+copying package.xml -> /home/liyq/hi_ws/install/app/share/app
+creating /home/liyq/hi_ws/install/app/share/app/launch
+copying launch/calibration_node.launch.py -> /home/liyq/hi_ws/install/app/share/app/launch
+copying launch/start_app.launch.py -> /home/liyq/hi_ws/install/app/share/app/launch
+copying launch/shape_recognition.launch.py -> /home/liyq/hi_ws/install/app/share/app/launch
+copying launch/waste_classification.launch.py -> /home/liyq/hi_ws/install/app/share/app/launch
+copying launch/object_sorting.launch.py -> /home/liyq/hi_ws/install/app/share/app/launch
+copying launch/finger_trace.launch.py -> /home/liyq/hi_ws/install/app/share/app/launch
+copying launch/tag_stackup.launch.py -> /home/liyq/hi_ws/install/app/share/app/launch
+copying launch/object_tracking.launch.py -> /home/liyq/hi_ws/install/app/share/app/launch
+copying launch/lab_manager.launch.py -> /home/liyq/hi_ws/install/app/share/app/launch
+creating /home/liyq/hi_ws/install/app/share/app/config
+copying config/positions.yaml -> /home/liyq/hi_ws/install/app/share/app/config
+copying config/calibration.yaml -> /home/liyq/hi_ws/install/app/share/app/config
+copying config/transform.yaml -> /home/liyq/hi_ws/install/app/share/app/config
+copying config/lab_config.yaml -> /home/liyq/hi_ws/install/app/share/app/config
+copying config/config.yaml -> /home/liyq/hi_ws/install/app/share/app/config
+creating /home/liyq/hi_ws/install/app/share/app/resource
+creating /home/liyq/hi_ws/install/app/share/app/models
+running install_egg_info
+Copying ../../../build/app/app.egg-info to /home/liyq/hi_ws/install/app/lib/python3.10/site-packages/app-0.0.0-py3.10.egg-info
+running install_scripts
+Installing calibration script to /home/liyq/hi_ws/install/app/lib/app
+Installing color_tracker script to /home/liyq/hi_ws/install/app/lib/app
+Installing finger_trace script to /home/liyq/hi_ws/install/app/lib/app
+Installing lab_manager script to /home/liyq/hi_ws/install/app/lib/app
+Installing object_sorting script to /home/liyq/hi_ws/install/app/lib/app
+Installing object_tracking script to /home/liyq/hi_ws/install/app/lib/app
+Installing shape_recognition script to /home/liyq/hi_ws/install/app/lib/app
+Installing tag_stackup script to /home/liyq/hi_ws/install/app/lib/app
+Installing waste_classification script to /home/liyq/hi_ws/install/app/lib/app
+writing list of installed files to '/home/liyq/hi_ws/build/app/install.log'

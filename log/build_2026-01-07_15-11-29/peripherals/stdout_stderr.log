@@ -1,0 +1,45 @@
+running egg_info
+creating ../../../build/peripherals/peripherals.egg-info
+writing ../../../build/peripherals/peripherals.egg-info/PKG-INFO
+writing dependency_links to ../../../build/peripherals/peripherals.egg-info/dependency_links.txt
+writing entry points to ../../../build/peripherals/peripherals.egg-info/entry_points.txt
+writing requirements to ../../../build/peripherals/peripherals.egg-info/requires.txt
+writing top-level names to ../../../build/peripherals/peripherals.egg-info/top_level.txt
+writing manifest file '../../../build/peripherals/peripherals.egg-info/SOURCES.txt'
+reading manifest file '../../../build/peripherals/peripherals.egg-info/SOURCES.txt'
+writing manifest file '../../../build/peripherals/peripherals.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/liyq/hi_ws/build/peripherals/build
+creating /home/liyq/hi_ws/build/peripherals/build/lib
+creating /home/liyq/hi_ws/build/peripherals/build/lib/peripherals
+copying peripherals/__init__.py -> /home/liyq/hi_ws/build/peripherals/build/lib/peripherals
+copying peripherals/joystick_control.py -> /home/liyq/hi_ws/build/peripherals/build/lib/peripherals
+running install
+running install_lib
+creating /home/liyq/hi_ws/install/peripherals/lib/python3.10/site-packages/peripherals
+copying /home/liyq/hi_ws/build/peripherals/build/lib/peripherals/__init__.py -> /home/liyq/hi_ws/install/peripherals/lib/python3.10/site-packages/peripherals
+copying /home/liyq/hi_ws/build/peripherals/build/lib/peripherals/joystick_control.py -> /home/liyq/hi_ws/install/peripherals/lib/python3.10/site-packages/peripherals
+byte-compiling /home/liyq/hi_ws/install/peripherals/lib/python3.10/site-packages/peripherals/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/liyq/hi_ws/install/peripherals/lib/python3.10/site-packages/peripherals/joystick_control.py to joystick_control.cpython-310.pyc
+running install_data
+creating /home/liyq/hi_ws/install/peripherals/share/ament_index
+creating /home/liyq/hi_ws/install/peripherals/share/ament_index/resource_index
+creating /home/liyq/hi_ws/install/peripherals/share/ament_index/resource_index/packages
+copying resource/peripherals -> /home/liyq/hi_ws/install/peripherals/share/ament_index/resource_index/packages
+copying package.xml -> /home/liyq/hi_ws/install/peripherals/share/peripherals
+creating /home/liyq/hi_ws/install/peripherals/share/peripherals/launch
+copying launch/joystick_control.launch.py -> /home/liyq/hi_ws/install/peripherals/share/peripherals/launch
+copying launch/depth_camera.launch.py -> /home/liyq/hi_ws/install/peripherals/share/peripherals/launch
+creating /home/liyq/hi_ws/install/peripherals/share/peripherals/launch/include
+copying launch/include/gemini.launch.py -> /home/liyq/hi_ws/install/peripherals/share/peripherals/launch/include
+copying launch/include/usb_cam.launch.py -> /home/liyq/hi_ws/install/peripherals/share/peripherals/launch/include
+creating /home/liyq/hi_ws/install/peripherals/share/peripherals/config
+copying config/lab_config.yaml -> /home/liyq/hi_ws/install/peripherals/share/peripherals/config
+copying config/usb_cam_param.yaml -> /home/liyq/hi_ws/install/peripherals/share/peripherals/config
+copying config/camera_info.yaml -> /home/liyq/hi_ws/install/peripherals/share/peripherals/config
+running install_egg_info
+Copying ../../../build/peripherals/peripherals.egg-info to /home/liyq/hi_ws/install/peripherals/lib/python3.10/site-packages/peripherals-0.0.0-py3.10.egg-info
+running install_scripts
+Installing joystick_control script to /home/liyq/hi_ws/install/peripherals/lib/peripherals
+writing list of installed files to '/home/liyq/hi_ws/build/peripherals/install.log'

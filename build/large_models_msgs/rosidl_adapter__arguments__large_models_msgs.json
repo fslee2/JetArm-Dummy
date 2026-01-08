@@ -1,0 +1,13 @@
+{
+  "package_name": "large_models_msgs",
+  "non_idl_tuples": [
+    "/home/liyq/hi_ws/ROS2/src/large_models/large_models_msgs:msg/AgentResult.msg",
+    "/home/liyq/hi_ws/ROS2/src/large_models/large_models_msgs:msg/Transport.msg",
+    "/home/liyq/hi_ws/ROS2/src/large_models/large_models_msgs:srv/SetString.srv",
+    "/home/liyq/hi_ws/ROS2/src/large_models/large_models_msgs:srv/SetModel.srv",
+    "/home/liyq/hi_ws/ROS2/src/large_models/large_models_msgs:srv/SetContent.srv",
+    "/home/liyq/hi_ws/ROS2/src/large_models/large_models_msgs:srv/SetInt32.srv",
+    "/home/liyq/hi_ws/ROS2/src/large_models/large_models_msgs:srv/SetBox.srv",
+    "/home/liyq/hi_ws/ROS2/src/large_models/large_models_msgs:srv/SetTransportObject.srv"
+  ]
+}

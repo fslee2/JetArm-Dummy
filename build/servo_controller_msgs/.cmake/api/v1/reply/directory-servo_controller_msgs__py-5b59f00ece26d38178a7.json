@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "servo_controller_msgs__py",
+		"source" : "/home/liyq/hi_ws/build/servo_controller_msgs/servo_controller_msgs__py"
+	}
+}

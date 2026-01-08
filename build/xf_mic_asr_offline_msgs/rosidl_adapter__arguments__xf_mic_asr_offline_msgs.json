@@ -1,0 +1,7 @@
+{
+  "package_name": "xf_mic_asr_offline_msgs",
+  "non_idl_tuples": [
+    "/home/liyq/hi_ws/ROS2/src/xf_mic_asr_offline_msgs:srv/SetString.srv",
+    "/home/liyq/hi_ws/ROS2/src/xf_mic_asr_offline_msgs:srv/GetOfflineResult.srv"
+  ]
+}

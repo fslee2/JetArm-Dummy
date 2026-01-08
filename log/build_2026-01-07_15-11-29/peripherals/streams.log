@@ -1,0 +1,47 @@
+[0.852s] Invoking command in '/home/liyq/hi_ws/ROS2/src/peripherals': PYTHONPATH=/home/liyq/hi_ws/build/peripherals/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liyq/hi_ws/install/peripherals/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/peripherals build --build-base /home/liyq/hi_ws/build/peripherals/build install --record /home/liyq/hi_ws/build/peripherals/install.log --single-version-externally-managed install_data
+[1.445s] running egg_info
+[1.445s] creating ../../../build/peripherals/peripherals.egg-info
+[1.446s] writing ../../../build/peripherals/peripherals.egg-info/PKG-INFO
+[1.446s] writing dependency_links to ../../../build/peripherals/peripherals.egg-info/dependency_links.txt
+[1.446s] writing entry points to ../../../build/peripherals/peripherals.egg-info/entry_points.txt
+[1.451s] writing requirements to ../../../build/peripherals/peripherals.egg-info/requires.txt
+[1.452s] writing top-level names to ../../../build/peripherals/peripherals.egg-info/top_level.txt
+[1.452s] writing manifest file '../../../build/peripherals/peripherals.egg-info/SOURCES.txt'
+[1.452s] reading manifest file '../../../build/peripherals/peripherals.egg-info/SOURCES.txt'
+[1.452s] writing manifest file '../../../build/peripherals/peripherals.egg-info/SOURCES.txt'
+[1.453s] running build
+[1.453s] running build_py
+[1.453s] creating /home/liyq/hi_ws/build/peripherals/build
+[1.453s] creating /home/liyq/hi_ws/build/peripherals/build/lib
+[1.453s] creating /home/liyq/hi_ws/build/peripherals/build/lib/peripherals
+[1.453s] copying peripherals/__init__.py -> /home/liyq/hi_ws/build/peripherals/build/lib/peripherals
+[1.453s] copying peripherals/joystick_control.py -> /home/liyq/hi_ws/build/peripherals/build/lib/peripherals
+[1.453s] running install
+[1.453s] running install_lib
+[1.453s] creating /home/liyq/hi_ws/install/peripherals/lib/python3.10/site-packages/peripherals
+[1.453s] copying /home/liyq/hi_ws/build/peripherals/build/lib/peripherals/__init__.py -> /home/liyq/hi_ws/install/peripherals/lib/python3.10/site-packages/peripherals
+[1.453s] copying /home/liyq/hi_ws/build/peripherals/build/lib/peripherals/joystick_control.py -> /home/liyq/hi_ws/install/peripherals/lib/python3.10/site-packages/peripherals
+[1.453s] byte-compiling /home/liyq/hi_ws/install/peripherals/lib/python3.10/site-packages/peripherals/__init__.py to __init__.cpython-310.pyc
+[1.453s] byte-compiling /home/liyq/hi_ws/install/peripherals/lib/python3.10/site-packages/peripherals/joystick_control.py to joystick_control.cpython-310.pyc
+[1.453s] running install_data
+[1.453s] creating /home/liyq/hi_ws/install/peripherals/share/ament_index
+[1.453s] creating /home/liyq/hi_ws/install/peripherals/share/ament_index/resource_index
+[1.454s] creating /home/liyq/hi_ws/install/peripherals/share/ament_index/resource_index/packages
+[1.454s] copying resource/peripherals -> /home/liyq/hi_ws/install/peripherals/share/ament_index/resource_index/packages
+[1.454s] copying package.xml -> /home/liyq/hi_ws/install/peripherals/share/peripherals
+[1.454s] creating /home/liyq/hi_ws/install/peripherals/share/peripherals/launch
+[1.454s] copying launch/joystick_control.launch.py -> /home/liyq/hi_ws/install/peripherals/share/peripherals/launch
+[1.454s] copying launch/depth_camera.launch.py -> /home/liyq/hi_ws/install/peripherals/share/peripherals/launch
+[1.454s] creating /home/liyq/hi_ws/install/peripherals/share/peripherals/launch/include
+[1.454s] copying launch/include/gemini.launch.py -> /home/liyq/hi_ws/install/peripherals/share/peripherals/launch/include
+[1.454s] copying launch/include/usb_cam.launch.py -> /home/liyq/hi_ws/install/peripherals/share/peripherals/launch/include
+[1.454s] creating /home/liyq/hi_ws/install/peripherals/share/peripherals/config
+[1.454s] copying config/lab_config.yaml -> /home/liyq/hi_ws/install/peripherals/share/peripherals/config
+[1.454s] copying config/usb_cam_param.yaml -> /home/liyq/hi_ws/install/peripherals/share/peripherals/config
+[1.454s] copying config/camera_info.yaml -> /home/liyq/hi_ws/install/peripherals/share/peripherals/config
+[1.454s] running install_egg_info
+[1.454s] Copying ../../../build/peripherals/peripherals.egg-info to /home/liyq/hi_ws/install/peripherals/lib/python3.10/site-packages/peripherals-0.0.0-py3.10.egg-info
+[1.454s] running install_scripts
+[1.454s] Installing joystick_control script to /home/liyq/hi_ws/install/peripherals/lib/peripherals
+[1.454s] writing list of installed files to '/home/liyq/hi_ws/build/peripherals/install.log'
+[1.455s] Invoked command in '/home/liyq/hi_ws/ROS2/src/peripherals' returned '0': PYTHONPATH=/home/liyq/hi_ws/build/peripherals/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liyq/hi_ws/install/peripherals/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/peripherals build --build-base /home/liyq/hi_ws/build/peripherals/build install --record /home/liyq/hi_ws/build/peripherals/install.log --single-version-externally-managed install_data

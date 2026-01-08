@@ -1,0 +1,106 @@
+[2.048s] Invoking command in '/home/liyq/hi_ws/ROS2/src/example': PYTHONPATH=/home/liyq/hi_ws/build/example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liyq/hi_ws/install/example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/example build --build-base /home/liyq/hi_ws/build/example/build install --record /home/liyq/hi_ws/build/example/install.log --single-version-externally-managed install_data
+[2.303s] running egg_info
+[2.303s] creating ../../../build/example/example.egg-info
+[2.303s] writing ../../../build/example/example.egg-info/PKG-INFO
+[2.303s] writing dependency_links to ../../../build/example/example.egg-info/dependency_links.txt
+[2.303s] writing entry points to ../../../build/example/example.egg-info/entry_points.txt
+[2.304s] writing requirements to ../../../build/example/example.egg-info/requires.txt
+[2.304s] writing top-level names to ../../../build/example/example.egg-info/top_level.txt
+[2.304s] writing manifest file '../../../build/example/example.egg-info/SOURCES.txt'
+[2.307s] reading manifest file '../../../build/example/example.egg-info/SOURCES.txt'
+[2.309s] writing manifest file '../../../build/example/example.egg-info/SOURCES.txt'
+[2.309s] running build
+[2.309s] running build_py
+[2.309s] creating /home/liyq/hi_ws/build/example/build
+[2.309s] creating /home/liyq/hi_ws/build/example/build/lib
+[2.309s] creating /home/liyq/hi_ws/build/example/build/lib/example
+[2.309s] copying example/__init__.py -> /home/liyq/hi_ws/build/example/build/lib/example
+[2.309s] running install
+[2.309s] running install_lib
+[2.311s] creating /home/liyq/hi_ws/install/example/lib/python3.10/site-packages/example
+[2.311s] copying /home/liyq/hi_ws/build/example/build/lib/example/__init__.py -> /home/liyq/hi_ws/install/example/lib/python3.10/site-packages/example
+[2.311s] byte-compiling /home/liyq/hi_ws/install/example/lib/python3.10/site-packages/example/__init__.py to __init__.cpython-310.pyc
+[2.311s] running install_data
+[2.311s] creating /home/liyq/hi_ws/install/example/share/ament_index
+[2.311s] creating /home/liyq/hi_ws/install/example/share/ament_index/resource_index
+[2.311s] creating /home/liyq/hi_ws/install/example/share/ament_index/resource_index/packages
+[2.311s] copying resource/example -> /home/liyq/hi_ws/install/example/share/ament_index/resource_index/packages
+[2.311s] copying package.xml -> /home/liyq/hi_ws/install/example/share/example
+[2.312s] creating /home/liyq/hi_ws/install/example/share/example/launch
+[2.312s] copying example/mediapipe/face_tracking.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+[2.313s] copying example/mediapipe/finger_trajectory.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+[2.313s] copying example/mediapipe/face_mesh.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+[2.313s] copying example/mediapipe/hand_gesture.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+[2.313s] copying example/mediapipe/mankind_pose.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+[2.314s] copying example/yolov8/waste_classification.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+[2.314s] copying example/yolov8/yolov8_object_detection_node.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+[2.314s] copying example/rgbd_function/get_depth_rgb_img.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+[2.314s] copying example/rgbd_function/remove_too_high.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+[2.315s] copying example/rgbd_function/shape_recognition.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+[2.315s] copying example/rgbd_function/distance_measure.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+[2.315s] copying example/rgbd_function/track_and_grab.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+[2.315s] copying example/rgbd_function/rgb_depth_to_pointcloud.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+[2.315s] copying example/opencv/kcf_track_node.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+[2.315s] copying example/opencv/coordinate_system_transformation.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+[2.315s] copying example/opencv/object_attitude_calculation.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+[2.316s] copying example/opencv/color_recognition.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+[2.316s] copying example/opencv/path_planning.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+[2.316s] copying example/opencv/color_sorting_node.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+[2.316s] copying example/opencv/color_threshold.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+[2.316s] copying example/opencv/color_space.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+[2.316s] copying example/opencv/positioning_clamp.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+[2.316s] copying example/opencv/color_detect_node.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+[2.316s] copying example/opencv/color_track_node.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+[2.316s] copying example/opencv/tag_track_node.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+[2.316s] copying example/opencv/pixel_coordinate_calculation.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+[2.316s] copying example/opencv/camera_topic_invoke.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+[2.316s] copying example/simple/buzzer.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+[2.334s] copying example/simple/ik.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+[2.334s] copying example/simple/led.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+[2.334s] copying example/simple/bus_servo.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+[2.334s] copying example/simple/fk.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+[2.334s] creating /home/liyq/hi_ws/install/example/share/example/config
+[2.335s] copying config/roi.yaml -> /home/liyq/hi_ws/install/example/share/example/config
+[2.335s] copying config/color_sorting_roi.yaml -> /home/liyq/hi_ws/install/example/share/example/config
+[2.335s] copying config/usb_cam_config.yaml -> /home/liyq/hi_ws/install/example/share/example/config
+[2.335s] copying config/config.yaml -> /home/liyq/hi_ws/install/example/share/example/config
+[2.335s] creating /home/liyq/hi_ws/install/example/share/example/resource
+[2.335s] running install_egg_info
+[2.335s] Copying ../../../build/example/example.egg-info to /home/liyq/hi_ws/install/example/lib/python3.10/site-packages/example-0.0.0-py3.10.egg-info
+[2.335s] running install_scripts
+[2.357s] Installing bus_servo script to /home/liyq/hi_ws/install/example/lib/example
+[2.357s] Installing buzzer script to /home/liyq/hi_ws/install/example/lib/example
+[2.357s] Installing camera_topic_invoke script to /home/liyq/hi_ws/install/example/lib/example
+[2.357s] Installing color_detect script to /home/liyq/hi_ws/install/example/lib/example
+[2.358s] Installing color_recognition script to /home/liyq/hi_ws/install/example/lib/example
+[2.358s] Installing color_sorting script to /home/liyq/hi_ws/install/example/lib/example
+[2.358s] Installing color_space script to /home/liyq/hi_ws/install/example/lib/example
+[2.358s] Installing color_threshold script to /home/liyq/hi_ws/install/example/lib/example
+[2.358s] Installing color_track script to /home/liyq/hi_ws/install/example/lib/example
+[2.358s] Installing coordinate_system_transformation script to /home/liyq/hi_ws/install/example/lib/example
+[2.360s] Installing distance_measure script to /home/liyq/hi_ws/install/example/lib/example
+[2.360s] Installing face_mask script to /home/liyq/hi_ws/install/example/lib/example
+[2.360s] Installing face_mesh script to /home/liyq/hi_ws/install/example/lib/example
+[2.360s] Installing face_tracking script to /home/liyq/hi_ws/install/example/lib/example
+[2.360s] Installing finger_trajectory script to /home/liyq/hi_ws/install/example/lib/example
+[2.361s] Installing fk script to /home/liyq/hi_ws/install/example/lib/example
+[2.361s] Installing get_depth_rgb_img script to /home/liyq/hi_ws/install/example/lib/example
+[2.361s] Installing hand_gesture script to /home/liyq/hi_ws/install/example/lib/example
+[2.361s] Installing ik script to /home/liyq/hi_ws/install/example/lib/example
+[2.361s] Installing kcf_track script to /home/liyq/hi_ws/install/example/lib/example
+[2.361s] Installing led script to /home/liyq/hi_ws/install/example/lib/example
+[2.361s] Installing mankind_pose script to /home/liyq/hi_ws/install/example/lib/example
+[2.362s] Installing object_attitude_calculation script to /home/liyq/hi_ws/install/example/lib/example
+[2.362s] Installing path_planning script to /home/liyq/hi_ws/install/example/lib/example
+[2.362s] Installing pixel_coordinate_calculation script to /home/liyq/hi_ws/install/example/lib/example
+[2.362s] Installing positioning_clamp script to /home/liyq/hi_ws/install/example/lib/example
+[2.362s] Installing remove_too_high script to /home/liyq/hi_ws/install/example/lib/example
+[2.362s] Installing rgb_depth_to_pointcloud script to /home/liyq/hi_ws/install/example/lib/example
+[2.362s] Installing shape_recognition script to /home/liyq/hi_ws/install/example/lib/example
+[2.362s] Installing tag_track script to /home/liyq/hi_ws/install/example/lib/example
+[2.363s] Installing track_and_grab script to /home/liyq/hi_ws/install/example/lib/example
+[2.363s] Installing waste_classification script to /home/liyq/hi_ws/install/example/lib/example
+[2.363s] Installing yolov5_node script to /home/liyq/hi_ws/install/example/lib/example
+[2.363s] Installing yolov8_node script to /home/liyq/hi_ws/install/example/lib/example
+[2.366s] writing list of installed files to '/home/liyq/hi_ws/build/example/install.log'
+[2.403s] Invoked command in '/home/liyq/hi_ws/ROS2/src/example' returned '0': PYTHONPATH=/home/liyq/hi_ws/build/example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/liyq/hi_ws/install/example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/example build --build-base /home/liyq/hi_ws/build/example/build install --record /home/liyq/hi_ws/build/example/install.log --single-version-externally-managed install_data

@@ -1,0 +1,4 @@
+source;share/servo_controller_msgs/local_setup.bash
+source;share/servo_controller_msgs/local_setup.dsv
+source;share/servo_controller_msgs/local_setup.sh
+source;share/servo_controller_msgs/local_setup.zsh

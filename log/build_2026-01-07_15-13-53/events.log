@@ -1,0 +1,887 @@
+[0.000000] (-) TimerEvent: {}
+[0.000750] (-) JobUnselected: {'identifier': 'app'}
+[0.000878] (-) JobUnselected: {'identifier': 'bringup'}
+[0.000897] (-) JobUnselected: {'identifier': 'chassis'}
+[0.000911] (-) JobUnselected: {'identifier': 'chassis_msgs'}
+[0.000925] (-) JobUnselected: {'identifier': 'example'}
+[0.000939] (-) JobUnselected: {'identifier': 'kinematics'}
+[0.000953] (-) JobUnselected: {'identifier': 'kinematics_msgs'}
+[0.000967] (-) JobUnselected: {'identifier': 'large_models'}
+[0.000980] (-) JobUnselected: {'identifier': 'large_models_examples'}
+[0.000993] (-) JobUnselected: {'identifier': 'large_models_msgs'}
+[0.001007] (-) JobUnselected: {'identifier': 'motor'}
+[0.001020] (-) JobUnselected: {'identifier': 'peripherals'}
+[0.001033] (-) JobUnselected: {'identifier': 'ros_robot_controller'}
+[0.001047] (-) JobUnselected: {'identifier': 'ros_robot_controller_msgs'}
+[0.001066] (-) JobUnselected: {'identifier': 'sdk'}
+[0.001090] (-) JobUnselected: {'identifier': 'servo_controller'}
+[0.001108] (-) JobUnselected: {'identifier': 'servo_controller_msgs'}
+[0.001215] (-) JobUnselected: {'identifier': 'stepper'}
+[0.001233] (-) JobUnselected: {'identifier': 'xf_mic_asr_offline'}
+[0.001247] (-) JobUnselected: {'identifier': 'xf_mic_asr_offline_msgs'}
+[0.001265] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.001283] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.008126] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.009405] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[0.009477] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/liyq/hi_ws/build/interfaces', '--', '-j8', '-l8'], 'cwd': '/home/liyq/hi_ws/build/interfaces', 'env': OrderedDict([('APPCODE_VM_OPTIONS', '/home/liyq/ja-netfilter-all/vmoptions/appcode.vmoptions'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GATEWAY_VM_OPTIONS', '/home/liyq/ja-netfilter-all/vmoptions/gateway.vmoptions'), ('LANGUAGE', 'zh_CN:en_CA:en'), ('USER', 'liyq'), ('LC_TIME', 'en_CA.UTF-8'), ('WEBSTORM_VM_OPTIONS', '/home/liyq/ja-netfilter-all/vmoptions/webstorm.vmoptions'), ('WEBIDE_VM_OPTIONS', '/home/liyq/ja-netfilter-all/vmoptions/webide.vmoptions'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/liyq'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_CA.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DATASPELL_VM_OPTIONS', '/home/liyq/ja-netfilter-all/vmoptions/dataspell.vmoptions'), ('SYSTEMD_EXEC_PID', '3004'), ('DATAGRIP_VM_OPTIONS', '/home/liyq/ja-netfilter-all/vmoptions/datagrip.vmoptions'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0243a448aceedc0955ad762f695e03aa'), ('COLORTERM', 'truecolor'), ('IDEA_VM_OPTIONS', '/home/liyq/ja-netfilter-all/vmoptions/idea.vmoptions'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('CLION_VM_OPTIONS', '/home/liyq/ja-netfilter-all/vmoptions/clion.vmoptions'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'liyq'), ('JETBRAINSCLIENT_VM_OPTIONS', '/home/liyq/ja-netfilter-all/vmoptions/jetbrainsclient.vmoptions'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('PHPSTORM_VM_OPTIONS', '/home/liyq/ja-netfilter-all/vmoptions/phpstorm.vmoptions'), ('USERNAME', 'liyq'), ('TERM', 'xterm-256color'), ('STUDIO_VM_OPTIONS', '/home/liyq/ja-netfilter-all/vmoptions/studio.vmoptions'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/liyq/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/arm-gnu-toolchain-12.3.rel1-x86_64-arm-none-eabi/bin'), ('SESSION_MANAGER', 'local/Clion1:@/tmp/.ICE-unix/3004,unix/Clion1:/tmp/.ICE-unix/3004'), ('PAPERSIZE', 'letter'), ('RIDER_VM_OPTIONS', '/home/liyq/ja-netfilter-all/vmoptions/rider.vmoptions'), ('DEVECOSTUDIO_VM_OPTIONS', '/home/liyq/ja-netfilter-all/vmoptions/devecostudio.vmoptions'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_CA.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3e05dbdf_8c3f_4ad3_9b7a_974895c4ba3e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_CA.UTF-8'), ('GOLAND_VM_OPTIONS', '/home/liyq/ja-netfilter-all/vmoptions/goland.vmoptions'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VJZAI3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_CA.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_CA.UTF-8'), ('PYCHARM_VM_OPTIONS', '/home/liyq/ja-netfilter-all/vmoptions/pycharm.vmoptions'), ('LC_IDENTIFICATION', 'en_CA.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('RUBYMINE_VM_OPTIONS', '/home/liyq/ja-netfilter-all/vmoptions/rubymine.vmoptions'), ('PWD', '/home/liyq/hi_ws/build/interfaces'), ('JETBRAINS_CLIENT_VM_OPTIONS', '/home/liyq/ja-netfilter-all/vmoptions/jetbrains_client.vmoptions'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'xim'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0243a448aceedc0955ad762f695e03aa'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_CA.UTF-8'), ('LC_PAPER', 'en_CA.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.074510] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_generator_c\x1b[0m\n'}
+[0.085361] (interfaces) StdoutLine: {'line': b'[  0%] Built target interfaces__cpp\n'}
+[0.099320] (interfaces) StdoutLine: {'line': b'[ 12%] Built target interfaces__rosidl_generator_c\n'}
+[0.099951] (-) TimerEvent: {}
+[0.102863] (interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_interfaces\n'}
+[0.106101] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.106697] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.107391] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.114488] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[0.116413] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.121052] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.140452] (interfaces) StdoutLine: {'line': b'[ 24%] Built target interfaces__rosidl_typesupport_c\n'}
+[0.144158] (interfaces) StdoutLine: {'line': b'[ 49%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[0.144337] (interfaces) StdoutLine: {'line': b'[ 49%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[0.150179] (interfaces) StdoutLine: {'line': b'[ 61%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.150742] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.162578] (interfaces) StdoutLine: {'line': b'[ 86%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.187692] (interfaces) StdoutLine: {'line': b'[ 86%] Built target interfaces\n'}
+[0.200068] (-) TimerEvent: {}
+[0.214870] (interfaces) StdoutLine: {'line': b'[ 86%] Built target interfaces__py\n'}
+[0.234055] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_generator_py\x1b[0m\n'}
+[0.274006] (interfaces) StdoutLine: {'line': b'[ 98%] Built target interfaces__rosidl_generator_py\n'}
+[0.286666] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.287025] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.287084] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.300619] (-) TimerEvent: {}
+[0.303446] (interfaces) StdoutLine: {'line': b'[ 99%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.303827] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[0.303997] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.353914] (interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.354580] (interfaces) StdoutLine: {'line': b'writing interfaces.egg-info/PKG-INFO\n'}
+[0.354851] (interfaces) StdoutLine: {'line': b'writing dependency_links to interfaces.egg-info/dependency_links.txt\n'}
+[0.355008] (interfaces) StdoutLine: {'line': b'writing top-level names to interfaces.egg-info/top_level.txt\n'}
+[0.357204] (interfaces) StdoutLine: {'line': b"reading manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[0.357876] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[0.384753] (interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_interfaces_egg\n'}
+[0.400904] (-) TimerEvent: {}
+[0.401933] (interfaces) CommandEnded: {'returncode': 0}
+[0.402767] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[0.415509] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/liyq/hi_ws/build/interfaces'], 'cwd': '/home/liyq/hi_ws/build/interfaces', 'env': OrderedDict([('APPCODE_VM_OPTIONS', '/home/liyq/ja-netfilter-all/vmoptions/appcode.vmoptions'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GATEWAY_VM_OPTIONS', '/home/liyq/ja-netfilter-all/vmoptions/gateway.vmoptions'), ('LANGUAGE', 'zh_CN:en_CA:en'), ('USER', 'liyq'), ('LC_TIME', 'en_CA.UTF-8'), ('WEBSTORM_VM_OPTIONS', '/home/liyq/ja-netfilter-all/vmoptions/webstorm.vmoptions'), ('WEBIDE_VM_OPTIONS', '/home/liyq/ja-netfilter-all/vmoptions/webide.vmoptions'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/liyq'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_CA.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DATASPELL_VM_OPTIONS', '/home/liyq/ja-netfilter-all/vmoptions/dataspell.vmoptions'), ('SYSTEMD_EXEC_PID', '3004'), ('DATAGRIP_VM_OPTIONS', '/home/liyq/ja-netfilter-all/vmoptions/datagrip.vmoptions'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0243a448aceedc0955ad762f695e03aa'), ('COLORTERM', 'truecolor'), ('IDEA_VM_OPTIONS', '/home/liyq/ja-netfilter-all/vmoptions/idea.vmoptions'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('CLION_VM_OPTIONS', '/home/liyq/ja-netfilter-all/vmoptions/clion.vmoptions'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'liyq'), ('JETBRAINSCLIENT_VM_OPTIONS', '/home/liyq/ja-netfilter-all/vmoptions/jetbrainsclient.vmoptions'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('PHPSTORM_VM_OPTIONS', '/home/liyq/ja-netfilter-all/vmoptions/phpstorm.vmoptions'), ('USERNAME', 'liyq'), ('TERM', 'xterm-256color'), ('STUDIO_VM_OPTIONS', '/home/liyq/ja-netfilter-all/vmoptions/studio.vmoptions'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/liyq/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/arm-gnu-toolchain-12.3.rel1-x86_64-arm-none-eabi/bin'), ('SESSION_MANAGER', 'local/Clion1:@/tmp/.ICE-unix/3004,unix/Clion1:/tmp/.ICE-unix/3004'), ('PAPERSIZE', 'letter'), ('RIDER_VM_OPTIONS', '/home/liyq/ja-netfilter-all/vmoptions/rider.vmoptions'), ('DEVECOSTUDIO_VM_OPTIONS', '/home/liyq/ja-netfilter-all/vmoptions/devecostudio.vmoptions'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_CA.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3e05dbdf_8c3f_4ad3_9b7a_974895c4ba3e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_CA.UTF-8'), ('GOLAND_VM_OPTIONS', '/home/liyq/ja-netfilter-all/vmoptions/goland.vmoptions'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VJZAI3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_CA.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_CA.UTF-8'), ('PYCHARM_VM_OPTIONS', '/home/liyq/ja-netfilter-all/vmoptions/pycharm.vmoptions'), ('LC_IDENTIFICATION', 'en_CA.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('RUBYMINE_VM_OPTIONS', '/home/liyq/ja-netfilter-all/vmoptions/rubymine.vmoptions'), ('PWD', '/home/liyq/hi_ws/build/interfaces'), ('JETBRAINS_CLIENT_VM_OPTIONS', '/home/liyq/ja-netfilter-all/vmoptions/jetbrains_client.vmoptions'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'xim'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0243a448aceedc0955ad762f695e03aa'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_CA.UTF-8'), ('LC_PAPER', 'en_CA.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.425468] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.425796] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[0.426038] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces\n'}
+[0.426255] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[0.426319] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/line_roi.h\n'}
+[0.426391] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/face_info.h\n'}
+[0.426534] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/pose2_d.h\n'}
+[0.426838] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/colors_info.h\n'}
+[0.426974] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/color_info.h\n'}
+[0.427093] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/objects_info.h\n'}
+[0.427261] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/faces_info.h\n'}
+[0.427456] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/point2_d.h\n'}
+[0.427699] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[0.427944] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__struct.h\n'}
+[0.428001] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/roi__functions.c\n'}
+[0.428117] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__functions.c\n'}
+[0.428301] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__functions.c\n'}
+[0.428503] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__functions.h\n'}
+[0.428741] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__type_support.h\n'}
+[0.428876] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__type_support.h\n'}
+[0.429033] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/faces_info__type_support.h\n'}
+[0.429152] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__type_support.h\n'}
+[0.429267] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__functions.c\n'}
+[0.429427] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__functions.h\n'}
+[0.429599] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__type_support.h\n'}
+[0.429931] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__functions.c\n'}
+[0.430112] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__functions.h\n'}
+[0.430244] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/points__functions.c\n'}
+[0.430371] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__functions.c\n'}
+[0.430579] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__type_support.h\n'}
+[0.430748] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__functions.c\n'}
+[0.430880] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/face_info__functions.h\n'}
+[0.431042] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/face_info__functions.c\n'}
+[0.431163] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__struct.h\n'}
+[0.431290] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__struct.h\n'}
+[0.431489] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__struct.h\n'}
+[0.431693] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/points__struct.h\n'}
+[0.431874] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/roi__functions.h\n'}
+[0.432033] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__type_support.h\n'}
+[0.432137] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__functions.c\n'}
+[0.432266] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__struct.h\n'}
+[0.432403] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__functions.h\n'}
+[0.432532] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__functions.h\n'}
+[0.432734] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__type_support.h\n'}
+[0.433061] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/faces_info__functions.h\n'}
+[0.433190] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__struct.h\n'}
+[0.433327] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/points__type_support.h\n'}
+[0.433439] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__struct.h\n'}
+[0.433697] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/roi__struct.h\n'}
+[0.433876] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__functions.c\n'}
+[0.434004] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__struct.h\n'}
+[0.434158] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/face_info__struct.h\n'}
+[0.434321] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/roi__type_support.h\n'}
+[0.434485] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__functions.h\n'}
+[0.434646] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__functions.h\n'}
+[0.434860] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/points__functions.h\n'}
+[0.435028] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__functions.h\n'}
+[0.435167] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__struct.h\n'}
+[0.435309] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/face_info__type_support.h\n'}
+[0.435422] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__functions.h\n'}
+[0.435566] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__type_support.h\n'}
+[0.435775] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__type_support.h\n'}
+[0.435941] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/faces_info__struct.h\n'}
+[0.436095] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/faces_info__functions.c\n'}
+[0.436246] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__functions.c\n'}
+[0.436377] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/pixel_position.h\n'}
+[0.436521] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.436617] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/points.h\n'}
+[0.436798] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/color_detect.h\n'}
+[0.437066] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/object_info.h\n'}
+[0.437242] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/roi.h\n'}
+[0.437380] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv\n'}
+[0.437479] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/set_color_detect_param.h\n'}
+[0.437592] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/set_pose.h\n'}
+[0.437809] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/set_color_rgba.h\n'}
+[0.437987] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/set_string.h\n'}
+[0.438125] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/get_all_color_name.h\n'}
+[0.438315] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/set_string_bool.h\n'}
+[0.438423] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/get_pose.h\n'}
+[0.438540] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/set_circle_roi.h\n'}
+[0.438900] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/set_point.h\n'}
+[0.438980] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/set_int64.h\n'}
+[0.439028] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/set_float64_list.h\n'}
+[0.439145] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/set_string_list.h\n'}
+[0.439371] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/change_range.h\n'}
+[0.439437] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[0.439566] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__type_support.h\n'}
+[0.439680] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__functions.h\n'}
+[0.439940] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/stash_range__functions.c\n'}
+[0.440029] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/change_range__type_support.h\n'}
+[0.440136] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_bool__functions.c\n'}
+[0.440280] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__functions.c\n'}
+[0.440451] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__functions.c\n'}
+[0.440597] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__functions.c\n'}
+[0.440771] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__struct.h\n'}
+[0.440968] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/stash_range__type_support.h\n'}
+[0.441106] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__functions.c\n'}
+[0.441242] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__functions.h\n'}
+[0.441386] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__struct.h\n'}
+[0.441559] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__struct.h\n'}
+[0.441693] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__struct.h\n'}
+[0.441984] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/stash_range__functions.h\n'}
+[0.442115] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__type_support.h\n'}
+[0.442253] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__functions.c\n'}
+[0.443040] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__functions.c\n'}
+[0.443143] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_range__type_support.h\n'}
+[0.443279] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__functions.h\n'}
+[0.443356] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/change_range__functions.h\n'}
+[0.443516] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_range__functions.c\n'}
+[0.443586] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_bool__struct.h\n'}
+[0.443842] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__type_support.h\n'}
+[0.443916] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__functions.h\n'}
+[0.444097] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/change_range__functions.c\n'}
+[0.444215] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__functions.h\n'}
+[0.444377] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_range__functions.h\n'}
+[0.444581] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__type_support.h\n'}
+[0.445048] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_all_color_name__functions.h\n'}
+[0.445372] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__functions.c\n'}
+[0.445491] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__type_support.h\n'}
+[0.445610] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__functions.c\n'}
+[0.445901] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__functions.h\n'}
+[0.446113] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__functions.h\n'}
+[0.446364] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__type_support.h\n'}
+[0.446571] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__functions.h\n'}
+[0.446763] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__functions.h\n'}
+[0.446914] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__functions.h\n'}
+[0.447014] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_bool__type_support.h\n'}
+[0.447176] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__functions.c\n'}
+[0.447292] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__functions.c\n'}
+[0.447487] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__type_support.h\n'}
+[0.447748] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__type_support.h\n'}
+[0.447872] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_all_color_name__struct.h\n'}
+[0.448017] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__struct.h\n'}
+[0.448170] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__functions.h\n'}
+[0.448396] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__type_support.h\n'}
+[0.448511] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__struct.h\n'}
+[0.448764] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_all_color_name__functions.c\n'}
+[0.449027] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_bool__functions.h\n'}
+[0.449156] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__struct.h\n'}
+[0.449362] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/change_range__struct.h\n'}
+[0.449509] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__struct.h\n'}
+[0.449680] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__struct.h\n'}
+[0.449862] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_all_color_name__type_support.h\n'}
+[0.450033] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/stash_range__struct.h\n'}
+[0.450157] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__functions.c\n'}
+[0.450368] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__type_support.h\n'}
+[0.450504] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__functions.h\n'}
+[0.450683] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__type_support.h\n'}
+[0.450874] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__functions.c\n'}
+[0.451002] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__struct.h\n'}
+[0.451144] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__functions.c\n'}
+[0.451287] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__functions.h\n'}
+[0.451489] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_range__struct.h\n'}
+[0.451605] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__struct.h\n'}
+[0.451784] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__type_support.h\n'}
+[0.451987] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__type_support.h\n'}
+[0.452139] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__struct.h\n'}
+[0.452296] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__struct.h\n'}
+[0.452474] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/get_range.h\n'}
+[0.452596] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/stash_range.h\n'}
+[0.452696] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/set_pose2_d.h\n'}
+[0.453050] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/set_line_roi.h\n'}
+[0.453194] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/set_float64.h\n'}
+[0.453512] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[0.453691] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[0.453909] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[0.454583] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/liyq/hi_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""\n'}
+[0.454715] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces\n'}
+[0.454812] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[0.454860] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.455029] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[0.455173] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__rosidl_typesupport_fastrtps_c.h\n'}
+[0.455321] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__rosidl_typesupport_fastrtps_c.h\n'}
+[0.455431] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__rosidl_typesupport_fastrtps_c.h\n'}
+[0.455540] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/points__rosidl_typesupport_fastrtps_c.h\n'}
+[0.455752] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__rosidl_typesupport_fastrtps_c.h\n'}
+[0.455882] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/face_info__rosidl_typesupport_fastrtps_c.h\n'}
+[0.455990] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__rosidl_typesupport_fastrtps_c.h\n'}
+[0.456186] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/roi__rosidl_typesupport_fastrtps_c.h\n'}
+[0.456327] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/faces_info__rosidl_typesupport_fastrtps_c.h\n'}
+[0.456433] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__rosidl_typesupport_fastrtps_c.h\n'}
+[0.456661] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__rosidl_typesupport_fastrtps_c.h\n'}
+[0.456915] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__rosidl_typesupport_fastrtps_c.h\n'}
+[0.457087] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__rosidl_typesupport_fastrtps_c.h\n'}
+[0.457216] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv\n'}
+[0.457301] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[0.457349] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[0.457428] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__rosidl_typesupport_fastrtps_c.h\n'}
+[0.457553] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__rosidl_typesupport_fastrtps_c.h\n'}
+[0.457833] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__rosidl_typesupport_fastrtps_c.h\n'}
+[0.458047] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__rosidl_typesupport_fastrtps_c.h\n'}
+[0.458231] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_range__rosidl_typesupport_fastrtps_c.h\n'}
+[0.458337] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__rosidl_typesupport_fastrtps_c.h\n'}
+[0.458500] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[0.458647] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_bool__rosidl_typesupport_fastrtps_c.h\n'}
+[0.458851] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/stash_range__rosidl_typesupport_fastrtps_c.h\n'}
+[0.458972] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__rosidl_typesupport_fastrtps_c.h\n'}
+[0.459089] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_all_color_name__rosidl_typesupport_fastrtps_c.h\n'}
+[0.459257] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__rosidl_typesupport_fastrtps_c.h\n'}
+[0.459389] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__rosidl_typesupport_fastrtps_c.h\n'}
+[0.459536] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/change_range__rosidl_typesupport_fastrtps_c.h\n'}
+[0.459747] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__rosidl_typesupport_fastrtps_c.h\n'}
+[0.459880] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__rosidl_typesupport_fastrtps_c.h\n'}
+[0.460046] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__rosidl_typesupport_fastrtps_c.h\n'}
+[0.460278] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.460928] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/liyq/hi_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[0.461059] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces\n'}
+[0.461108] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[0.461151] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/pose2_d.hpp\n'}
+[0.461232] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/colors_info.hpp\n'}
+[0.461344] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/face_info.hpp\n'}
+[0.461492] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/roi.hpp\n'}
+[0.461635] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/object_info.hpp\n'}
+[0.461800] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/point2_d.hpp\n'}
+[0.461931] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/pixel_position.hpp\n'}
+[0.462045] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/line_roi.hpp\n'}
+[0.462122] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/color_detect.hpp\n'}
+[0.462252] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[0.462351] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/roi__builder.hpp\n'}
+[0.462504] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/face_info__type_support.hpp\n'}
+[0.462673] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__traits.hpp\n'}
+[0.462880] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__struct.hpp\n'}
+[0.463065] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__struct.hpp\n'}
+[0.463180] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__type_support.hpp\n'}
+[0.463312] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__type_support.hpp\n'}
+[0.463510] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/face_info__builder.hpp\n'}
+[0.463644] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__type_support.hpp\n'}
+[0.463844] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__builder.hpp\n'}
+[0.463986] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__traits.hpp\n'}
+[0.464137] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__builder.hpp\n'}
+[0.464254] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__type_support.hpp\n'}
+[0.464456] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__builder.hpp\n'}
+[0.464577] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__builder.hpp\n'}
+[0.464762] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__builder.hpp\n'}
+[0.464967] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__traits.hpp\n'}
+[0.465140] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/faces_info__traits.hpp\n'}
+[0.465285] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/face_info__struct.hpp\n'}
+[0.465382] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__struct.hpp\n'}
+[0.465582] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__traits.hpp\n'}
+[0.465770] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__struct.hpp\n'}
+[0.465981] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__traits.hpp\n'}
+[0.466103] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__builder.hpp\n'}
+[0.466262] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__struct.hpp\n'}
+[0.466401] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__type_support.hpp\n'}
+[0.466553] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__builder.hpp\n'}
+[0.466778] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__traits.hpp\n'}
+[0.466898] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/faces_info__builder.hpp\n'}
+[0.467080] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/face_info__traits.hpp\n'}
+[0.467268] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__traits.hpp\n'}
+[0.467414] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/points__struct.hpp\n'}
+[0.467575] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__traits.hpp\n'}
+[0.467804] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__struct.hpp\n'}
+[0.468113] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/faces_info__type_support.hpp\n'}
+[0.468213] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/faces_info__struct.hpp\n'}
+[0.468375] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__type_support.hpp\n'}
+[0.468555] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/points__builder.hpp\n'}
+[0.468710] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__traits.hpp\n'}
+[0.468916] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/roi__type_support.hpp\n'}
+[0.469105] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__type_support.hpp\n'}
+[0.469227] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__builder.hpp\n'}
+[0.469378] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__type_support.hpp\n'}
+[0.469534] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__struct.hpp\n'}
+[0.469707] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__struct.hpp\n'}
+[0.469897] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/points__traits.hpp\n'}
+[0.470033] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__builder.hpp\n'}
+[0.470238] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/roi__struct.hpp\n'}
+[0.470374] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/points__type_support.hpp\n'}
+[0.470514] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__struct.hpp\n'}
+[0.470748] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/roi__traits.hpp\n'}
+[0.470931] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__type_support.hpp\n'}
+[0.471099] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/faces_info.hpp\n'}
+[0.471237] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/points.hpp\n'}
+[0.471335] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.471523] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/color_info.hpp\n'}
+[0.471756] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/objects_info.hpp\n'}
+[0.471874] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv\n'}
+[0.471925] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/set_pose2_d.hpp\n'}
+[0.472042] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/set_line_roi.hpp\n'}
+[0.472164] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/set_float64.hpp\n'}
+[0.472335] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/set_point.hpp\n'}
+[0.472491] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/set_string.hpp\n'}
+[0.472643] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/set_circle_roi.hpp\n'}
+[0.472807] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/set_color_rgba.hpp\n'}
+[0.472959] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/get_range.hpp\n'}
+[0.473081] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/set_color_detect_param.hpp\n'}
+[0.473252] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[0.473380] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__builder.hpp\n'}
+[0.473484] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_bool__traits.hpp\n'}
+[0.473606] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__type_support.hpp\n'}
+[0.473877] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__type_support.hpp\n'}
+[0.474050] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__type_support.hpp\n'}
+[0.474212] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__builder.hpp\n'}
+[0.474368] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__builder.hpp\n'}
+[0.474522] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_all_color_name__type_support.hpp\n'}
+[0.474647] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__builder.hpp\n'}
+[0.474868] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__type_support.hpp\n'}
+[0.475005] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__struct.hpp\n'}
+[0.475153] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/stash_range__type_support.hpp\n'}
+[0.475339] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__struct.hpp\n'}
+[0.475509] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__struct.hpp\n'}
+[0.475716] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__traits.hpp\n'}
+[0.475968] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_range__builder.hpp\n'}
+[0.476126] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/stash_range__builder.hpp\n'}
+[0.476262] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__struct.hpp\n'}
+[0.476459] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__type_support.hpp\n'}
+[0.476644] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__struct.hpp\n'}
+[0.476789] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_range__type_support.hpp\n'}
+[0.476998] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__builder.hpp\n'}
+[0.477157] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__traits.hpp\n'}
+[0.477291] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__type_support.hpp\n'}
+[0.477455] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__builder.hpp\n'}
+[0.477607] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__traits.hpp\n'}
+[0.477763] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_all_color_name__builder.hpp\n'}
+[0.478002] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__traits.hpp\n'}
+[0.478144] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__struct.hpp\n'}
+[0.478248] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__traits.hpp\n'}
+[0.478451] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_bool__type_support.hpp\n'}
+[0.478605] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__traits.hpp\n'}
+[0.478816] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/change_range__struct.hpp\n'}
+[0.479018] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_range__struct.hpp\n'}
+[0.479203] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__builder.hpp\n'}
+[0.479358] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__type_support.hpp\n'}
+[0.479608] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__traits.hpp\n'}
+[0.479829] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__builder.hpp\n'}
+[0.480040] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__struct.hpp\n'}
+[0.480216] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_all_color_name__traits.hpp\n'}
+[0.480337] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__type_support.hpp\n'}
+[0.480553] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__traits.hpp\n'}
+[0.480717] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__struct.hpp\n'}
+[0.480871] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/change_range__builder.hpp\n'}
+[0.481060] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__builder.hpp\n'}
+[0.481189] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__struct.hpp\n'}
+[0.481347] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__type_support.hpp\n'}
+[0.481531] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_bool__builder.hpp\n'}
+[0.481686] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__struct.hpp\n'}
+[0.481944] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__struct.hpp\n'}
+[0.482134] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__type_support.hpp\n'}
+[0.482283] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__builder.hpp\n'}
+[0.482453] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__struct.hpp\n'}
+[0.482645] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__traits.hpp\n'}
+[0.482852] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__builder.hpp\n'}
+[0.483070] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__type_support.hpp\n'}
+[0.483229] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_all_color_name__struct.hpp\n'}
+[0.483414] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__type_support.hpp\n'}
+[0.483597] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/stash_range__traits.hpp\n'}
+[0.483805] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__traits.hpp\n'}
+[0.484022] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__builder.hpp\n'}
+[0.484221] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/stash_range__struct.hpp\n'}
+[0.484336] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_range__traits.hpp\n'}
+[0.484484] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__type_support.hpp\n'}
+[0.484648] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_bool__struct.hpp\n'}
+[0.484869] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__builder.hpp\n'}
+[0.485019] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__struct.hpp\n'}
+[0.485149] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/change_range__traits.hpp\n'}
+[0.485310] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__traits.hpp\n'}
+[0.485503] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__traits.hpp\n'}
+[0.485655] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/change_range__type_support.hpp\n'}
+[0.485923] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__traits.hpp\n'}
+[0.486071] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/stash_range.hpp\n'}
+[0.486165] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/set_string_list.hpp\n'}
+[0.486319] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/set_float64_list.hpp\n'}
+[0.486470] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/get_pose.hpp\n'}
+[0.486628] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/get_all_color_name.hpp\n'}
+[0.486828] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/set_int64.hpp\n'}
+[0.486974] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/set_pose.hpp\n'}
+[0.487088] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/set_string_bool.hpp\n'}
+[0.487216] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/change_range.hpp\n'}
+[0.487524] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces\n'}
+[0.487694] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[0.487820] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[0.487884] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/points__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.487981] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/face_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.488186] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.488394] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.488549] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.488692] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/roi__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.488998] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.489158] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.489260] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.489464] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.489592] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/faces_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.489802] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.489971] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.490101] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/dds_fastrtps\n'}
+[0.490176] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.490309] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv\n'}
+[0.490471] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[0.490555] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.490665] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.490810] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/stash_range__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.490977] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/change_range__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.491225] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.491347] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.491527] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.491684] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.491899] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.492075] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.492239] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_range__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.492361] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_bool__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.492559] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.492720] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.492901] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.493081] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.493264] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/dds_fastrtps\n'}
+[0.493394] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_all_color_name__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.493628] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.493922] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.495057] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/liyq/hi_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[0.495231] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces\n'}
+[0.495282] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[0.495325] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.495410] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[0.495458] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__rosidl_typesupport_introspection_c.h\n'}
+[0.495650] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/face_info__type_support.c\n'}
+[0.495830] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__rosidl_typesupport_introspection_c.h\n'}
+[0.496283] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__type_support.c\n'}
+[0.496346] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/roi__rosidl_typesupport_introspection_c.h\n'}
+[0.496392] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/roi__type_support.c\n'}
+[0.496492] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__type_support.c\n'}
+[0.496573] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__rosidl_typesupport_introspection_c.h\n'}
+[0.496734] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/points__type_support.c\n'}
+[0.497129] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__type_support.c\n'}
+[0.497367] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/faces_info__type_support.c\n'}
+[0.497451] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__type_support.c\n'}
+[0.497532] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/points__rosidl_typesupport_introspection_c.h\n'}
+[0.497704] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__rosidl_typesupport_introspection_c.h\n'}
+[0.497906] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__type_support.c\n'}
+[0.498131] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__rosidl_typesupport_introspection_c.h\n'}
+[0.498280] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__rosidl_typesupport_introspection_c.h\n'}
+[0.498419] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/face_info__rosidl_typesupport_introspection_c.h\n'}
+[0.498583] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__type_support.c\n'}
+[0.498804] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__rosidl_typesupport_introspection_c.h\n'}
+[0.498961] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__rosidl_typesupport_introspection_c.h\n'}
+[0.499109] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__rosidl_typesupport_introspection_c.h\n'}
+[0.499299] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__type_support.c\n'}
+[0.499481] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/faces_info__rosidl_typesupport_introspection_c.h\n'}
+[0.499612] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__type_support.c\n'}
+[0.499840] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__type_support.c\n'}
+[0.500000] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv\n'}
+[0.500056] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[0.500133] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/stash_range__rosidl_typesupport_introspection_c.h\n'}
+[0.500244] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__rosidl_typesupport_introspection_c.h\n'}
+[0.500457] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_all_color_name__type_support.c\n'}
+[0.500584] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__rosidl_typesupport_introspection_c.h\n'}
+[0.500778] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__rosidl_typesupport_introspection_c.h\n'}
+[0.500975] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__rosidl_typesupport_introspection_c.h\n'}
+[0.501045] (-) TimerEvent: {}
+[0.501199] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__rosidl_typesupport_introspection_c.h\n'}
+[0.501326] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__rosidl_typesupport_introspection_c.h\n'}
+[0.501460] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__rosidl_typesupport_introspection_c.h\n'}
+[0.501598] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__type_support.c\n'}
+[0.501817] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__type_support.c\n'}
+[0.502128] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__rosidl_typesupport_introspection_c.h\n'}
+[0.502241] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_range__type_support.c\n'}
+[0.502406] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/stash_range__type_support.c\n'}
+[0.502563] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_bool__type_support.c\n'}
+[0.502704] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__type_support.c\n'}
+[0.502955] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__type_support.c\n'}
+[0.503280] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__rosidl_typesupport_introspection_c.h\n'}
+[0.503457] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__type_support.c\n'}
+[0.503627] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__rosidl_typesupport_introspection_c.h\n'}
+[0.503826] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__rosidl_typesupport_introspection_c.h\n'}
+[0.503961] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__type_support.c\n'}
+[0.504102] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_range__rosidl_typesupport_introspection_c.h\n'}
+[0.504247] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/change_range__rosidl_typesupport_introspection_c.h\n'}
+[0.504396] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_bool__rosidl_typesupport_introspection_c.h\n'}
+[0.504555] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__type_support.c\n'}
+[0.504743] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__type_support.c\n'}
+[0.505031] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__type_support.c\n'}
+[0.505196] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__type_support.c\n'}
+[0.505355] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_all_color_name__rosidl_typesupport_introspection_c.h\n'}
+[0.505503] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__rosidl_typesupport_introspection_c.h\n'}
+[0.505694] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__rosidl_typesupport_introspection_c.h\n'}
+[0.505868] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/change_range__type_support.c\n'}
+[0.506037] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__type_support.c\n'}
+[0.506231] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__type_support.c\n'}
+[0.506390] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__type_support.c\n'}
+[0.506691] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.507383] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/liyq/hi_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[0.507498] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[0.507995] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/liyq/hi_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""\n'}
+[0.508151] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces\n'}
+[0.508313] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[0.508367] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[0.508424] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.508527] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.508611] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__type_support.cpp\n'}
+[0.508781] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__type_support.cpp\n'}
+[0.508947] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/faces_info__type_support.cpp\n'}
+[0.509094] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.509210] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.509392] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__type_support.cpp\n'}
+[0.509542] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__type_support.cpp\n'}
+[0.509707] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.509929] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__type_support.cpp\n'}
+[0.510077] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.510235] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.510391] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/roi__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.510575] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__type_support.cpp\n'}
+[0.510825] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/points__type_support.cpp\n'}
+[0.511002] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/points__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.511227] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__type_support.cpp\n'}
+[0.511366] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__type_support.cpp\n'}
+[0.511462] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/faces_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.511592] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/roi__type_support.cpp\n'}
+[0.511972] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/face_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.512126] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.512294] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/face_info__type_support.cpp\n'}
+[0.512440] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__type_support.cpp\n'}
+[0.512575] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.512800] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv\n'}
+[0.512967] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[0.513026] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.513112] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.513278] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.513424] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__type_support.cpp\n'}
+[0.513619] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__type_support.cpp\n'}
+[0.513842] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.514049] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_all_color_name__type_support.cpp\n'}
+[0.514208] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__type_support.cpp\n'}
+[0.514396] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__type_support.cpp\n'}
+[0.514544] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.514694] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/change_range__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.514922] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.515148] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/change_range__type_support.cpp\n'}
+[0.515306] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.515417] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/stash_range__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.515668] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__type_support.cpp\n'}
+[0.515868] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_bool__type_support.cpp\n'}
+[0.516030] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__type_support.cpp\n'}
+[0.516222] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__type_support.cpp\n'}
+[0.516371] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__type_support.cpp\n'}
+[0.516501] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/stash_range__type_support.cpp\n'}
+[0.516721] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__type_support.cpp\n'}
+[0.516975] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__type_support.cpp\n'}
+[0.517148] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_bool__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.517290] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__type_support.cpp\n'}
+[0.517473] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_all_color_name__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.517639] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_range__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.517845] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.517970] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.518104] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__type_support.cpp\n'}
+[0.518287] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.518435] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.518563] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_range__type_support.cpp\n'}
+[0.518805] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.519002] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__type_support.cpp\n'}
+[0.519188] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.519464] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.520609] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/liyq/hi_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[0.520905] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[0.521341] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/liyq/hi_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[0.521443] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[0.521633] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[0.521840] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info\n'}
+[0.522054] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.522170] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.522304] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.522454] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.522643] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces\n'}
+[0.522766] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/libinterfaces__rosidl_generator_py.so\n'}
+[0.523224] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg\n'}
+[0.523359] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_object_info.py\n'}
+[0.523482] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_face_info.py\n'}
+[0.523748] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_roi_s.c\n'}
+[0.523997] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_point2_d_s.c\n'}
+[0.524133] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_color_detect.py\n'}
+[0.524262] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_color_info.py\n'}
+[0.524434] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_pixel_position_s.c\n'}
+[0.524606] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_point2_d.py\n'}
+[0.524840] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_color_info_s.c\n'}
+[0.525022] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py\n'}
+[0.525130] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_points.py\n'}
+[0.525275] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_colors_info_s.c\n'}
+[0.525440] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_points_s.c\n'}
+[0.525582] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_objects_info_s.c\n'}
+[0.525748] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_object_info_s.c\n'}
+[0.525887] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_faces_info_s.c\n'}
+[0.526068] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_pixel_position.py\n'}
+[0.526202] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_colors_info.py\n'}
+[0.526349] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_roi.py\n'}
+[0.526500] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_line_roi.py\n'}
+[0.526652] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_pose2_d.py\n'}
+[0.526849] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_line_roi_s.c\n'}
+[0.526985] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_pose2_d_s.c\n'}
+[0.527094] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_faces_info.py\n'}
+[0.527215] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_face_info_s.c\n'}
+[0.527363] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_objects_info.py\n'}
+[0.527559] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_color_detect_s.c\n'}
+[0.527778] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv\n'}
+[0.527906] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_get_all_color_name.py\n'}
+[0.528071] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_int64_s.c\n'}
+[0.528239] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_color_rgba.py\n'}
+[0.528387] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_get_pose.py\n'}
+[0.528578] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_pose2_d_s.c\n'}
+[0.528780] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_string_list.py\n'}
+[0.528925] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_stash_range_s.c\n'}
+[0.529049] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_point.py\n'}
+[0.529254] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_circle_roi_s.c\n'}
+[0.529371] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_color_rgba_s.c\n'}
+[0.529582] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_change_range_s.c\n'}
+[0.529776] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_color_detect_param_s.c\n'}
+[0.529971] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_float64_list.py\n'}
+[0.530154] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py\n'}
+[0.530314] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_pose_s.c\n'}
+[0.530471] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_get_pose_s.c\n'}
+[0.530602] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_string_list_s.c\n'}
+[0.530803] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_int64.py\n'}
+[0.530983] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_string_bool.py\n'}
+[0.531100] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_line_roi.py\n'}
+[0.531244] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_color_detect_param.py\n'}
+[0.531386] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_change_range.py\n'}
+[0.531531] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_string_s.c\n'}
+[0.531760] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_line_roi_s.c\n'}
+[0.531903] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_string_bool_s.c\n'}
+[0.532022] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_float64_s.c\n'}
+[0.532157] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_float64_list_s.c\n'}
+[0.532343] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_pose2_d.py\n'}
+[0.532532] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_stash_range.py\n'}
+[0.532687] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_point_s.c\n'}
+[0.532893] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_get_range_s.c\n'}
+[0.533026] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_string.py\n'}
+[0.533178] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_circle_roi.py\n'}
+[0.533373] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_get_range.py\n'}
+[0.533498] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_pose.py\n'}
+[0.533674] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_float64.py\n'}
+[0.533871] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_get_all_color_name_s.c\n'}
+[0.534028] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[0.534467] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.534938] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.535238] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py\n'}
+[0.535395] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.535862] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.536203] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.601402] (-) TimerEvent: {}
+[0.610761] (interfaces) StdoutLine: {'line': b"Listing '/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces'...\n"}
+[0.610936] (interfaces) StdoutLine: {'line': b"Compiling '/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py'...\n"}
+[0.610986] (interfaces) StdoutLine: {'line': b"Listing '/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg'...\n"}
+[0.611031] (interfaces) StdoutLine: {'line': b"Compiling '/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py'...\n"}
+[0.611074] (interfaces) StdoutLine: {'line': b"Compiling '/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_color_detect.py'...\n"}
+[0.611117] (interfaces) StdoutLine: {'line': b"Compiling '/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_color_info.py'...\n"}
+[0.611159] (interfaces) StdoutLine: {'line': b"Compiling '/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_colors_info.py'...\n"}
+[0.611237] (interfaces) StdoutLine: {'line': b"Compiling '/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_face_info.py'...\n"}
+[0.611281] (interfaces) StdoutLine: {'line': b"Compiling '/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_faces_info.py'...\n"}
+[0.611323] (interfaces) StdoutLine: {'line': b"Compiling '/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_line_roi.py'...\n"}
+[0.611365] (interfaces) StdoutLine: {'line': b"Compiling '/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_object_info.py'...\n"}
+[0.611407] (interfaces) StdoutLine: {'line': b"Compiling '/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_objects_info.py'...\n"}
+[0.611449] (interfaces) StdoutLine: {'line': b"Compiling '/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_pixel_position.py'...\n"}
+[0.611496] (interfaces) StdoutLine: {'line': b"Compiling '/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_point2_d.py'...\n"}
+[0.611539] (interfaces) StdoutLine: {'line': b"Compiling '/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_points.py'...\n"}
+[0.611581] (interfaces) StdoutLine: {'line': b"Compiling '/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_pose2_d.py'...\n"}
+[0.611623] (interfaces) StdoutLine: {'line': b"Compiling '/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_roi.py'...\n"}
+[0.611664] (interfaces) StdoutLine: {'line': b"Listing '/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv'...\n"}
+[0.611718] (interfaces) StdoutLine: {'line': b"Compiling '/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py'...\n"}
+[0.611802] (interfaces) StdoutLine: {'line': b"Compiling '/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_change_range.py'...\n"}
+[0.611865] (interfaces) StdoutLine: {'line': b"Compiling '/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_get_all_color_name.py'...\n"}
+[0.611908] (interfaces) StdoutLine: {'line': b"Compiling '/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_get_pose.py'...\n"}
+[0.611950] (interfaces) StdoutLine: {'line': b"Compiling '/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_get_range.py'...\n"}
+[0.611992] (interfaces) StdoutLine: {'line': b"Compiling '/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_circle_roi.py'...\n"}
+[0.612034] (interfaces) StdoutLine: {'line': b"Compiling '/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_color_detect_param.py'...\n"}
+[0.612076] (interfaces) StdoutLine: {'line': b"Compiling '/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_color_rgba.py'...\n"}
+[0.612117] (interfaces) StdoutLine: {'line': b"Compiling '/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_float64.py'...\n"}
+[0.612160] (interfaces) StdoutLine: {'line': b"Compiling '/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_float64_list.py'...\n"}
+[0.612202] (interfaces) StdoutLine: {'line': b"Compiling '/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_int64.py'...\n"}
+[0.612271] (interfaces) StdoutLine: {'line': b"Compiling '/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_line_roi.py'...\n"}
+[0.612319] (interfaces) StdoutLine: {'line': b"Compiling '/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_point.py'...\n"}
+[0.612369] (interfaces) StdoutLine: {'line': b"Compiling '/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_pose.py'...\n"}
+[0.612411] (interfaces) StdoutLine: {'line': b"Compiling '/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_pose2_d.py'...\n"}
+[0.612454] (interfaces) StdoutLine: {'line': b"Compiling '/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_string.py'...\n"}
+[0.612495] (interfaces) StdoutLine: {'line': b"Compiling '/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_string_bool.py'...\n"}
+[0.612546] (interfaces) StdoutLine: {'line': b"Compiling '/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_string_list.py'...\n"}
+[0.612589] (interfaces) StdoutLine: {'line': b"Compiling '/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_stash_range.py'...\n"}
+[0.615582] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.616256] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[0.616481] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.617257] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[0.617574] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.618189] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/liyq/hi_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[0.618345] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/lib/libinterfaces__rosidl_generator_py.so\n'}
+[0.619085] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/liyq/hi_ws/install/interfaces/lib/libinterfaces__rosidl_generator_py.so" to ""\n'}
+[0.619229] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/msg/ColorDetect.idl\n'}
+[0.619457] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/msg/ColorInfo.idl\n'}
+[0.619809] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/msg/ColorsInfo.idl\n'}
+[0.620233] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/msg/LineROI.idl\n'}
+[0.620450] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/msg/ObjectInfo.idl\n'}
+[0.620713] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/msg/ObjectsInfo.idl\n'}
+[0.620972] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/msg/PixelPosition.idl\n'}
+[0.621175] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/msg/Point2D.idl\n'}
+[0.621376] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/msg/Points.idl\n'}
+[0.621580] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/msg/Pose2D.idl\n'}
+[0.621880] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/msg/ROI.idl\n'}
+[0.622082] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/msg/FaceInfo.idl\n'}
+[0.622294] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/msg/FacesInfo.idl\n'}
+[0.622528] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/GetPose.idl\n'}
+[0.622839] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetCircleROI.idl\n'}
+[0.623030] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetColorDetectParam.idl\n'}
+[0.623268] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetColorRGBA.idl\n'}
+[0.623485] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetFloat64List.idl\n'}
+[0.623790] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetFloat64.idl\n'}
+[0.624110] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetInt64.idl\n'}
+[0.624343] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetLineROI.idl\n'}
+[0.624565] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetPoint.idl\n'}
+[0.624848] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetPose2D.idl\n'}
+[0.625041] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetPose.idl\n'}
+[0.625216] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetStringList.idl\n'}
+[0.625656] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetString.idl\n'}
+[0.626009] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetStringBool.idl\n'}
+[0.626158] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/ChangeRange.idl\n'}
+[0.626326] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/GetAllColorName.idl\n'}
+[0.626567] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/GetRange.idl\n'}
+[0.626917] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/StashRange.idl\n'}
+[0.627165] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/msg/ColorDetect.msg\n'}
+[0.627383] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/msg/ColorInfo.msg\n'}
+[0.627858] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/msg/ColorsInfo.msg\n'}
+[0.628124] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/msg/LineROI.msg\n'}
+[0.628336] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/msg/ObjectInfo.msg\n'}
+[0.628511] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/msg/ObjectsInfo.msg\n'}
+[0.628730] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/msg/PixelPosition.msg\n'}
+[0.628973] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/msg/Point2D.msg\n'}
+[0.629179] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/msg/Points.msg\n'}
+[0.629332] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/msg/Pose2D.msg\n'}
+[0.629542] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/msg/ROI.msg\n'}
+[0.629817] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/msg/FaceInfo.msg\n'}
+[0.630044] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/msg/FacesInfo.msg\n'}
+[0.630306] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/GetPose.srv\n'}
+[0.630489] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/GetPose_Request.msg\n'}
+[0.630729] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/GetPose_Response.msg\n'}
+[0.630954] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetCircleROI.srv\n'}
+[0.631144] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetCircleROI_Request.msg\n'}
+[0.631369] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetCircleROI_Response.msg\n'}
+[0.631548] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetColorDetectParam.srv\n'}
+[0.631817] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetColorDetectParam_Request.msg\n'}
+[0.632013] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetColorDetectParam_Response.msg\n'}
+[0.632249] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetColorRGBA.srv\n'}
+[0.632450] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetColorRGBA_Request.msg\n'}
+[0.632668] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetColorRGBA_Response.msg\n'}
+[0.632910] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetFloat64List.srv\n'}
+[0.633182] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetFloat64List_Request.msg\n'}
+[0.633454] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetFloat64List_Response.msg\n'}
+[0.633647] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetFloat64.srv\n'}
+[0.633911] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetFloat64_Request.msg\n'}
+[0.634104] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetFloat64_Response.msg\n'}
+[0.634360] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetInt64.srv\n'}
+[0.634610] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetInt64_Request.msg\n'}
+[0.634814] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetInt64_Response.msg\n'}
+[0.635067] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetLineROI.srv\n'}
+[0.635244] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetLineROI_Request.msg\n'}
+[0.635480] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetLineROI_Response.msg\n'}
+[0.635683] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetPoint.srv\n'}
+[0.635966] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetPoint_Request.msg\n'}
+[0.636148] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetPoint_Response.msg\n'}
+[0.636371] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetPose2D.srv\n'}
+[0.636565] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetPose2D_Request.msg\n'}
+[0.636861] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetPose2D_Response.msg\n'}
+[0.637079] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetPose.srv\n'}
+[0.637219] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetPose_Request.msg\n'}
+[0.637484] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetPose_Response.msg\n'}
+[0.637712] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetStringList.srv\n'}
+[0.637962] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetStringList_Request.msg\n'}
+[0.638415] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetStringList_Response.msg\n'}
+[0.638780] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetString.srv\n'}
+[0.639105] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetString_Request.msg\n'}
+[0.639297] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetString_Response.msg\n'}
+[0.639550] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetStringBool.srv\n'}
+[0.639786] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetStringBool_Request.msg\n'}
+[0.639994] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/SetStringBool_Response.msg\n'}
+[0.640226] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/ChangeRange.srv\n'}
+[0.640458] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/ChangeRange_Request.msg\n'}
+[0.640695] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/ChangeRange_Response.msg\n'}
+[0.640952] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/GetAllColorName.srv\n'}
+[0.642211] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/GetAllColorName_Request.msg\n'}
+[0.642389] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/GetAllColorName_Response.msg\n'}
+[0.642441] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/GetRange.srv\n'}
+[0.642485] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/GetRange_Request.msg\n'}
+[0.642531] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/GetRange_Response.msg\n'}
+[0.642689] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/StashRange.srv\n'}
+[0.642876] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/StashRange_Request.msg\n'}
+[0.643354] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/srv/StashRange_Response.msg\n'}
+[0.643682] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/mapping_rules.yaml\n'}
+[0.644058] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[0.644416] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[0.644679] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[0.644967] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[0.645136] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/environment/path.sh\n'}
+[0.645399] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[0.645571] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/local_setup.bash\n'}
+[0.645936] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/local_setup.sh\n'}
+[0.646205] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[0.646383] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[0.646529] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/package.dsv\n'}
+[0.646754] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[0.647088] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake\n'}
+[0.647353] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.647573] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.647869] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.648097] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake\n'}
+[0.648248] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.648649] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.649034] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.649260] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.649511] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[0.649760] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.650123] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.650359] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.650575] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[0.650819] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.651076] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake\n'}
+[0.651293] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.651568] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[0.651790] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.652098] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.652358] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.652510] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.652863] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.653126] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.653281] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[0.653429] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[0.653650] (interfaces) StdoutLine: {'line': b'-- Installing: /home/liyq/hi_ws/install/interfaces/share/interfaces/package.xml\n'}
+[0.656622] (interfaces) CommandEnded: {'returncode': 0}
+[0.675150] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[0.675741] (-) EventReactorShutdown: {}

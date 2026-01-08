@@ -1,0 +1,104 @@
+running egg_info
+creating ../../../build/example/example.egg-info
+writing ../../../build/example/example.egg-info/PKG-INFO
+writing dependency_links to ../../../build/example/example.egg-info/dependency_links.txt
+writing entry points to ../../../build/example/example.egg-info/entry_points.txt
+writing requirements to ../../../build/example/example.egg-info/requires.txt
+writing top-level names to ../../../build/example/example.egg-info/top_level.txt
+writing manifest file '../../../build/example/example.egg-info/SOURCES.txt'
+reading manifest file '../../../build/example/example.egg-info/SOURCES.txt'
+writing manifest file '../../../build/example/example.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/liyq/hi_ws/build/example/build
+creating /home/liyq/hi_ws/build/example/build/lib
+creating /home/liyq/hi_ws/build/example/build/lib/example
+copying example/__init__.py -> /home/liyq/hi_ws/build/example/build/lib/example
+running install
+running install_lib
+creating /home/liyq/hi_ws/install/example/lib/python3.10/site-packages/example
+copying /home/liyq/hi_ws/build/example/build/lib/example/__init__.py -> /home/liyq/hi_ws/install/example/lib/python3.10/site-packages/example
+byte-compiling /home/liyq/hi_ws/install/example/lib/python3.10/site-packages/example/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/liyq/hi_ws/install/example/share/ament_index
+creating /home/liyq/hi_ws/install/example/share/ament_index/resource_index
+creating /home/liyq/hi_ws/install/example/share/ament_index/resource_index/packages
+copying resource/example -> /home/liyq/hi_ws/install/example/share/ament_index/resource_index/packages
+copying package.xml -> /home/liyq/hi_ws/install/example/share/example
+creating /home/liyq/hi_ws/install/example/share/example/launch
+copying example/mediapipe/face_tracking.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+copying example/mediapipe/finger_trajectory.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+copying example/mediapipe/face_mesh.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+copying example/mediapipe/hand_gesture.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+copying example/mediapipe/mankind_pose.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+copying example/yolov8/waste_classification.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+copying example/yolov8/yolov8_object_detection_node.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+copying example/rgbd_function/get_depth_rgb_img.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+copying example/rgbd_function/remove_too_high.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+copying example/rgbd_function/shape_recognition.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+copying example/rgbd_function/distance_measure.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+copying example/rgbd_function/track_and_grab.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+copying example/rgbd_function/rgb_depth_to_pointcloud.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+copying example/opencv/kcf_track_node.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+copying example/opencv/coordinate_system_transformation.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+copying example/opencv/object_attitude_calculation.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+copying example/opencv/color_recognition.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+copying example/opencv/path_planning.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+copying example/opencv/color_sorting_node.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+copying example/opencv/color_threshold.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+copying example/opencv/color_space.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+copying example/opencv/positioning_clamp.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+copying example/opencv/color_detect_node.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+copying example/opencv/color_track_node.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+copying example/opencv/tag_track_node.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+copying example/opencv/pixel_coordinate_calculation.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+copying example/opencv/camera_topic_invoke.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+copying example/simple/buzzer.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+copying example/simple/ik.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+copying example/simple/led.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+copying example/simple/bus_servo.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+copying example/simple/fk.launch.py -> /home/liyq/hi_ws/install/example/share/example/launch
+creating /home/liyq/hi_ws/install/example/share/example/config
+copying config/roi.yaml -> /home/liyq/hi_ws/install/example/share/example/config
+copying config/color_sorting_roi.yaml -> /home/liyq/hi_ws/install/example/share/example/config
+copying config/usb_cam_config.yaml -> /home/liyq/hi_ws/install/example/share/example/config
+copying config/config.yaml -> /home/liyq/hi_ws/install/example/share/example/config
+creating /home/liyq/hi_ws/install/example/share/example/resource
+running install_egg_info
+Copying ../../../build/example/example.egg-info to /home/liyq/hi_ws/install/example/lib/python3.10/site-packages/example-0.0.0-py3.10.egg-info
+running install_scripts
+Installing bus_servo script to /home/liyq/hi_ws/install/example/lib/example
+Installing buzzer script to /home/liyq/hi_ws/install/example/lib/example
+Installing camera_topic_invoke script to /home/liyq/hi_ws/install/example/lib/example
+Installing color_detect script to /home/liyq/hi_ws/install/example/lib/example
+Installing color_recognition script to /home/liyq/hi_ws/install/example/lib/example
+Installing color_sorting script to /home/liyq/hi_ws/install/example/lib/example
+Installing color_space script to /home/liyq/hi_ws/install/example/lib/example
+Installing color_threshold script to /home/liyq/hi_ws/install/example/lib/example
+Installing color_track script to /home/liyq/hi_ws/install/example/lib/example
+Installing coordinate_system_transformation script to /home/liyq/hi_ws/install/example/lib/example
+Installing distance_measure script to /home/liyq/hi_ws/install/example/lib/example
+Installing face_mask script to /home/liyq/hi_ws/install/example/lib/example
+Installing face_mesh script to /home/liyq/hi_ws/install/example/lib/example
+Installing face_tracking script to /home/liyq/hi_ws/install/example/lib/example
+Installing finger_trajectory script to /home/liyq/hi_ws/install/example/lib/example
+Installing fk script to /home/liyq/hi_ws/install/example/lib/example
+Installing get_depth_rgb_img script to /home/liyq/hi_ws/install/example/lib/example
+Installing hand_gesture script to /home/liyq/hi_ws/install/example/lib/example
+Installing ik script to /home/liyq/hi_ws/install/example/lib/example
+Installing kcf_track script to /home/liyq/hi_ws/install/example/lib/example
+Installing led script to /home/liyq/hi_ws/install/example/lib/example
+Installing mankind_pose script to /home/liyq/hi_ws/install/example/lib/example
+Installing object_attitude_calculation script to /home/liyq/hi_ws/install/example/lib/example
+Installing path_planning script to /home/liyq/hi_ws/install/example/lib/example
+Installing pixel_coordinate_calculation script to /home/liyq/hi_ws/install/example/lib/example
+Installing positioning_clamp script to /home/liyq/hi_ws/install/example/lib/example
+Installing remove_too_high script to /home/liyq/hi_ws/install/example/lib/example
+Installing rgb_depth_to_pointcloud script to /home/liyq/hi_ws/install/example/lib/example
+Installing shape_recognition script to /home/liyq/hi_ws/install/example/lib/example
+Installing tag_track script to /home/liyq/hi_ws/install/example/lib/example
+Installing track_and_grab script to /home/liyq/hi_ws/install/example/lib/example
+Installing waste_classification script to /home/liyq/hi_ws/install/example/lib/example
+Installing yolov5_node script to /home/liyq/hi_ws/install/example/lib/example
+Installing yolov8_node script to /home/liyq/hi_ws/install/example/lib/example
+writing list of installed files to '/home/liyq/hi_ws/build/example/install.log'

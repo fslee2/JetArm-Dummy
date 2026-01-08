@@ -1,0 +1,36 @@
+[console_scripts]
+bus_servo = example.simple.include.bus_servo_node:main
+buzzer = example.simple.include.buzzer_node:main
+camera_topic_invoke = example.opencv.include.camera_topic_invoke:main
+color_detect = example.opencv.include.color_detect_node:main
+color_recognition = example.opencv.include.color_recognition:main
+color_sorting = example.opencv.include.color_sorting_node:main
+color_space = example.opencv.include.color_space:main
+color_threshold = example.opencv.include.color_threshold:main
+color_track = example.opencv.include.color_track_node:main
+coordinate_system_transformation = example.opencv.include.coordinate_system_transformation:main
+distance_measure = example.rgbd_function.include.distance_measure:main
+face_mask = example.yolov8.face_mask:main
+face_mesh = example.mediapipe.include.face_mesh:main
+face_tracking = example.mediapipe.include.face_tracking:main
+finger_trajectory = example.mediapipe.include.finger_trajectory:main
+fk = example.simple.include.fk:main
+get_depth_rgb_img = example.rgbd_function.include.get_depth_rgb_img:main
+hand_gesture = example.mediapipe.include.hand_gesture:main
+ik = example.simple.include.ik:main
+kcf_track = example.opencv.include.kcf_track_node:main
+led = example.simple.include.led_node:main
+mankind_pose = example.mediapipe.include.mankind_pose:main
+object_attitude_calculation = example.opencv.include.object_attitude_calculation:main
+path_planning = example.opencv.include.path_planning:main
+pixel_coordinate_calculation = example.opencv.include.pixel_coordinate_calculation:main
+positioning_clamp = example.opencv.include.positioning_clamp:main
+remove_too_high = example.rgbd_function.include.remove_too_high:main
+rgb_depth_to_pointcloud = example.rgbd_function.include.rgb_depth_to_pointcloud:main
+shape_recognition = example.rgbd_function.include.shape_recognition:main
+tag_track = example.opencv.include.tag_track_node:main
+track_and_grab = example.rgbd_function.include.track_and_grab:main
+waste_classification = example.yolov8.waste_classification:main
+yolov5_node = example.yolov5.yolov5_node:main
+yolov8_node = example.yolov8.yolov8_node:main
+

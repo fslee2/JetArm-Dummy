@@ -1,0 +1,70 @@
+T6328 000:026.504   SEGGER J-Link V7.22b Log File
+T6328 000:026.719   DLL Compiled: Jun 17 2021 17:22:49
+T6328 000:026.731   Logging started @ 2023-09-15 10:24
+T6328 000:026.743 - 26.749ms
+T6328 000:026.763 JLINK_SetWarnOutHandler(...)
+T6328 000:026.778 - 0.020ms
+T6328 000:026.792 JLINK_OpenEx(...)
+T6328 000:031.826   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T6328 000:032.370   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T6328 000:032.586   Decompressing FW timestamp took 166 us
+T6328 000:041.433   Hardware: V9.60
+T6328 000:041.464   S/N: 69630040
+T6328 000:041.492   OEM: SEGGER
+T6328 000:041.510   Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash
+T6328 000:053.651   TELNET listener socket opened on port 19021
+T6328 000:053.808   WEBSRV Starting webserver
+T6328 000:054.263   WEBSRV Webserver running on local port 19080
+T6328 000:054.285 - 27.499ms returns "O.K."
+T6328 000:054.348 JLINK_GetEmuCaps()
+T6328 000:054.363 - 0.020ms returns 0xB9FF7BBF
+T6328 000:054.383 JLINK_TIF_GetAvailable(...)
+T6328 000:054.709 - 0.337ms
+T6328 000:054.763 JLINK_SetErrorOutHandler(...)
+T6328 000:054.777 - 0.019ms
+T6328 000:054.816 JLINK_ExecCommand("ProjectFile = "D:\JetArmF4_Firmware\MDK-ARM\JLinkSettings.ini"", ...). 
+T6328 000:065.329   XML file found at: D:\Keil_v5\ARM\Segger\JLinkDevices.xml
+T6328 000:065.925   D:\Keil_v5\ARM\Segger\JLinkDevices.xml evaluated successfully.
+T6328 000:072.011 - 17.210ms returns 0x00
+T6328 000:072.070 JLINK_ExecCommand("Device = STM32F407VETx", ...). 
+T6328 000:072.525   Device "STM32F407VE" selected.
+T6328 000:073.241 - 1.165ms returns 0x00
+T6328 000:073.271 JLINK_GetHardwareVersion()
+T6328 000:073.284 - 0.018ms returns 96000
+T6328 000:073.298 JLINK_GetDLLVersion()
+T6328 000:073.309 - 0.017ms returns 72202
+T6328 000:073.323 JLINK_GetOEMString(...)
+T6328 000:073.337 JLINK_GetFirmwareString(...)
+T6328 000:073.355 - 0.023ms
+T6328 000:073.393 JLINK_GetDLLVersion()
+T6328 000:073.406 - 0.018ms returns 72202
+T6328 000:073.438 JLINK_GetCompileDateTime()
+T6328 000:073.451 - 0.018ms
+T6328 000:073.473 JLINK_GetFirmwareString(...)
+T6328 000:073.485 - 0.018ms
+T6328 000:073.503 JLINK_GetHardwareVersion()
+T6328 000:073.515 - 0.017ms returns 96000
+T6328 000:073.534 JLINK_GetSN()
+T6328 000:073.546 - 0.018ms returns 69630040
+T6328 000:073.564 JLINK_GetOEMString(...)
+T6328 000:073.598 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T6328 000:075.057 - 1.478ms returns 0x00
+T6328 000:075.131 JLINK_HasError()
+T6328 000:075.163 JLINK_SetSpeed(5000)
+T6328 000:075.422 - 0.268ms
+T6328 000:075.475 JLINK_GetId()
+T6328 000:075.835   InitTarget() start
+T6328 000:075.857    J-Link Script File: Executing InitTarget()
+T6328 000:215.102   Can not attach to CPU. Trying connect under reset.
+T6328 000:375.114   Connecting to CPU via connect under reset failed.
+T6328 000:425.977   InitTarget() end
+T6328 000:487.488   InitTarget() start
+T6328 000:487.530    J-Link Script File: Executing InitTarget()
+T6328 000:865.102   Can not attach to CPU. Trying connect under reset.
+T6328 001:053.548   Connecting to CPU via connect under reset failed.
+T6328 001:103.989   InitTarget() end
+T6328 001:104.035 - 1028.566ms returns 0x00000000
+T6328 003:298.065 JLINK_Close()
+T6328 003:305.370 - 7.327ms
+T6328 003:305.399   
+T6328 003:305.411   Closed

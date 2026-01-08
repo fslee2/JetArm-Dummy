@@ -1,0 +1,3 @@
+[console_scripts]
+search_kinematics_solutions = kinematics.search_kinematics_solutions_node:main
+

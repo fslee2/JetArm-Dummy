@@ -1,0 +1,6 @@
+{
+  "package_name": "chassis_msgs",
+  "non_idl_tuples": [
+    "/home/liyq/hi_ws/ROS2/src/chassis_msgs:msg/Mecanum.msg"
+  ]
+}

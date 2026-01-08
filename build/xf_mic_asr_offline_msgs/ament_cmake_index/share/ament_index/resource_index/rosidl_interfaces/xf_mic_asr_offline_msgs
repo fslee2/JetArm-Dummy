@@ -1,0 +1,8 @@
+srv/GetOfflineResult.idl
+srv/GetOfflineResult.srv
+srv/GetOfflineResult_Request.msg
+srv/GetOfflineResult_Response.msg
+srv/SetString.idl
+srv/SetString.srv
+srv/SetString_Request.msg
+srv/SetString_Response.msg

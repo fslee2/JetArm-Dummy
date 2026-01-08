@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "kinematics_msgs__py",
+		"source" : "/home/liyq/hi_ws/build/kinematics_msgs/kinematics_msgs__py"
+	}
+}

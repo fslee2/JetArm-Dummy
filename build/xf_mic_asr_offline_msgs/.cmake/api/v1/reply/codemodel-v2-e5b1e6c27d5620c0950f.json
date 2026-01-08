@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ce415aa174dade828b67.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "xf_mic_asr_offline_msgs__py",
+					"jsonFile" : "directory-xf_mic_asr_offline_msgs__py-ca972f8ba5dd3da15fa4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/liyq/hi_ws/build/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "xf_mic_asr_offline_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_xf_mic_asr_offline_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_xf_mic_asr_offline_msgs_egg-d3f1307f9d1a4859a945.json",
+					"name" : "ament_cmake_python_build_xf_mic_asr_offline_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_xf_mic_asr_offline_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_xf_mic_asr_offline_msgs-7c7f653825dbd6f5c333.json",
+					"name" : "ament_cmake_python_copy_xf_mic_asr_offline_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-c9543c9f4c6e44a07ade.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xf_mic_asr_offline_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xf_mic_asr_offline_msgs-d204bb63bd7bbe29adf7.json",
+					"name" : "xf_mic_asr_offline_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xf_mic_asr_offline_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xf_mic_asr_offline_msgs__cpp-861c48af2c43eb523059.json",
+					"name" : "xf_mic_asr_offline_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xf_mic_asr_offline_msgs__py::@4f010787a74db5f57e7a",
+					"jsonFile" : "target-xf_mic_asr_offline_msgs__py-e881ca48a59df8089a98.json",
+					"name" : "xf_mic_asr_offline_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xf_mic_asr_offline_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xf_mic_asr_offline_msgs__rosidl_generator_c-027b5553f7d297bdd5cc.json",
+					"name" : "xf_mic_asr_offline_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xf_mic_asr_offline_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xf_mic_asr_offline_msgs__rosidl_generator_py-55f46a59576ba4a6bca4.json",
+					"name" : "xf_mic_asr_offline_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xf_mic_asr_offline_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xf_mic_asr_offline_msgs__rosidl_typesupport_c-4bd69b2446fa69b14421.json",
+					"name" : "xf_mic_asr_offline_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xf_mic_asr_offline_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xf_mic_asr_offline_msgs__rosidl_typesupport_c__pyext-7b65cedd8e85f0da397f.json",
+					"name" : "xf_mic_asr_offline_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xf_mic_asr_offline_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xf_mic_asr_offline_msgs__rosidl_typesupport_cpp-9474f6cce08f734fb085.json",
+					"name" : "xf_mic_asr_offline_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xf_mic_asr_offline_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xf_mic_asr_offline_msgs__rosidl_typesupport_fastrtps_c-a9c5ed14ebd6c1a0b77a.json",
+					"name" : "xf_mic_asr_offline_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xf_mic_asr_offline_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xf_mic_asr_offline_msgs__rosidl_typesupport_fastrtps_c__pyext-c4e7b008496ade00eb6e.json",
+					"name" : "xf_mic_asr_offline_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xf_mic_asr_offline_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xf_mic_asr_offline_msgs__rosidl_typesupport_fastrtps_cpp-25a28f8a05d7dbcc4bf4.json",
+					"name" : "xf_mic_asr_offline_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xf_mic_asr_offline_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xf_mic_asr_offline_msgs__rosidl_typesupport_introspection_c-6d892d2c07117711cf15.json",
+					"name" : "xf_mic_asr_offline_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xf_mic_asr_offline_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xf_mic_asr_offline_msgs__rosidl_typesupport_introspection_c__pyext-33e987d7338039f00ba3.json",
+					"name" : "xf_mic_asr_offline_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xf_mic_asr_offline_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xf_mic_asr_offline_msgs__rosidl_typesupport_introspection_cpp-f619bc5bda12ba487817.json",
+					"name" : "xf_mic_asr_offline_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xf_mic_asr_offline_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xf_mic_asr_offline_msgs_uninstall-92da1df442bdde4a4b76.json",
+					"name" : "xf_mic_asr_offline_msgs_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/liyq/hi_ws/build/xf_mic_asr_offline_msgs",
+		"source" : "/home/liyq/hi_ws/ROS2/src/xf_mic_asr_offline_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

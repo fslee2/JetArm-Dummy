@@ -1,0 +1,524 @@
+[0.299s] Invoking command in '/home/liyq/hi_ws/build/kinematics_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/liyq/hi_ws/ROS2/src/driver/kinematics_msgs -DCMAKE_INSTALL_PREFIX=/home/liyq/hi_ws/install/kinematics_msgs
+[0.358s] -- The C compiler identification is GNU 11.4.0
+[0.428s] -- The CXX compiler identification is GNU 11.4.0
+[0.436s] -- Detecting C compiler ABI info
+[0.527s] -- Detecting C compiler ABI info - done
+[0.536s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.541s] -- Detecting C compile features
+[0.541s] -- Detecting C compile features - done
+[0.543s] -- Detecting CXX compiler ABI info
+[0.649s] -- Detecting CXX compiler ABI info - done
+[0.658s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.659s] -- Detecting CXX compile features
+[0.659s] -- Detecting CXX compile features - done
+[0.662s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.845s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.982s] -- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)
+[0.983s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.031s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.038s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.048s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.064s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.087s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.141s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.588s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.135s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.361s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.393s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.393s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.422s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.422s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.422s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.422s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.446s] -- Found PythonExtra: .so  
+[2.526s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.558s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.559s] -- Added test 'lint_cmake' to check CMake code style
+[2.559s] -- Added test 'xmllint' to check XML markup files
+[2.563s] -- Configuring done
+[2.678s] -- Generating done
+[2.711s] -- Build files have been written to: /home/liyq/hi_ws/build/kinematics_msgs
+[2.725s] Invoked command in '/home/liyq/hi_ws/build/kinematics_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/liyq/hi_ws/ROS2/src/driver/kinematics_msgs -DCMAKE_INSTALL_PREFIX=/home/liyq/hi_ws/install/kinematics_msgs
+[2.728s] Invoking command in '/home/liyq/hi_ws/build/kinematics_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/liyq/hi_ws/build/kinematics_msgs -- -j8 -l8
+[2.812s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.839s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.853s] [  1%] Built target ament_cmake_python_copy_kinematics_msgs
+[3.392s] running egg_info
+[3.393s] creating kinematics_msgs.egg-info
+[3.393s] writing kinematics_msgs.egg-info/PKG-INFO
+[3.393s] writing dependency_links to kinematics_msgs.egg-info/dependency_links.txt
+[3.393s] writing top-level names to kinematics_msgs.egg-info/top_level.txt
+[3.393s] writing manifest file 'kinematics_msgs.egg-info/SOURCES.txt'
+[3.393s] reading manifest file 'kinematics_msgs.egg-info/SOURCES.txt'
+[3.393s] writing manifest file 'kinematics_msgs.egg-info/SOURCES.txt'
+[3.448s] [  1%] Built target ament_cmake_python_build_kinematics_msgs_egg
+[5.554s] [  1%] Built target kinematics_msgs__cpp
+[5.603s] [  2%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.615s] [  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.626s] [  4%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.691s] [  5%] [32mBuilding C object CMakeFiles/kinematics_msgs__rosidl_generator_c.dir/rosidl_generator_c/kinematics_msgs/msg/detail/joints_range__functions.c.o[0m
+[5.716s] [  6%] [32mBuilding C object CMakeFiles/kinematics_msgs__rosidl_generator_c.dir/rosidl_generator_c/kinematics_msgs/msg/detail/joint_range__functions.c.o[0m
+[5.717s] [  7%] [32mBuilding C object CMakeFiles/kinematics_msgs__rosidl_generator_c.dir/rosidl_generator_c/kinematics_msgs/srv/detail/get_joint_range__functions.c.o[0m
+[5.717s] [  8%] [32mBuilding C object CMakeFiles/kinematics_msgs__rosidl_generator_c.dir/rosidl_generator_c/kinematics_msgs/srv/detail/get_link__functions.c.o[0m
+[5.732s] [  9%] [32mBuilding C object CMakeFiles/kinematics_msgs__rosidl_generator_c.dir/rosidl_generator_c/kinematics_msgs/msg/detail/link__functions.c.o[0m
+[5.935s] [ 10%] [32mBuilding C object CMakeFiles/kinematics_msgs__rosidl_generator_c.dir/rosidl_generator_c/kinematics_msgs/srv/detail/get_robot_pose__functions.c.o[0m
+[6.131s] [ 11%] [32mBuilding C object CMakeFiles/kinematics_msgs__rosidl_generator_c.dir/rosidl_generator_c/kinematics_msgs/srv/detail/set_joint_value__functions.c.o[0m
+[6.148s] [ 12%] [32mBuilding C object CMakeFiles/kinematics_msgs__rosidl_generator_c.dir/rosidl_generator_c/kinematics_msgs/srv/detail/set_link__functions.c.o[0m
+[6.163s] [ 13%] [32mBuilding C object CMakeFiles/kinematics_msgs__rosidl_generator_c.dir/rosidl_generator_c/kinematics_msgs/srv/detail/set_joint_range__functions.c.o[0m
+[6.188s] [ 14%] [32mBuilding C object CMakeFiles/kinematics_msgs__rosidl_generator_c.dir/rosidl_generator_c/kinematics_msgs/srv/detail/set_robot_pose__functions.c.o[0m
+[6.542s] [ 15%] [32m[1mLinking C shared library libkinematics_msgs__rosidl_generator_c.so[0m
+[6.813s] [ 15%] Built target kinematics_msgs__rosidl_generator_c
+[6.867s] [ 16%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.868s] [ 17%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.890s] [ 18%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.824s] [ 19%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kinematics_msgs/msg/joint_range__type_support.cpp.o[0m
+[7.836s] [ 20%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kinematics_msgs/msg/link__type_support.cpp.o[0m
+[7.860s] [ 21%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kinematics_msgs/msg/joints_range__type_support.cpp.o[0m
+[8.915s] [ 22%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kinematics_msgs/srv/get_joint_range__type_support.cpp.o[0m
+[9.051s] [ 23%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kinematics_msgs/msg/detail/joint_range__type_support.cpp.o[0m
+[9.184s] [ 24%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kinematics_msgs/srv/get_link__type_support.cpp.o[0m
+[9.271s] [ 25%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kinematics_msgs/srv/get_robot_pose__type_support.cpp.o[0m
+[9.721s] [ 26%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kinematics_msgs/srv/set_joint_range__type_support.cpp.o[0m
+[10.025s] [ 27%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/kinematics_msgs/msg/joint_range__type_support.cpp.o[0m
+[10.189s] [ 28%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/kinematics_msgs/msg/joints_range__type_support.cpp.o[0m
+[10.292s] [ 29%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kinematics_msgs/srv/set_joint_value__type_support.cpp.o[0m
+[10.351s] [ 30%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/kinematics_msgs/msg/link__type_support.cpp.o[0m
+[10.440s] [ 31%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/kinematics_msgs/srv/get_joint_range__type_support.cpp.o[0m
+[10.478s] [ 32%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kinematics_msgs/msg/detail/joints_range__type_support.cpp.o[0m
+[10.578s] [ 33%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/kinematics_msgs/srv/get_link__type_support.cpp.o[0m
+[10.724s] [ 34%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/kinematics_msgs/srv/get_robot_pose__type_support.cpp.o[0m
+[10.848s] [ 35%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kinematics_msgs/msg/detail/link__type_support.cpp.o[0m
+[10.905s] [ 36%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kinematics_msgs/srv/set_link__type_support.cpp.o[0m
+[10.919s] [ 37%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/kinematics_msgs/srv/set_joint_range__type_support.cpp.o[0m
+[10.925s] [ 38%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kinematics_msgs/msg/detail/dds_fastrtps/joint_range__type_support.cpp.o[0m
+[11.034s] [ 39%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/kinematics_msgs/srv/set_joint_value__type_support.cpp.o[0m
+[11.179s] [ 39%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/kinematics_msgs/srv/set_link__type_support.cpp.o[0m
+[11.216s] [ 40%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kinematics_msgs/msg/detail/joint_range__type_support_c.cpp.o[0m
+[11.345s] [ 41%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/kinematics_msgs/srv/set_robot_pose__type_support.cpp.o[0m
+[11.483s] [ 42%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kinematics_msgs/msg/detail/dds_fastrtps/joints_range__type_support.cpp.o[0m
+[11.522s] [ 43%] [32m[1mLinking CXX shared library libkinematics_msgs__rosidl_typesupport_c.so[0m
+[11.901s] [ 43%] Built target kinematics_msgs__rosidl_typesupport_c
+[11.969s] [ 44%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kinematics_msgs/srv/detail/get_joint_range__type_support.cpp.o[0m
+[12.004s] [ 45%] [32mBuilding C object CMakeFiles/kinematics_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kinematics_msgs/msg/detail/joint_range__type_support.c.o[0m
+[12.215s] [ 46%] [32mBuilding C object CMakeFiles/kinematics_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kinematics_msgs/msg/detail/joints_range__type_support.c.o[0m
+[12.257s] [ 47%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kinematics_msgs/srv/detail/get_link__type_support.cpp.o[0m
+[12.499s] [ 48%] [32mBuilding C object CMakeFiles/kinematics_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kinematics_msgs/msg/detail/link__type_support.c.o[0m
+[12.609s] [ 49%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kinematics_msgs/srv/set_robot_pose__type_support.cpp.o[0m
+[12.684s] [ 50%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kinematics_msgs/srv/detail/get_robot_pose__type_support.cpp.o[0m
+[12.712s] [ 51%] [32mBuilding C object CMakeFiles/kinematics_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kinematics_msgs/srv/detail/get_joint_range__type_support.c.o[0m
+[12.743s] [ 52%] [32mBuilding C object CMakeFiles/kinematics_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kinematics_msgs/srv/detail/get_link__type_support.c.o[0m
+[12.769s] [ 53%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kinematics_msgs/msg/detail/joints_range__type_support_c.cpp.o[0m
+[12.903s] [ 54%] [32mBuilding C object CMakeFiles/kinematics_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kinematics_msgs/srv/detail/get_robot_pose__type_support.c.o[0m
+[12.994s] [ 55%] [32mBuilding C object CMakeFiles/kinematics_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kinematics_msgs/srv/detail/set_joint_range__type_support.c.o[0m
+[13.138s] [ 56%] [32mBuilding C object CMakeFiles/kinematics_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kinematics_msgs/srv/detail/set_joint_value__type_support.c.o[0m
+[13.228s] [ 57%] [32mBuilding C object CMakeFiles/kinematics_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kinematics_msgs/srv/detail/set_link__type_support.c.o[0m
+[13.396s] [ 58%] [32mBuilding C object CMakeFiles/kinematics_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kinematics_msgs/srv/detail/set_robot_pose__type_support.c.o[0m
+[13.428s] [ 59%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kinematics_msgs/msg/detail/link__type_support_c.cpp.o[0m
+[13.699s] [ 60%] [32m[1mLinking C shared library libkinematics_msgs__rosidl_typesupport_introspection_c.so[0m
+[13.854s] [ 60%] Built target kinematics_msgs__rosidl_typesupport_introspection_c
+[13.903s] [ 60%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kinematics_msgs/msg/detail/dds_fastrtps/link__type_support.cpp.o[0m
+[14.045s] [ 61%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kinematics_msgs/srv/detail/dds_fastrtps/get_joint_range__type_support.cpp.o[0m
+[14.135s] [ 62%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kinematics_msgs/srv/detail/set_joint_range__type_support.cpp.o[0m
+[14.415s] [ 63%] [32m[1mLinking CXX shared library libkinematics_msgs__rosidl_typesupport_cpp.so[0m
+[14.693s] [ 64%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kinematics_msgs/srv/detail/get_joint_range__type_support_c.cpp.o[0m
+[14.771s] [ 64%] Built target kinematics_msgs__rosidl_typesupport_cpp
+[14.825s] [ 65%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kinematics_msgs/srv/detail/set_link__type_support.cpp.o[0m
+[14.840s] [ 66%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kinematics_msgs/srv/detail/set_joint_value__type_support.cpp.o[0m
+[15.065s] [ 67%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kinematics_msgs/srv/detail/set_robot_pose__type_support.cpp.o[0m
+[15.637s] [ 68%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kinematics_msgs/srv/detail/get_link__type_support_c.cpp.o[0m
+[16.727s] [ 69%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kinematics_msgs/srv/detail/dds_fastrtps/get_link__type_support.cpp.o[0m
+[16.828s] [ 70%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kinematics_msgs/srv/detail/dds_fastrtps/get_robot_pose__type_support.cpp.o[0m
+[16.893s] [ 71%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kinematics_msgs/srv/detail/get_robot_pose__type_support_c.cpp.o[0m
+[16.991s] [ 72%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kinematics_msgs/srv/detail/dds_fastrtps/set_joint_range__type_support.cpp.o[0m
+[17.691s] [ 73%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kinematics_msgs/srv/detail/dds_fastrtps/set_joint_value__type_support.cpp.o[0m
+[18.257s] [ 74%] [32m[1mLinking CXX shared library libkinematics_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[18.486s] [ 75%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kinematics_msgs/srv/detail/set_joint_range__type_support_c.cpp.o[0m
+[18.728s] [ 75%] Built target kinematics_msgs__rosidl_typesupport_introspection_cpp
+[19.487s] [ 76%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kinematics_msgs/srv/detail/dds_fastrtps/set_robot_pose__type_support.cpp.o[0m
+[19.851s] [ 77%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kinematics_msgs/srv/detail/set_robot_pose__type_support_c.cpp.o[0m
+[20.878s] [ 78%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kinematics_msgs/srv/detail/dds_fastrtps/set_link__type_support.cpp.o[0m
+[21.037s] [ 79%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kinematics_msgs/srv/detail/set_link__type_support_c.cpp.o[0m
+[21.812s] [ 80%] [32m[1mLinking CXX shared library libkinematics_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[21.997s] [ 81%] [32mBuilding CXX object CMakeFiles/kinematics_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kinematics_msgs/srv/detail/set_joint_value__type_support_c.cpp.o[0m
+[22.069s] [ 81%] Built target kinematics_msgs__rosidl_typesupport_fastrtps_cpp
+[22.890s] [ 82%] [32m[1mLinking CXX shared library libkinematics_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[23.185s] [ 82%] Built target kinematics_msgs__rosidl_typesupport_fastrtps_c
+[23.254s] [ 82%] Built target kinematics_msgs
+[23.327s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[27.037s] [ 83%] Built target kinematics_msgs__py
+[27.078s] [ 84%] [32mBuilding C object CMakeFiles/kinematics_msgs__rosidl_generator_py.dir/rosidl_generator_py/kinematics_msgs/msg/_joint_range_s.c.o[0m
+[27.284s] [ 85%] [32mBuilding C object CMakeFiles/kinematics_msgs__rosidl_generator_py.dir/rosidl_generator_py/kinematics_msgs/srv/_set_joint_value_s.c.o[0m
+[27.577s] [ 86%] [32mBuilding C object CMakeFiles/kinematics_msgs__rosidl_generator_py.dir/rosidl_generator_py/kinematics_msgs/srv/_set_link_s.c.o[0m
+[27.881s] [ 87%] [32mBuilding C object CMakeFiles/kinematics_msgs__rosidl_generator_py.dir/rosidl_generator_py/kinematics_msgs/srv/_set_robot_pose_s.c.o[0m
+[28.210s] [ 88%] [32mBuilding C object CMakeFiles/kinematics_msgs__rosidl_generator_py.dir/rosidl_generator_py/kinematics_msgs/srv/_set_joint_range_s.c.o[0m
+[28.529s] [ 89%] [32mBuilding C object CMakeFiles/kinematics_msgs__rosidl_generator_py.dir/rosidl_generator_py/kinematics_msgs/srv/_get_robot_pose_s.c.o[0m
+[28.732s] [ 90%] [32mBuilding C object CMakeFiles/kinematics_msgs__rosidl_generator_py.dir/rosidl_generator_py/kinematics_msgs/srv/_get_link_s.c.o[0m
+[29.051s] [ 91%] [32mBuilding C object CMakeFiles/kinematics_msgs__rosidl_generator_py.dir/rosidl_generator_py/kinematics_msgs/srv/_get_joint_range_s.c.o[0m
+[29.331s] [ 92%] [32mBuilding C object CMakeFiles/kinematics_msgs__rosidl_generator_py.dir/rosidl_generator_py/kinematics_msgs/msg/_link_s.c.o[0m
+[29.519s] [ 93%] [32mBuilding C object CMakeFiles/kinematics_msgs__rosidl_generator_py.dir/rosidl_generator_py/kinematics_msgs/msg/_joints_range_s.c.o[0m
+[29.714s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/kinematics_msgs/libkinematics_msgs__rosidl_generator_py.so[0m
+[29.834s] [ 94%] Built target kinematics_msgs__rosidl_generator_py
+[29.865s] [ 95%] [32mBuilding C object CMakeFiles/kinematics_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/kinematics_msgs/_kinematics_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[30.083s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/kinematics_msgs/kinematics_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[30.141s] [ 96%] Built target kinematics_msgs__rosidl_typesupport_fastrtps_c__pyext
+[30.174s] [ 97%] [32mBuilding C object CMakeFiles/kinematics_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/kinematics_msgs/_kinematics_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[30.403s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/kinematics_msgs/kinematics_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[30.490s] [ 98%] Built target kinematics_msgs__rosidl_typesupport_c__pyext
+[30.547s] [ 99%] [32mBuilding C object CMakeFiles/kinematics_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/kinematics_msgs/_kinematics_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[30.769s] [100%] [32m[1mLinking C shared library rosidl_generator_py/kinematics_msgs/kinematics_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[30.832s] [100%] Built target kinematics_msgs__rosidl_typesupport_introspection_c__pyext
+[30.853s] Invoked command in '/home/liyq/hi_ws/build/kinematics_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/liyq/hi_ws/build/kinematics_msgs -- -j8 -l8
+[30.855s] Invoking command in '/home/liyq/hi_ws/build/kinematics_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/liyq/hi_ws/build/kinematics_msgs
+[30.873s] -- Install configuration: ""
+[30.873s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/ament_index/resource_index/rosidl_interfaces/kinematics_msgs
+[30.873s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs
+[30.873s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg
+[30.873s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/link.h
+[30.873s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail
+[30.873s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/joints_range__struct.h
+[30.874s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/joint_range__type_support.h
+[30.874s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/link__functions.c
+[30.874s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/link__struct.h
+[30.875s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/joints_range__functions.h
+[30.875s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/joints_range__type_support.h
+[30.875s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/joint_range__struct.h
+[30.875s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/link__functions.h
+[30.876s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/joints_range__functions.c
+[30.876s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/joint_range__functions.c
+[30.880s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/joint_range__functions.h
+[30.880s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/link__type_support.h
+[30.880s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/rosidl_generator_c__visibility_control.h
+[30.880s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/joints_range.h
+[30.880s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/joint_range.h
+[30.880s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv
+[30.881s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/get_joint_range.h
+[30.881s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/set_joint_value.h
+[30.881s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/set_joint_range.h
+[30.881s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/get_robot_pose.h
+[30.881s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/set_robot_pose.h
+[30.881s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/get_link.h
+[30.881s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail
+[30.881s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_robot_pose__functions.c
+[30.881s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_joint_range__functions.h
+[30.881s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_robot_pose__type_support.h
+[30.881s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_joint_range__type_support.h
+[30.882s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_robot_pose__type_support.h
+[30.882s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_link__type_support.h
+[30.882s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_robot_pose__struct.h
+[30.882s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_link__struct.h
+[30.883s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_link__functions.c
+[30.883s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_robot_pose__functions.c
+[30.884s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_joint_value__functions.h
+[30.885s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_robot_pose__struct.h
+[30.885s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_joint_range__functions.h
+[30.885s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_joint_value__struct.h
+[30.886s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_link__functions.h
+[30.886s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_joint_range__struct.h
+[30.891s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_link__functions.h
+[30.891s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_joint_range__functions.c
+[30.891s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_joint_range__type_support.h
+[30.891s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_robot_pose__functions.h
+[30.891s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_link__functions.c
+[30.891s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_robot_pose__functions.h
+[30.891s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_joint_value__type_support.h
+[30.891s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_link__type_support.h
+[30.891s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_link__struct.h
+[30.891s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_joint_range__functions.c
+[30.891s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_joint_range__struct.h
+[30.892s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_joint_value__functions.c
+[30.892s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/set_link.h
+[30.892s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/environment/library_path.sh
+[30.892s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/environment/library_path.dsv
+[30.892s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/lib/libkinematics_msgs__rosidl_generator_c.so
+[30.893s] -- Set runtime path of "/home/liyq/hi_ws/install/kinematics_msgs/lib/libkinematics_msgs__rosidl_generator_c.so" to ""
+[30.893s] -- Up-to-date: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs
+[30.894s] -- Up-to-date: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg
+[30.894s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[30.894s] -- Up-to-date: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail
+[30.895s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/joints_range__rosidl_typesupport_fastrtps_c.h
+[30.895s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/link__rosidl_typesupport_fastrtps_c.h
+[30.896s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/joint_range__rosidl_typesupport_fastrtps_c.h
+[30.896s] -- Up-to-date: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv
+[30.896s] -- Up-to-date: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail
+[30.896s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_joint_value__rosidl_typesupport_fastrtps_c.h
+[30.897s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_link__rosidl_typesupport_fastrtps_c.h
+[30.897s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_robot_pose__rosidl_typesupport_fastrtps_c.h
+[30.897s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_joint_range__rosidl_typesupport_fastrtps_c.h
+[30.901s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_joint_range__rosidl_typesupport_fastrtps_c.h
+[30.902s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_link__rosidl_typesupport_fastrtps_c.h
+[30.902s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_robot_pose__rosidl_typesupport_fastrtps_c.h
+[30.902s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/lib/libkinematics_msgs__rosidl_typesupport_fastrtps_c.so
+[30.902s] -- Set runtime path of "/home/liyq/hi_ws/install/kinematics_msgs/lib/libkinematics_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[30.902s] -- Up-to-date: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs
+[30.902s] -- Up-to-date: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg
+[30.902s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/joints_range.hpp
+[30.902s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/joint_range.hpp
+[30.902s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/link.hpp
+[30.902s] -- Up-to-date: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail
+[30.902s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/joint_range__type_support.hpp
+[30.902s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/joint_range__builder.hpp
+[30.902s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/joints_range__struct.hpp
+[30.902s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/joints_range__type_support.hpp
+[30.903s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/joint_range__struct.hpp
+[30.903s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/link__struct.hpp
+[30.903s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/link__traits.hpp
+[30.903s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/link__builder.hpp
+[30.903s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/joint_range__traits.hpp
+[30.904s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/link__type_support.hpp
+[30.904s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/joints_range__traits.hpp
+[30.905s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/joints_range__builder.hpp
+[30.905s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[30.906s] -- Up-to-date: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv
+[30.906s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/get_robot_pose.hpp
+[30.906s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/set_joint_value.hpp
+[30.907s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/set_robot_pose.hpp
+[30.907s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/get_joint_range.hpp
+[30.907s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/get_link.hpp
+[30.908s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/set_link.hpp
+[30.908s] -- Up-to-date: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail
+[30.909s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_link__traits.hpp
+[30.912s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_joint_range__builder.hpp
+[30.913s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_link__type_support.hpp
+[30.913s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_robot_pose__builder.hpp
+[30.913s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_robot_pose__struct.hpp
+[30.913s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_joint_range__type_support.hpp
+[30.913s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_robot_pose__traits.hpp
+[30.913s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_link__builder.hpp
+[30.913s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_joint_value__type_support.hpp
+[30.914s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_joint_range__builder.hpp
+[30.914s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_robot_pose__type_support.hpp
+[30.914s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_robot_pose__type_support.hpp
+[30.914s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_joint_value__struct.hpp
+[30.914s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_joint_range__traits.hpp
+[30.914s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_joint_range__traits.hpp
+[30.914s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_joint_value__traits.hpp
+[30.915s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_link__builder.hpp
+[30.915s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_joint_value__builder.hpp
+[30.915s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_link__traits.hpp
+[30.915s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_joint_range__struct.hpp
+[30.915s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_joint_range__struct.hpp
+[30.916s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_link__struct.hpp
+[30.919s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_robot_pose__builder.hpp
+[30.920s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_robot_pose__struct.hpp
+[30.920s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_robot_pose__traits.hpp
+[30.920s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_joint_range__type_support.hpp
+[30.920s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_link__struct.hpp
+[30.920s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_link__type_support.hpp
+[30.920s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/set_joint_range.hpp
+[30.920s] -- Up-to-date: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs
+[30.920s] -- Up-to-date: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg
+[30.920s] -- Up-to-date: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail
+[30.921s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/joints_range__rosidl_typesupport_fastrtps_cpp.hpp
+[30.921s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/joint_range__rosidl_typesupport_fastrtps_cpp.hpp
+[30.921s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/link__rosidl_typesupport_fastrtps_cpp.hpp
+[30.921s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/dds_fastrtps
+[30.921s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[30.921s] -- Up-to-date: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv
+[30.921s] -- Up-to-date: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail
+[30.921s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_robot_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[30.921s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_link__rosidl_typesupport_fastrtps_cpp.hpp
+[30.921s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_joint_value__rosidl_typesupport_fastrtps_cpp.hpp
+[30.921s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_joint_range__rosidl_typesupport_fastrtps_cpp.hpp
+[30.922s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_joint_range__rosidl_typesupport_fastrtps_cpp.hpp
+[30.922s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/dds_fastrtps
+[30.922s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_robot_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[30.922s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_link__rosidl_typesupport_fastrtps_cpp.hpp
+[30.922s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/lib/libkinematics_msgs__rosidl_typesupport_fastrtps_cpp.so
+[30.922s] -- Set runtime path of "/home/liyq/hi_ws/install/kinematics_msgs/lib/libkinematics_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[30.922s] -- Up-to-date: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs
+[30.923s] -- Up-to-date: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg
+[30.923s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[30.923s] -- Up-to-date: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail
+[30.923s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/joint_range__type_support.c
+[30.923s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/link__rosidl_typesupport_introspection_c.h
+[30.924s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/joints_range__type_support.c
+[30.926s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/joint_range__rosidl_typesupport_introspection_c.h
+[30.927s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/link__type_support.c
+[30.927s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/joints_range__rosidl_typesupport_introspection_c.h
+[30.927s] -- Up-to-date: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv
+[30.927s] -- Up-to-date: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail
+[30.928s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_link__type_support.c
+[30.928s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_link__rosidl_typesupport_introspection_c.h
+[30.928s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_link__type_support.c
+[30.928s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_robot_pose__rosidl_typesupport_introspection_c.h
+[30.929s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_joint_value__rosidl_typesupport_introspection_c.h
+[30.929s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_robot_pose__type_support.c
+[30.929s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_joint_range__type_support.c
+[30.929s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_joint_value__type_support.c
+[30.929s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_joint_range__rosidl_typesupport_introspection_c.h
+[30.929s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_robot_pose__type_support.c
+[30.929s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_robot_pose__rosidl_typesupport_introspection_c.h
+[30.929s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_link__rosidl_typesupport_introspection_c.h
+[30.929s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_joint_range__rosidl_typesupport_introspection_c.h
+[30.929s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_joint_range__type_support.c
+[30.929s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/lib/libkinematics_msgs__rosidl_typesupport_introspection_c.so
+[30.930s] -- Set runtime path of "/home/liyq/hi_ws/install/kinematics_msgs/lib/libkinematics_msgs__rosidl_typesupport_introspection_c.so" to ""
+[30.930s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/lib/libkinematics_msgs__rosidl_typesupport_c.so
+[30.930s] -- Set runtime path of "/home/liyq/hi_ws/install/kinematics_msgs/lib/libkinematics_msgs__rosidl_typesupport_c.so" to ""
+[30.930s] -- Up-to-date: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs
+[30.930s] -- Up-to-date: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg
+[30.933s] -- Up-to-date: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail
+[30.934s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/joints_range__rosidl_typesupport_introspection_cpp.hpp
+[30.934s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/joint_range__rosidl_typesupport_introspection_cpp.hpp
+[30.934s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/link__type_support.cpp
+[30.934s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/joints_range__type_support.cpp
+[30.934s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/link__rosidl_typesupport_introspection_cpp.hpp
+[30.934s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/msg/detail/joint_range__type_support.cpp
+[30.934s] -- Up-to-date: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv
+[30.934s] -- Up-to-date: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail
+[30.934s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_link__rosidl_typesupport_introspection_cpp.hpp
+[30.934s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_joint_value__type_support.cpp
+[30.935s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_link__type_support.cpp
+[30.935s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_robot_pose__type_support.cpp
+[30.935s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_joint_range__type_support.cpp
+[30.935s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_link__type_support.cpp
+[30.935s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_robot_pose__type_support.cpp
+[30.935s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_robot_pose__rosidl_typesupport_introspection_cpp.hpp
+[30.935s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_joint_range__rosidl_typesupport_introspection_cpp.hpp
+[30.935s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_robot_pose__rosidl_typesupport_introspection_cpp.hpp
+[30.935s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_joint_range__rosidl_typesupport_introspection_cpp.hpp
+[30.936s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/set_joint_value__rosidl_typesupport_introspection_cpp.hpp
+[30.936s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_joint_range__type_support.cpp
+[30.936s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/include/kinematics_msgs/kinematics_msgs/srv/detail/get_link__rosidl_typesupport_introspection_cpp.hpp
+[30.937s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/lib/libkinematics_msgs__rosidl_typesupport_introspection_cpp.so
+[30.938s] -- Set runtime path of "/home/liyq/hi_ws/install/kinematics_msgs/lib/libkinematics_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[30.938s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/lib/libkinematics_msgs__rosidl_typesupport_cpp.so
+[30.939s] -- Set runtime path of "/home/liyq/hi_ws/install/kinematics_msgs/lib/libkinematics_msgs__rosidl_typesupport_cpp.so" to ""
+[30.940s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/environment/pythonpath.sh
+[30.940s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/environment/pythonpath.dsv
+[30.941s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs-0.0.0-py3.10.egg-info
+[30.945s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[30.945s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[30.945s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[30.945s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[30.945s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs
+[30.945s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/_kinematics_msgs_s.ep.rosidl_typesupport_c.c
+[30.945s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/msg
+[30.945s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/msg/_joint_range.py
+[30.945s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/msg/_link_s.c
+[30.945s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/msg/_joints_range.py
+[30.945s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/msg/_joints_range_s.c
+[30.946s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/msg/_joint_range_s.c
+[30.946s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/msg/__init__.py
+[30.946s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/msg/_link.py
+[30.946s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/kinematics_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[30.946s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/srv
+[30.947s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/srv/_get_robot_pose.py
+[30.947s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/srv/_get_joint_range.py
+[30.948s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/srv/_set_joint_value.py
+[30.948s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/srv/_get_link_s.c
+[30.949s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/srv/_set_link.py
+[30.949s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/srv/__init__.py
+[30.949s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/srv/_set_joint_value_s.c
+[30.950s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/srv/_get_joint_range_s.c
+[30.951s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/srv/_set_joint_range_s.c
+[30.951s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/srv/_set_joint_range.py
+[30.952s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/srv/_get_robot_pose_s.c
+[30.952s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/srv/_get_link.py
+[30.952s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/srv/_set_robot_pose.py
+[30.953s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/srv/_set_link_s.c
+[30.956s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/srv/_set_robot_pose_s.c
+[30.956s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/_kinematics_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[30.956s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/__init__.py
+[30.956s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/_kinematics_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[30.956s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/kinematics_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[30.956s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/kinematics_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[30.957s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/libkinematics_msgs__rosidl_generator_py.so
+[31.026s] Listing '/home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs'...
+[31.026s] Compiling '/home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/__init__.py'...
+[31.026s] Listing '/home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/msg'...
+[31.026s] Compiling '/home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/msg/__init__.py'...
+[31.026s] Compiling '/home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/msg/_joint_range.py'...
+[31.026s] Compiling '/home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/msg/_joints_range.py'...
+[31.026s] Compiling '/home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/msg/_link.py'...
+[31.026s] Listing '/home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/srv'...
+[31.026s] Compiling '/home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/srv/__init__.py'...
+[31.026s] Compiling '/home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/srv/_get_joint_range.py'...
+[31.026s] Compiling '/home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/srv/_get_link.py'...
+[31.026s] Compiling '/home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/srv/_get_robot_pose.py'...
+[31.027s] Compiling '/home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/srv/_set_joint_range.py'...
+[31.027s] Compiling '/home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/srv/_set_joint_value.py'...
+[31.027s] Compiling '/home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/srv/_set_link.py'...
+[31.027s] Compiling '/home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/srv/_set_robot_pose.py'...
+[31.035s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/kinematics_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[31.035s] -- Set runtime path of "/home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/kinematics_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[31.035s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/kinematics_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[31.036s] -- Set runtime path of "/home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/kinematics_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[31.037s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/kinematics_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[31.038s] -- Set runtime path of "/home/liyq/hi_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages/kinematics_msgs/kinematics_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[31.039s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/lib/libkinematics_msgs__rosidl_generator_py.so
+[31.040s] -- Set runtime path of "/home/liyq/hi_ws/install/kinematics_msgs/lib/libkinematics_msgs__rosidl_generator_py.so" to ""
+[31.040s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/msg/JointRange.idl
+[31.041s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/msg/JointsRange.idl
+[31.041s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/msg/Link.idl
+[31.041s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/srv/GetJointRange.idl
+[31.042s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/srv/GetLink.idl
+[31.042s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/srv/GetRobotPose.idl
+[31.043s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/srv/SetJointRange.idl
+[31.043s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/srv/SetJointValue.idl
+[31.043s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/srv/SetLink.idl
+[31.044s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/srv/SetRobotPose.idl
+[31.044s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/msg/JointRange.msg
+[31.044s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/msg/JointsRange.msg
+[31.044s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/msg/Link.msg
+[31.045s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/srv/GetJointRange.srv
+[31.045s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/srv/GetJointRange_Request.msg
+[31.045s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/srv/GetJointRange_Response.msg
+[31.046s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/srv/GetLink.srv
+[31.046s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/srv/GetLink_Request.msg
+[31.046s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/srv/GetLink_Response.msg
+[31.047s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/srv/GetRobotPose.srv
+[31.047s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/srv/GetRobotPose_Request.msg
+[31.048s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/srv/GetRobotPose_Response.msg
+[31.048s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/srv/SetJointRange.srv
+[31.048s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/srv/SetJointRange_Request.msg
+[31.049s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/srv/SetJointRange_Response.msg
+[31.049s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/srv/SetJointValue.srv
+[31.050s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/srv/SetJointValue_Request.msg
+[31.050s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/srv/SetJointValue_Response.msg
+[31.051s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/srv/SetLink.srv
+[31.051s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/srv/SetLink_Request.msg
+[31.051s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/srv/SetLink_Response.msg
+[31.052s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/srv/SetRobotPose.srv
+[31.052s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/srv/SetRobotPose_Request.msg
+[31.065s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/srv/SetRobotPose_Response.msg
+[31.065s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/ament_index/resource_index/package_run_dependencies/kinematics_msgs
+[31.065s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/ament_index/resource_index/parent_prefix_path/kinematics_msgs
+[31.065s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/environment/ament_prefix_path.sh
+[31.065s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/environment/ament_prefix_path.dsv
+[31.065s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/environment/path.sh
+[31.065s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/environment/path.dsv
+[31.065s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/local_setup.bash
+[31.065s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/local_setup.sh
+[31.065s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/local_setup.zsh
+[31.069s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/local_setup.dsv
+[31.069s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/package.dsv
+[31.069s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/ament_index/resource_index/packages/kinematics_msgs
+[31.070s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/cmake/export_kinematics_msgs__rosidl_generator_cExport.cmake
+[31.070s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/cmake/export_kinematics_msgs__rosidl_generator_cExport-noconfig.cmake
+[31.070s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/cmake/export_kinematics_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[31.070s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/cmake/export_kinematics_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[31.070s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/cmake/export_kinematics_msgs__rosidl_generator_cppExport.cmake
+[31.070s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/cmake/export_kinematics_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[31.070s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/cmake/export_kinematics_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[31.070s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/cmake/kinematics_msgs__rosidl_typesupport_introspection_cExport.cmake
+[31.070s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/cmake/kinematics_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[31.070s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/cmake/kinematics_msgs__rosidl_typesupport_cExport.cmake
+[31.070s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/cmake/kinematics_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[31.070s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/cmake/kinematics_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[31.070s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/cmake/kinematics_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[31.071s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/cmake/kinematics_msgs__rosidl_typesupport_cppExport.cmake
+[31.071s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/cmake/kinematics_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[31.071s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/cmake/export_kinematics_msgs__rosidl_generator_pyExport.cmake
+[31.071s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/cmake/export_kinematics_msgs__rosidl_generator_pyExport-noconfig.cmake
+[31.071s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/cmake/rosidl_cmake-extras.cmake
+[31.071s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[31.072s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[31.072s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[31.072s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[31.073s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[31.073s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[31.073s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/cmake/kinematics_msgsConfig.cmake
+[31.073s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/cmake/kinematics_msgsConfig-version.cmake
+[31.074s] -- Installing: /home/liyq/hi_ws/install/kinematics_msgs/share/kinematics_msgs/package.xml
+[31.078s] Invoked command in '/home/liyq/hi_ws/build/kinematics_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/liyq/hi_ws/build/kinematics_msgs

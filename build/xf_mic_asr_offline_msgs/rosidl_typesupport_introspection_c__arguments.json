@@ -1,0 +1,21 @@
+{
+  "package_name": "xf_mic_asr_offline_msgs",
+  "output_dir": "/home/liyq/hi_ws/build/xf_mic_asr_offline_msgs/rosidl_typesupport_introspection_c/xf_mic_asr_offline_msgs",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource",
+  "idl_tuples": [
+    "/home/liyq/hi_ws/build/xf_mic_asr_offline_msgs/rosidl_adapter/xf_mic_asr_offline_msgs:srv/SetString.idl",
+    "/home/liyq/hi_ws/build/xf_mic_asr_offline_msgs/rosidl_adapter/xf_mic_asr_offline_msgs:srv/GetOfflineResult.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_introspection_c/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/idl__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/idl__type_support.c.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/msg__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
+    "/home/liyq/hi_ws/build/xf_mic_asr_offline_msgs/rosidl_adapter/xf_mic_asr_offline_msgs/srv/SetString.idl",
+    "/home/liyq/hi_ws/build/xf_mic_asr_offline_msgs/rosidl_adapter/xf_mic_asr_offline_msgs/srv/GetOfflineResult.idl"
+  ]
+}

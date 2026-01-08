@@ -1,0 +1,279 @@
+[0.072s] Invoking command in '/home/liyq/hi_ws/build/xf_mic_asr_offline_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/liyq/hi_ws/ROS2/src/xf_mic_asr_offline_msgs -DCMAKE_INSTALL_PREFIX=/home/liyq/hi_ws/install/xf_mic_asr_offline_msgs
+[1.228s] -- The C compiler identification is GNU 11.4.0
+[1.228s] -- The CXX compiler identification is GNU 11.4.0
+[1.229s] -- Detecting C compiler ABI info
+[1.229s] -- Detecting C compiler ABI info - done
+[1.229s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.229s] -- Detecting C compile features
+[1.229s] -- Detecting C compile features - done
+[1.230s] -- Detecting CXX compiler ABI info
+[1.265s] -- Detecting CXX compiler ABI info - done
+[1.275s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.276s] -- Detecting CXX compile features
+[1.276s] -- Detecting CXX compile features - done
+[1.336s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.670s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.118s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[2.362s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.389s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.425s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.535s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.597s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.845s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.866s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.359s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.407s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.473s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.585s] -- Looking for pthread.h
+[3.984s] -- Looking for pthread.h - found
+[3.985s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.256s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.257s] -- Found Threads: TRUE  
+[4.470s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.788s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.153s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.308s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.337s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[5.339s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.380s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[5.380s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.380s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.381s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[5.417s] -- Found PythonExtra: .so  
+[5.482s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.523s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.530s] -- Added test 'lint_cmake' to check CMake code style
+[5.530s] -- Added test 'xmllint' to check XML markup files
+[5.531s] -- Configuring done
+[5.648s] -- Generating done
+[5.687s] -- Build files have been written to: /home/liyq/hi_ws/build/xf_mic_asr_offline_msgs
+[6.137s] Invoked command in '/home/liyq/hi_ws/build/xf_mic_asr_offline_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/liyq/hi_ws/ROS2/src/xf_mic_asr_offline_msgs -DCMAKE_INSTALL_PREFIX=/home/liyq/hi_ws/install/xf_mic_asr_offline_msgs
+[6.137s] Invoking command in '/home/liyq/hi_ws/build/xf_mic_asr_offline_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/liyq/hi_ws/build/xf_mic_asr_offline_msgs -- -j8 -l8
+[6.288s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.307s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.382s] [  5%] Built target ament_cmake_python_copy_xf_mic_asr_offline_msgs
+[7.045s] running egg_info
+[7.046s] creating xf_mic_asr_offline_msgs.egg-info
+[7.046s] writing xf_mic_asr_offline_msgs.egg-info/PKG-INFO
+[7.046s] writing dependency_links to xf_mic_asr_offline_msgs.egg-info/dependency_links.txt
+[7.052s] writing top-level names to xf_mic_asr_offline_msgs.egg-info/top_level.txt
+[7.054s] writing manifest file 'xf_mic_asr_offline_msgs.egg-info/SOURCES.txt'
+[7.060s] reading manifest file 'xf_mic_asr_offline_msgs.egg-info/SOURCES.txt'
+[7.062s] writing manifest file 'xf_mic_asr_offline_msgs.egg-info/SOURCES.txt'
+[7.146s] [  5%] Built target ament_cmake_python_build_xf_mic_asr_offline_msgs_egg
+[7.263s] [  5%] Built target xf_mic_asr_offline_msgs__cpp
+[7.307s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.307s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.324s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.545s] [ 15%] [32mBuilding C object CMakeFiles/xf_mic_asr_offline_msgs__rosidl_generator_c.dir/rosidl_generator_c/xf_mic_asr_offline_msgs/srv/detail/set_string__functions.c.o[0m
+[7.545s] [ 17%] [32mBuilding C object CMakeFiles/xf_mic_asr_offline_msgs__rosidl_generator_c.dir/rosidl_generator_c/xf_mic_asr_offline_msgs/srv/detail/get_offline_result__functions.c.o[0m
+[7.840s] [ 20%] [32m[1mLinking C shared library libxf_mic_asr_offline_msgs__rosidl_generator_c.so[0m
+[8.032s] [ 20%] Built target xf_mic_asr_offline_msgs__rosidl_generator_c
+[8.087s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.092s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.096s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.501s] [ 30%] [32mBuilding CXX object CMakeFiles/xf_mic_asr_offline_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xf_mic_asr_offline_msgs/srv/set_string__type_support.cpp.o[0m
+[8.511s] [ 33%] [32mBuilding CXX object CMakeFiles/xf_mic_asr_offline_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xf_mic_asr_offline_msgs/srv/detail/dds_fastrtps/get_offline_result__type_support.cpp.o[0m
+[8.523s] [ 35%] [32mBuilding CXX object CMakeFiles/xf_mic_asr_offline_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xf_mic_asr_offline_msgs/srv/get_offline_result__type_support.cpp.o[0m
+[8.528s] [ 38%] [32mBuilding CXX object CMakeFiles/xf_mic_asr_offline_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xf_mic_asr_offline_msgs/srv/detail/dds_fastrtps/set_string__type_support.cpp.o[0m
+[9.049s] [ 41%] [32mBuilding CXX object CMakeFiles/xf_mic_asr_offline_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xf_mic_asr_offline_msgs/srv/detail/set_string__type_support.cpp.o[0m
+[9.995s] [ 43%] [32mBuilding CXX object CMakeFiles/xf_mic_asr_offline_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/xf_mic_asr_offline_msgs/srv/set_string__type_support.cpp.o[0m
+[10.054s] [ 46%] [32mBuilding CXX object CMakeFiles/xf_mic_asr_offline_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xf_mic_asr_offline_msgs/srv/detail/set_string__type_support_c.cpp.o[0m
+[10.082s] [ 48%] [32mBuilding CXX object CMakeFiles/xf_mic_asr_offline_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/xf_mic_asr_offline_msgs/srv/get_offline_result__type_support.cpp.o[0m
+[10.120s] [ 51%] [32mBuilding CXX object CMakeFiles/xf_mic_asr_offline_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xf_mic_asr_offline_msgs/srv/detail/get_offline_result__type_support_c.cpp.o[0m
+[10.185s] [ 53%] [32m[1mLinking CXX shared library libxf_mic_asr_offline_msgs__rosidl_typesupport_c.so[0m
+[10.433s] [ 56%] [32mBuilding C object CMakeFiles/xf_mic_asr_offline_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xf_mic_asr_offline_msgs/srv/detail/set_string__type_support.c.o[0m
+[10.435s] [ 56%] Built target xf_mic_asr_offline_msgs__rosidl_typesupport_c
+[10.487s] [ 58%] [32mBuilding CXX object CMakeFiles/xf_mic_asr_offline_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xf_mic_asr_offline_msgs/srv/detail/get_offline_result__type_support.cpp.o[0m
+[10.602s] [ 61%] [32m[1mLinking CXX shared library libxf_mic_asr_offline_msgs__rosidl_typesupport_cpp.so[0m
+[10.641s] [ 64%] [32mBuilding C object CMakeFiles/xf_mic_asr_offline_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xf_mic_asr_offline_msgs/srv/detail/get_offline_result__type_support.c.o[0m
+[10.856s] [ 66%] [32m[1mLinking C shared library libxf_mic_asr_offline_msgs__rosidl_typesupport_introspection_c.so[0m
+[10.857s] [ 66%] Built target xf_mic_asr_offline_msgs__rosidl_typesupport_cpp
+[11.073s] [ 66%] Built target xf_mic_asr_offline_msgs__rosidl_typesupport_introspection_c
+[11.386s] [ 69%] [32m[1mLinking CXX shared library libxf_mic_asr_offline_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.864s] [ 71%] [32m[1mLinking CXX shared library libxf_mic_asr_offline_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[11.938s] [ 71%] Built target xf_mic_asr_offline_msgs__rosidl_typesupport_fastrtps_cpp
+[12.035s] [ 74%] [32m[1mLinking CXX shared library libxf_mic_asr_offline_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[12.062s] [ 74%] Built target xf_mic_asr_offline_msgs__rosidl_typesupport_introspection_cpp
+[12.403s] [ 74%] Built target xf_mic_asr_offline_msgs__rosidl_typesupport_fastrtps_c
+[12.489s] [ 74%] Built target xf_mic_asr_offline_msgs
+[12.582s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[15.715s] [ 76%] Built target xf_mic_asr_offline_msgs__py
+[15.831s] [ 79%] [32mBuilding C object CMakeFiles/xf_mic_asr_offline_msgs__rosidl_generator_py.dir/rosidl_generator_py/xf_mic_asr_offline_msgs/srv/_set_string_s.c.o[0m
+[15.849s] [ 82%] [32mBuilding C object CMakeFiles/xf_mic_asr_offline_msgs__rosidl_generator_py.dir/rosidl_generator_py/xf_mic_asr_offline_msgs/srv/_get_offline_result_s.c.o[0m
+[16.626s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/xf_mic_asr_offline_msgs/libxf_mic_asr_offline_msgs__rosidl_generator_py.so[0m
+[16.891s] [ 84%] Built target xf_mic_asr_offline_msgs__rosidl_generator_py
+[17.026s] [ 87%] [32mBuilding C object CMakeFiles/xf_mic_asr_offline_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/xf_mic_asr_offline_msgs/_xf_mic_asr_offline_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[17.035s] [ 89%] [32mBuilding C object CMakeFiles/xf_mic_asr_offline_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/xf_mic_asr_offline_msgs/_xf_mic_asr_offline_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[17.065s] [ 92%] [32mBuilding C object CMakeFiles/xf_mic_asr_offline_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/xf_mic_asr_offline_msgs/_xf_mic_asr_offline_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[17.836s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[17.841s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[17.862s] [100%] [32m[1mLinking C shared library rosidl_generator_py/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[18.040s] [100%] Built target xf_mic_asr_offline_msgs__rosidl_typesupport_introspection_c__pyext
+[18.086s] [100%] Built target xf_mic_asr_offline_msgs__rosidl_typesupport_c__pyext
+[18.121s] [100%] Built target xf_mic_asr_offline_msgs__rosidl_typesupport_fastrtps_c__pyext
+[18.412s] Invoked command in '/home/liyq/hi_ws/build/xf_mic_asr_offline_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/liyq/hi_ws/build/xf_mic_asr_offline_msgs -- -j8 -l8
+[18.413s] Invoking command in '/home/liyq/hi_ws/build/xf_mic_asr_offline_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/liyq/hi_ws/build/xf_mic_asr_offline_msgs
+[18.472s] -- Install configuration: ""
+[18.475s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/ament_index/resource_index/rosidl_interfaces/xf_mic_asr_offline_msgs
+[18.475s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs
+[18.475s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/msg
+[18.475s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/msg/rosidl_generator_c__visibility_control.h
+[18.475s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv
+[18.475s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/set_string.h
+[18.476s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/detail
+[18.476s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/detail/set_string__functions.h
+[18.476s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/detail/set_string__functions.c
+[18.493s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/detail/set_string__type_support.h
+[18.494s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/detail/get_offline_result__type_support.h
+[18.494s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/detail/get_offline_result__struct.h
+[18.494s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/detail/get_offline_result__functions.h
+[18.494s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/detail/get_offline_result__functions.c
+[18.494s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/detail/set_string__struct.h
+[18.494s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/get_offline_result.h
+[18.494s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/environment/library_path.sh
+[18.494s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/environment/library_path.dsv
+[18.494s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/lib/libxf_mic_asr_offline_msgs__rosidl_generator_c.so
+[18.507s] -- Set runtime path of "/home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/lib/libxf_mic_asr_offline_msgs__rosidl_generator_c.so" to ""
+[18.507s] -- Up-to-date: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs
+[18.508s] -- Up-to-date: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/msg
+[18.508s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[18.508s] -- Up-to-date: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv
+[18.508s] -- Up-to-date: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/detail
+[18.508s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/detail/get_offline_result__rosidl_typesupport_fastrtps_c.h
+[18.508s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/detail/set_string__rosidl_typesupport_fastrtps_c.h
+[18.508s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/lib/libxf_mic_asr_offline_msgs__rosidl_typesupport_fastrtps_c.so
+[18.508s] -- Set runtime path of "/home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/lib/libxf_mic_asr_offline_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[18.508s] -- Up-to-date: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs
+[18.508s] -- Up-to-date: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/msg
+[18.508s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[18.508s] -- Up-to-date: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv
+[18.508s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/set_string.hpp
+[18.508s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/get_offline_result.hpp
+[18.520s] -- Up-to-date: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/detail
+[18.520s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/detail/set_string__builder.hpp
+[18.520s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/detail/set_string__struct.hpp
+[18.520s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/detail/get_offline_result__type_support.hpp
+[18.524s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/detail/get_offline_result__traits.hpp
+[18.524s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/detail/set_string__type_support.hpp
+[18.525s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/detail/get_offline_result__struct.hpp
+[18.526s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/detail/set_string__traits.hpp
+[18.526s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/detail/get_offline_result__builder.hpp
+[18.527s] -- Up-to-date: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs
+[18.527s] -- Up-to-date: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/msg
+[18.527s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[18.527s] -- Up-to-date: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv
+[18.527s] -- Up-to-date: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/detail
+[18.527s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/detail/set_string__rosidl_typesupport_fastrtps_cpp.hpp
+[18.527s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/detail/get_offline_result__rosidl_typesupport_fastrtps_cpp.hpp
+[18.527s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/detail/dds_fastrtps
+[18.527s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/lib/libxf_mic_asr_offline_msgs__rosidl_typesupport_fastrtps_cpp.so
+[18.534s] -- Set runtime path of "/home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/lib/libxf_mic_asr_offline_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[18.534s] -- Up-to-date: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs
+[18.534s] -- Up-to-date: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/msg
+[18.534s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[18.534s] -- Up-to-date: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv
+[18.535s] -- Up-to-date: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/detail
+[18.535s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/detail/get_offline_result__rosidl_typesupport_introspection_c.h
+[18.535s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/detail/set_string__rosidl_typesupport_introspection_c.h
+[18.544s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/detail/set_string__type_support.c
+[18.558s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/detail/get_offline_result__type_support.c
+[18.558s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/lib/libxf_mic_asr_offline_msgs__rosidl_typesupport_introspection_c.so
+[18.558s] -- Set runtime path of "/home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/lib/libxf_mic_asr_offline_msgs__rosidl_typesupport_introspection_c.so" to ""
+[18.558s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/lib/libxf_mic_asr_offline_msgs__rosidl_typesupport_c.so
+[18.558s] -- Set runtime path of "/home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/lib/libxf_mic_asr_offline_msgs__rosidl_typesupport_c.so" to ""
+[18.558s] -- Up-to-date: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs
+[18.558s] -- Up-to-date: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv
+[18.558s] -- Up-to-date: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/detail
+[18.558s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/detail/get_offline_result__type_support.cpp
+[18.558s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/detail/set_string__rosidl_typesupport_introspection_cpp.hpp
+[18.558s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/detail/get_offline_result__rosidl_typesupport_introspection_cpp.hpp
+[18.558s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/include/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs/srv/detail/set_string__type_support.cpp
+[18.564s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/lib/libxf_mic_asr_offline_msgs__rosidl_typesupport_introspection_cpp.so
+[18.565s] -- Set runtime path of "/home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/lib/libxf_mic_asr_offline_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[18.565s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/lib/libxf_mic_asr_offline_msgs__rosidl_typesupport_cpp.so
+[18.565s] -- Set runtime path of "/home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/lib/libxf_mic_asr_offline_msgs__rosidl_typesupport_cpp.so" to ""
+[18.566s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/environment/pythonpath.sh
+[18.566s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/environment/pythonpath.dsv
+[18.566s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/local/lib/python3.10/dist-packages/xf_mic_asr_offline_msgs-0.0.0-py3.10.egg-info
+[18.567s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/local/lib/python3.10/dist-packages/xf_mic_asr_offline_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[18.567s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/local/lib/python3.10/dist-packages/xf_mic_asr_offline_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[18.567s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/local/lib/python3.10/dist-packages/xf_mic_asr_offline_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[18.567s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/local/lib/python3.10/dist-packages/xf_mic_asr_offline_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[18.568s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/local/lib/python3.10/dist-packages/xf_mic_asr_offline_msgs
+[18.568s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/local/lib/python3.10/dist-packages/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[18.568s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/local/lib/python3.10/dist-packages/xf_mic_asr_offline_msgs/_xf_mic_asr_offline_msgs_s.ep.rosidl_typesupport_c.c
+[18.591s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/local/lib/python3.10/dist-packages/xf_mic_asr_offline_msgs/srv
+[18.591s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/local/lib/python3.10/dist-packages/xf_mic_asr_offline_msgs/srv/__init__.py
+[18.591s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/local/lib/python3.10/dist-packages/xf_mic_asr_offline_msgs/srv/_get_offline_result_s.c
+[18.591s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/local/lib/python3.10/dist-packages/xf_mic_asr_offline_msgs/srv/_set_string_s.c
+[18.591s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/local/lib/python3.10/dist-packages/xf_mic_asr_offline_msgs/srv/_get_offline_result.py
+[18.592s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/local/lib/python3.10/dist-packages/xf_mic_asr_offline_msgs/srv/_set_string.py
+[18.592s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/local/lib/python3.10/dist-packages/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[18.592s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/local/lib/python3.10/dist-packages/xf_mic_asr_offline_msgs/_xf_mic_asr_offline_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[18.592s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/local/lib/python3.10/dist-packages/xf_mic_asr_offline_msgs/__init__.py
+[18.592s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/local/lib/python3.10/dist-packages/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[18.606s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/local/lib/python3.10/dist-packages/xf_mic_asr_offline_msgs/libxf_mic_asr_offline_msgs__rosidl_generator_py.so
+[18.609s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/local/lib/python3.10/dist-packages/xf_mic_asr_offline_msgs/_xf_mic_asr_offline_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[18.941s] Listing '/home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/local/lib/python3.10/dist-packages/xf_mic_asr_offline_msgs'...
+[18.941s] Compiling '/home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/local/lib/python3.10/dist-packages/xf_mic_asr_offline_msgs/__init__.py'...
+[18.942s] Listing '/home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/local/lib/python3.10/dist-packages/xf_mic_asr_offline_msgs/srv'...
+[18.942s] Compiling '/home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/local/lib/python3.10/dist-packages/xf_mic_asr_offline_msgs/srv/__init__.py'...
+[18.942s] Compiling '/home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/local/lib/python3.10/dist-packages/xf_mic_asr_offline_msgs/srv/_get_offline_result.py'...
+[18.942s] Compiling '/home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/local/lib/python3.10/dist-packages/xf_mic_asr_offline_msgs/srv/_set_string.py'...
+[19.022s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/local/lib/python3.10/dist-packages/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[19.022s] -- Set runtime path of "/home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/local/lib/python3.10/dist-packages/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[19.022s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/local/lib/python3.10/dist-packages/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[19.022s] -- Set runtime path of "/home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/local/lib/python3.10/dist-packages/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[19.027s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/local/lib/python3.10/dist-packages/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[19.031s] -- Set runtime path of "/home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/local/lib/python3.10/dist-packages/xf_mic_asr_offline_msgs/xf_mic_asr_offline_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[19.048s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/lib/libxf_mic_asr_offline_msgs__rosidl_generator_py.so
+[19.048s] -- Set runtime path of "/home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/lib/libxf_mic_asr_offline_msgs__rosidl_generator_py.so" to ""
+[19.057s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/srv/SetString.idl
+[19.060s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/srv/GetOfflineResult.idl
+[19.060s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/srv/SetString.srv
+[19.060s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/srv/SetString_Request.msg
+[19.060s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/srv/SetString_Response.msg
+[19.060s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/srv/GetOfflineResult.srv
+[19.060s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/srv/GetOfflineResult_Request.msg
+[19.079s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/srv/GetOfflineResult_Response.msg
+[19.079s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/ament_index/resource_index/package_run_dependencies/xf_mic_asr_offline_msgs
+[19.080s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/ament_index/resource_index/parent_prefix_path/xf_mic_asr_offline_msgs
+[19.080s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/environment/ament_prefix_path.sh
+[19.080s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/environment/ament_prefix_path.dsv
+[19.083s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/environment/path.sh
+[19.083s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/environment/path.dsv
+[19.083s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/local_setup.bash
+[19.083s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/local_setup.sh
+[19.108s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/local_setup.zsh
+[19.108s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/local_setup.dsv
+[19.116s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/package.dsv
+[19.116s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/ament_index/resource_index/packages/xf_mic_asr_offline_msgs
+[19.116s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/cmake/export_xf_mic_asr_offline_msgs__rosidl_generator_cExport.cmake
+[19.116s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/cmake/export_xf_mic_asr_offline_msgs__rosidl_generator_cExport-noconfig.cmake
+[19.116s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/cmake/export_xf_mic_asr_offline_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[19.137s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/cmake/export_xf_mic_asr_offline_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[19.137s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/cmake/export_xf_mic_asr_offline_msgs__rosidl_generator_cppExport.cmake
+[19.137s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/cmake/export_xf_mic_asr_offline_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[19.137s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/cmake/export_xf_mic_asr_offline_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[19.137s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/cmake/xf_mic_asr_offline_msgs__rosidl_typesupport_introspection_cExport.cmake
+[19.137s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/cmake/xf_mic_asr_offline_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[19.138s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/cmake/xf_mic_asr_offline_msgs__rosidl_typesupport_cExport.cmake
+[19.140s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/cmake/xf_mic_asr_offline_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[19.140s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/cmake/xf_mic_asr_offline_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[19.164s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/cmake/xf_mic_asr_offline_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[19.164s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/cmake/xf_mic_asr_offline_msgs__rosidl_typesupport_cppExport.cmake
+[19.164s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/cmake/xf_mic_asr_offline_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[19.164s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/cmake/export_xf_mic_asr_offline_msgs__rosidl_generator_pyExport.cmake
+[19.164s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/cmake/export_xf_mic_asr_offline_msgs__rosidl_generator_pyExport-noconfig.cmake
+[19.164s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/cmake/rosidl_cmake-extras.cmake
+[19.167s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.167s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[19.167s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[19.167s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[19.167s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.200s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[19.200s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/cmake/xf_mic_asr_offline_msgsConfig.cmake
+[19.200s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/cmake/xf_mic_asr_offline_msgsConfig-version.cmake
+[19.200s] -- Installing: /home/liyq/hi_ws/install/xf_mic_asr_offline_msgs/share/xf_mic_asr_offline_msgs/package.xml
+[20.483s] Invoked command in '/home/liyq/hi_ws/build/xf_mic_asr_offline_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/liyq/hi_ws/build/xf_mic_asr_offline_msgs

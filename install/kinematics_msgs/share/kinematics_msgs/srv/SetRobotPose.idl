@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from kinematics_msgs/srv/SetRobotPose.srv
+// generated code does not contain a copyright notice
+
+
+module kinematics_msgs {
+  module srv {
+    struct SetRobotPose_Request {
+      sequence<double> position;
+
+      double pitch;
+
+      sequence<double> pitch_range;
+
+      double resolution;
+
+      double duration;
+    };
+    struct SetRobotPose_Response {
+      boolean success;
+
+      sequence<uint16> pulse;
+
+      sequence<uint16> current_pulse;
+
+      sequence<double> rpy;
+
+      double min_variation;
+    };
+  };
+};

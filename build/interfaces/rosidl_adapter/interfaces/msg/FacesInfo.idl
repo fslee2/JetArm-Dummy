@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from interfaces/msg/FacesInfo.msg
+// generated code does not contain a copyright notice
+
+#include "interfaces/msg/FaceInfo.idl"
+
+module interfaces {
+  module msg {
+    struct FacesInfo {
+      sequence<interfaces::msg::FaceInfo> data;
+    };
+  };
+};

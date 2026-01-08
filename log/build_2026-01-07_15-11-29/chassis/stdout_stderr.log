@@ -1,0 +1,53 @@
+running egg_info
+creating ../../../build/chassis/chassis.egg-info
+writing ../../../build/chassis/chassis.egg-info/PKG-INFO
+writing dependency_links to ../../../build/chassis/chassis.egg-info/dependency_links.txt
+writing entry points to ../../../build/chassis/chassis.egg-info/entry_points.txt
+writing requirements to ../../../build/chassis/chassis.egg-info/requires.txt
+writing top-level names to ../../../build/chassis/chassis.egg-info/top_level.txt
+writing manifest file '../../../build/chassis/chassis.egg-info/SOURCES.txt'
+reading manifest file '../../../build/chassis/chassis.egg-info/SOURCES.txt'
+writing manifest file '../../../build/chassis/chassis.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/liyq/hi_ws/build/chassis/build
+creating /home/liyq/hi_ws/build/chassis/build/lib
+creating /home/liyq/hi_ws/build/chassis/build/lib/chassis
+copying chassis/object_tracking.py -> /home/liyq/hi_ws/build/chassis/build/lib/chassis
+copying chassis/line_following.py -> /home/liyq/hi_ws/build/chassis/build/lib/chassis
+copying chassis/motor.py -> /home/liyq/hi_ws/build/chassis/build/lib/chassis
+copying chassis/__init__.py -> /home/liyq/hi_ws/build/chassis/build/lib/chassis
+copying chassis/chassis_controller.py -> /home/liyq/hi_ws/build/chassis/build/lib/chassis
+copying chassis/mecanum.py -> /home/liyq/hi_ws/build/chassis/build/lib/chassis
+running install
+running install_lib
+creating /home/liyq/hi_ws/install/chassis/lib/python3.10/site-packages/chassis
+copying /home/liyq/hi_ws/build/chassis/build/lib/chassis/object_tracking.py -> /home/liyq/hi_ws/install/chassis/lib/python3.10/site-packages/chassis
+copying /home/liyq/hi_ws/build/chassis/build/lib/chassis/line_following.py -> /home/liyq/hi_ws/install/chassis/lib/python3.10/site-packages/chassis
+copying /home/liyq/hi_ws/build/chassis/build/lib/chassis/motor.py -> /home/liyq/hi_ws/install/chassis/lib/python3.10/site-packages/chassis
+copying /home/liyq/hi_ws/build/chassis/build/lib/chassis/__init__.py -> /home/liyq/hi_ws/install/chassis/lib/python3.10/site-packages/chassis
+copying /home/liyq/hi_ws/build/chassis/build/lib/chassis/chassis_controller.py -> /home/liyq/hi_ws/install/chassis/lib/python3.10/site-packages/chassis
+copying /home/liyq/hi_ws/build/chassis/build/lib/chassis/mecanum.py -> /home/liyq/hi_ws/install/chassis/lib/python3.10/site-packages/chassis
+byte-compiling /home/liyq/hi_ws/install/chassis/lib/python3.10/site-packages/chassis/object_tracking.py to object_tracking.cpython-310.pyc
+byte-compiling /home/liyq/hi_ws/install/chassis/lib/python3.10/site-packages/chassis/line_following.py to line_following.cpython-310.pyc
+byte-compiling /home/liyq/hi_ws/install/chassis/lib/python3.10/site-packages/chassis/motor.py to motor.cpython-310.pyc
+byte-compiling /home/liyq/hi_ws/install/chassis/lib/python3.10/site-packages/chassis/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/liyq/hi_ws/install/chassis/lib/python3.10/site-packages/chassis/chassis_controller.py to chassis_controller.cpython-310.pyc
+byte-compiling /home/liyq/hi_ws/install/chassis/lib/python3.10/site-packages/chassis/mecanum.py to mecanum.cpython-310.pyc
+running install_data
+creating /home/liyq/hi_ws/install/chassis/share/ament_index
+creating /home/liyq/hi_ws/install/chassis/share/ament_index/resource_index
+creating /home/liyq/hi_ws/install/chassis/share/ament_index/resource_index/packages
+copying resource/chassis -> /home/liyq/hi_ws/install/chassis/share/ament_index/resource_index/packages
+copying package.xml -> /home/liyq/hi_ws/install/chassis/share/chassis
+creating /home/liyq/hi_ws/install/chassis/share/chassis/launch
+copying launch/line_following_node.launch.py -> /home/liyq/hi_ws/install/chassis/share/chassis/launch
+copying launch/object_tracking_node.launch.py -> /home/liyq/hi_ws/install/chassis/share/chassis/launch
+copying launch/chassis_controller_node.launch.py -> /home/liyq/hi_ws/install/chassis/share/chassis/launch
+running install_egg_info
+Copying ../../../build/chassis/chassis.egg-info to /home/liyq/hi_ws/install/chassis/lib/python3.10/site-packages/chassis-0.0.0-py3.10.egg-info
+running install_scripts
+Installing chassis_contrller script to /home/liyq/hi_ws/install/chassis/lib/chassis
+Installing line_following script to /home/liyq/hi_ws/install/chassis/lib/chassis
+Installing object_tracking script to /home/liyq/hi_ws/install/chassis/lib/chassis
+writing list of installed files to '/home/liyq/hi_ws/build/chassis/install.log'

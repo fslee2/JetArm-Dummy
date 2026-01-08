@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from kinematics_msgs/msg/JointRange.msg
+// generated code does not contain a copyright notice
+
+
+module kinematics_msgs {
+  module msg {
+    struct JointRange {
+      double min;
+
+      double max;
+    };
+  };
+};

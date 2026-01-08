@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from large_models_msgs/srv/SetBox.srv
+// generated code does not contain a copyright notice
+
+
+module large_models_msgs {
+  module srv {
+    struct SetBox_Request {
+      sequence<int32> box;
+
+      sequence<double> offset;
+
+      string label;
+    };
+    struct SetBox_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

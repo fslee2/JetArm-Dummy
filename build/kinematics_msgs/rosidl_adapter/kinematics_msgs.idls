@@ -1,0 +1,10 @@
+/home/liyq/hi_ws/build/kinematics_msgs/rosidl_adapter/kinematics_msgs:msg/JointRange.idl
+/home/liyq/hi_ws/build/kinematics_msgs/rosidl_adapter/kinematics_msgs:msg/JointsRange.idl
+/home/liyq/hi_ws/build/kinematics_msgs/rosidl_adapter/kinematics_msgs:msg/Link.idl
+/home/liyq/hi_ws/build/kinematics_msgs/rosidl_adapter/kinematics_msgs:srv/GetJointRange.idl
+/home/liyq/hi_ws/build/kinematics_msgs/rosidl_adapter/kinematics_msgs:srv/GetLink.idl
+/home/liyq/hi_ws/build/kinematics_msgs/rosidl_adapter/kinematics_msgs:srv/GetRobotPose.idl
+/home/liyq/hi_ws/build/kinematics_msgs/rosidl_adapter/kinematics_msgs:srv/SetJointRange.idl
+/home/liyq/hi_ws/build/kinematics_msgs/rosidl_adapter/kinematics_msgs:srv/SetJointValue.idl
+/home/liyq/hi_ws/build/kinematics_msgs/rosidl_adapter/kinematics_msgs:srv/SetLink.idl
+/home/liyq/hi_ws/build/kinematics_msgs/rosidl_adapter/kinematics_msgs:srv/SetRobotPose.idl

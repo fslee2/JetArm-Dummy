@@ -1,0 +1,6 @@
+setup.py
+kinematics_msgs/__init__.py
+kinematics_msgs.egg-info/PKG-INFO
+kinematics_msgs.egg-info/SOURCES.txt
+kinematics_msgs.egg-info/dependency_links.txt
+kinematics_msgs.egg-info/top_level.txt

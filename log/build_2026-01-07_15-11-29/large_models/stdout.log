@@ -1,0 +1,52 @@
+running egg_info
+creating ../../../../build/large_models/large_models.egg-info
+writing ../../../../build/large_models/large_models.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/large_models/large_models.egg-info/dependency_links.txt
+writing entry points to ../../../../build/large_models/large_models.egg-info/entry_points.txt
+writing requirements to ../../../../build/large_models/large_models.egg-info/requires.txt
+writing top-level names to ../../../../build/large_models/large_models.egg-info/top_level.txt
+writing manifest file '../../../../build/large_models/large_models.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/large_models/large_models.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../../build/large_models/large_models.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/liyq/hi_ws/build/large_models/build
+creating /home/liyq/hi_ws/build/large_models/build/lib
+creating /home/liyq/hi_ws/build/large_models/build/lib/large_models
+copying large_models/agent_process.py -> /home/liyq/hi_ws/build/large_models/build/lib/large_models
+copying large_models/tts_node.py -> /home/liyq/hi_ws/build/large_models/build/lib/large_models
+copying large_models/vocal_detect.py -> /home/liyq/hi_ws/build/large_models/build/lib/large_models
+copying large_models/config.py -> /home/liyq/hi_ws/build/large_models/build/lib/large_models
+copying large_models/__init__.py -> /home/liyq/hi_ws/build/large_models/build/lib/large_models
+running install
+running install_lib
+creating /home/liyq/hi_ws/install/large_models/lib/python3.10/site-packages/large_models
+copying /home/liyq/hi_ws/build/large_models/build/lib/large_models/agent_process.py -> /home/liyq/hi_ws/install/large_models/lib/python3.10/site-packages/large_models
+copying /home/liyq/hi_ws/build/large_models/build/lib/large_models/tts_node.py -> /home/liyq/hi_ws/install/large_models/lib/python3.10/site-packages/large_models
+copying /home/liyq/hi_ws/build/large_models/build/lib/large_models/vocal_detect.py -> /home/liyq/hi_ws/install/large_models/lib/python3.10/site-packages/large_models
+copying /home/liyq/hi_ws/build/large_models/build/lib/large_models/config.py -> /home/liyq/hi_ws/install/large_models/lib/python3.10/site-packages/large_models
+copying /home/liyq/hi_ws/build/large_models/build/lib/large_models/__init__.py -> /home/liyq/hi_ws/install/large_models/lib/python3.10/site-packages/large_models
+byte-compiling /home/liyq/hi_ws/install/large_models/lib/python3.10/site-packages/large_models/agent_process.py to agent_process.cpython-310.pyc
+byte-compiling /home/liyq/hi_ws/install/large_models/lib/python3.10/site-packages/large_models/tts_node.py to tts_node.cpython-310.pyc
+byte-compiling /home/liyq/hi_ws/install/large_models/lib/python3.10/site-packages/large_models/vocal_detect.py to vocal_detect.cpython-310.pyc
+byte-compiling /home/liyq/hi_ws/install/large_models/lib/python3.10/site-packages/large_models/config.py to config.cpython-310.pyc
+byte-compiling /home/liyq/hi_ws/install/large_models/lib/python3.10/site-packages/large_models/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/liyq/hi_ws/install/large_models/share/ament_index
+creating /home/liyq/hi_ws/install/large_models/share/ament_index/resource_index
+creating /home/liyq/hi_ws/install/large_models/share/ament_index/resource_index/packages
+copying resource/large_models -> /home/liyq/hi_ws/install/large_models/share/ament_index/resource_index/packages
+copying package.xml -> /home/liyq/hi_ws/install/large_models/share/large_models
+creating /home/liyq/hi_ws/install/large_models/share/large_models/launch
+copying launch/tts_node.launch.py -> /home/liyq/hi_ws/install/large_models/share/large_models/launch
+copying launch/agent_process.launch.py -> /home/liyq/hi_ws/install/large_models/share/large_models/launch
+copying launch/vocal_detect.launch.py -> /home/liyq/hi_ws/install/large_models/share/large_models/launch
+copying launch/start.launch.py -> /home/liyq/hi_ws/install/large_models/share/large_models/launch
+running install_egg_info
+Copying ../../../../build/large_models/large_models.egg-info to /home/liyq/hi_ws/install/large_models/lib/python3.10/site-packages/large_models-0.0.0-py3.10.egg-info
+running install_scripts
+Installing agent_process script to /home/liyq/hi_ws/install/large_models/lib/large_models
+Installing tts_node script to /home/liyq/hi_ws/install/large_models/lib/large_models
+Installing vocal_detect script to /home/liyq/hi_ws/install/large_models/lib/large_models
+writing list of installed files to '/home/liyq/hi_ws/build/large_models/install.log'

@@ -1,0 +1,11 @@
+{
+  "package_name": "servo_controller_msgs",
+  "non_idl_tuples": [
+    "/home/liyq/hi_ws/ROS2/src/driver/servo_controller_msgs:msg/ServoPosition.msg",
+    "/home/liyq/hi_ws/ROS2/src/driver/servo_controller_msgs:msg/ServosPosition.msg",
+    "/home/liyq/hi_ws/ROS2/src/driver/servo_controller_msgs:msg/ServoState.msg",
+    "/home/liyq/hi_ws/ROS2/src/driver/servo_controller_msgs:msg/ServoStateList.msg",
+    "/home/liyq/hi_ws/ROS2/src/driver/servo_controller_msgs:msg/Grasp.msg",
+    "/home/liyq/hi_ws/ROS2/src/driver/servo_controller_msgs:msg/Float64List.msg"
+  ]
+}

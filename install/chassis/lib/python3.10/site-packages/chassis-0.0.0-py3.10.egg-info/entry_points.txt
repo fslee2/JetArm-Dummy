@@ -1,0 +1,5 @@
+[console_scripts]
+chassis_contrller = chassis.chassis_controller:main
+line_following = chassis.line_following:main
+object_tracking = chassis.object_tracking:main
+

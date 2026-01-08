@@ -1,0 +1,11 @@
+[console_scripts]
+calibration = app.calibration:main
+color_tracker = app.color_tracker:main
+finger_trace = app.finger_trace:main
+lab_manager = app.lab_manager:main
+object_sorting = app.object_sorting:main
+object_tracking = app.object_tracking:main
+shape_recognition = app.shape_recognition:main
+tag_stackup = app.tag_stackup:main
+waste_classification = app.waste_classification:main
+

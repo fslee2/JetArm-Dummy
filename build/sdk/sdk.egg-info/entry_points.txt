@@ -1,0 +1,3 @@
+[console_scripts]
+check_servo_connection = sdk.check_servo_connection:main
+
